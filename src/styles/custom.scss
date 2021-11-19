@@ -1,0 +1,26 @@
+// Variables ===================================================================
+
+$web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
+@import url($web-font-path);
+
+@import "./_colors.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+
+
+
+// Import any custom styles
+// @import "./checkbox.scss";
+//some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
+// Navbar ======================================================================
+
+.bg-dark {
+	background-color: $secondary !important;
+  }
+
+h1 {
+	color: $purple;
+}
+// Buttons =====================================================================
