@@ -1,9 +1,9 @@
-import './styles/custom.scss';
+import "./styles/custom.scss";
 
 function App() {
   return (
     <div className="App">
-      <h1 class="bg-dark">Pretty Groovy Jumbo Jet</h1>
+      <h1 class="bg-dark">Cohort 51 Class Website</h1>
     </div>
   );
 }

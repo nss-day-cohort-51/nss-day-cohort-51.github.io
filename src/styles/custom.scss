@@ -4,12 +4,10 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 @import url($web-font-path);
 
 @import "./_colors.scss";
+@import "./custom.css";
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
-
-
-
 
 // Import any custom styles
 // @import "./checkbox.scss";
@@ -17,10 +15,10 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 // Navbar ======================================================================
 
 .bg-dark {
-	background-color: $secondary !important;
-  }
+  background-color: $secondary !important;
+}
 
 h1 {
-	color: $purple;
+  color: $purple;
 }
 // Buttons =====================================================================
