@@ -1,9 +1,22 @@
-import './styles/custom.scss';
+import React from "react";
+import { NavBar } from "./components/NavBar";
+import { Description } from "./components/Description";
+import { DevList } from "./components/DevList";
+import { TechStack } from "./components/TechStack";
+import { ThanksLocation } from "./components/ThanksLocation";
+import { Footer } from "./components/Footer";
+import "./styles/_colors.scss";
+import "./styles/custom.scss";
 
 function App() {
   return (
-    <div className="App">
-      <h1 class="bg-dark">Pretty Groovy Jumbo Jet</h1>
+    <div className="page">
+      <NavBar />
+      <Description />
+      <DevList />
+      <TechStack />
+      <ThanksLocation />
+      <Footer />
     </div>
   );
 }

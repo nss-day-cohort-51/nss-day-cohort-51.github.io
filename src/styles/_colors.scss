@@ -1,3 +1,15 @@
+// C51 Website Color palette
+$midnight: #120000;
+$darkgray: #2b3e42;
+$medgray: #48596c; /* are we actually using this one? */
+$lightgray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
 $white: #fff;
 $gray-100: #f8f9fa;
 $gray-200: #f7f7f9;
@@ -13,13 +25,13 @@ $blue: #007bff;
 $indigo: #6610f2;
 $purple: #6f42c1;
 $pink: #e83e8c;
-$red: #FF7851;
+$red: #ff7851;
 $orange: #fd7e14;
-$yellow: #FFCE67;
+$yellow: #ffce67;
 $green: rgb(135, 139, 197);
 $teal: #20c997;
-$cyan: #6CC3D5;
-$primary: #78C2AD;
+$cyan: #6cc3d5;
+$primary: #78c2ad;
 $secondary: rgb(253, 103, 110);
 $success: $green;
 $info: $cyan;
@@ -31,5 +43,5 @@ $body-color: $gray-600;
 $headings-color: $white;
 $dropdown-link-hover-color: $gray-700;
 $dropdown-link-hover-bg: $secondary;
-$navbar-dark-color: rgba($white,.6);
+$navbar-dark-color: rgba($white, 0.6);
 $navbar-dark-hover-color: $white;
