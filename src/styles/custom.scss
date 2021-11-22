@@ -4,7 +4,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 @import url($web-font-path);
 
 @import "./_colors.scss";
-@import "./custom.css";
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
@@ -12,7 +11,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 // Import any custom styles
 // @import "./checkbox.scss";
 //some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
-// Navbar ======================================================================
+// Header ======================================================================
 
 .bg-dark {
   background-color: $secondary !important;
@@ -21,4 +20,5 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 h1 {
   color: $purple;
 }
+
 // Buttons =====================================================================
