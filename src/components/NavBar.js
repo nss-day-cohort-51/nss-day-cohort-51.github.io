@@ -23,20 +23,13 @@ export const NavBar = () => {
               <Scrollchor to="#techStack">TECH STACK</Scrollchor>
             </li>
             <li>
-              <Scrollchor to="#thanks">THANKS</Scrollchor>
+              <Scrollchor to="#thanksLocation">THANKS</Scrollchor>
             </li>
           </ul>
         </div>
-
         <div className="nav-bar__right">
           <div className="rsvp">
-            <a
-              href="https://www.eventbrite.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <DemoDayButton />
-            </a>
+            <DemoDayButton />
           </div>
         </div>
       </div>
