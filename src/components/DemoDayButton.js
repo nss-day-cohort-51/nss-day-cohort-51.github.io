@@ -1,5 +1,5 @@
 //Purpose: Creates and displays the Demo Day button component
-//We will update link once we get the final URL
+//nashss.com/demoday - will not redirect to your eventbrite page until January 12th. We’ll start promoting it to employers the week of January 17th.
 
 import React from "react";
 import "../styles/_colors.scss";

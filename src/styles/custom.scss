@@ -38,7 +38,7 @@ $platinum: #ecebea;
 // START OF TYPING TEXT SECTION
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 
-p {
+type {
   border-right: solid 3px $orange;
   white-space: nowrap;
   overflow: hidden;
@@ -50,7 +50,7 @@ p {
 }
 
 /* Animation */
-p {
+type {
   animation: animated-text 1s steps(12) 1s 1 normal both,
     animated-cursor 600ms steps(12) infinite;
 }
@@ -106,10 +106,10 @@ a {
     color: white;
   }
   &:hover {
-    color: $orange;
+    color: $golden;
   }
   &:active {
-    color: $orange;
+    color: $golden;
   }
 }
 

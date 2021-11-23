@@ -11,7 +11,7 @@ export const NavBar = () => {
     <>
       <div className="nav-bar">
         <div className="nav-bar__left">
-          <p>COHORT 51</p>
+          <div className="type">COHORT 51</div>
         </div>
 
         <div className="nav-bar__middle">
