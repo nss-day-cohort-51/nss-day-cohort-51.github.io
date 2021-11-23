@@ -21,11 +21,13 @@ export const Favs = ({devId}) => {
 	//get items from localStorage
 	useEffect(() => {
 		//get items from localStorage
-		const favsFromStorage = JSON.parse(sessionStorage.getItem("NSSFavorites"));
+		const favsFromStorage = JSON.parse(localStorage.getItem("NSSFavorites") || null);
 		if (favsFromStorage){
 			//great
+			console.log("favsFromStorage", favsFromStorage)
 		}else {
-			sessionStorage.setItem("NSSFavorites", []);
+			console.log("favsFromStorage", "elseStatement")
+			localStorage.setItem("NSSFavorites", []);
 		}
 
 		//if items exists, great. If not exists, go ahead and set an empty array in localStorage
