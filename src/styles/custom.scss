@@ -14,6 +14,7 @@ $platinum: #ecebea;
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
+@import "./description.scss";
 
 // Import custom styles
 // @import "./checkbox.scss";
@@ -37,7 +38,7 @@ $platinum: #ecebea;
 
 // START OF TYPING TEXT SECTION
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
-
+.nav-bar{
 p {
   border-right: solid 3px rgba(0, 255, 0, 0.75);
   white-space: nowrap;
@@ -120,5 +121,5 @@ a {
 .rsvp {
   margin: 0px 30px;
 }
-
+}
 // Buttons ===============================

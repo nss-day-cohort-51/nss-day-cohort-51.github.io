@@ -10,3 +10,7 @@ body {
 code {
   font-family: monospace, sans-serif;
 }
+
+.logo__img {
+  width: 150px;
+}
