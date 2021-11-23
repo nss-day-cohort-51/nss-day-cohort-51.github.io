@@ -13,6 +13,7 @@ $platinum: #ecebea;
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
+@import "./description.scss";
 
 // Import custom styles
 // @import "./checkbox.scss";
@@ -63,7 +64,7 @@ h3,h4,h5,h6 {
     border-right: solid 3px $orange;
     white-space: nowrap;
     overflow: hidden;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Space Mono", monospace;
     font-size: 44px;
     color: $orange;
     margin: 0px 20px;
@@ -103,10 +104,6 @@ h3,h4,h5,h6 {
   // border: 1px solid purple;
 }
 
-// START OF TYPING TEXT SECTION
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
-
-// END OF TYPING TEXT SECTION
 
 .nav-bar__middle {
   font-weight: 500;

@@ -1,0 +1,23 @@
+#description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 600px;
+    margin-top: 200px;
+
+    h1 {
+    color: $midnight;
+    }
+    p{
+    color: $midnight
+    }
+
+    a{
+    color: $orange;
+    }
+}
+
+img.logo__img {
+    width: 450px;
+    float: left;
+}
