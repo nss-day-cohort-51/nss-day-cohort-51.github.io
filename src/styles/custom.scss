@@ -10,14 +10,12 @@ $platinum: #ecebea;
 // *************************
 
 @import "./_colors.scss";
-
-// Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
-@import "./thankslocation.scss";
+@import "./buttons.scss";
+@import "./navbar.scss";
 @import "./description.scss";
-// Import custom styles
-// @import "./checkbox.scss";
-//some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
+@import "./thankslocation.scss";
+
 
 // Import Google Fonts
 // font-family: 'Poppins', sans-serif;
@@ -39,150 +37,16 @@ code {
 }
 
 // Text
-h1, h2 {
+h1,
+h2 {
   font-family: "Space Mono";
   font-weight: bold;
 }
 
-h3,h4,h5,h6 {
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-}
-
-// Header ===============================
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: $midnight;
-  font-size: 24px;
-  font-weight: 600;
-  color: white;
-
-  p {
-    border-right: solid 3px $orange;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: "Space Mono", monospace;
-    font-size: 44px;
-    color: $orange;
-    margin: 0px 20px;
-    padding: 0px;
-  }
-
-  /* Animation */
-  p {
-    animation: animated-text 1s steps(12) 1s 1 normal both,
-      animated-cursor 600ms steps(12) infinite;
-  }
-
-  /* text animation */
-  @keyframes animated-text {
-    from {
-      width: 0;
-    }
-    to {
-      width: 250px;
-    }
-  }
-
-  /* cursor animations */
-  @keyframes animated-cursor {
-    from {
-      border-right-color: $golden;
-    }
-    to {
-      border-right-color: transparent;
-    }
-  }
-}
-
-.nav-bar__left {
-  padding: 0px;
-  margin: 0px;
-  // border: 1px solid purple;
-}
-
-
-.nav-bar__middle {
-  font-weight: 500;
-  flex: 1;
-  margin: auto 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  // border: 1px solid red;
-
-  .nav-bar__middle {
-    font-weight: bold;
-    flex: 1;
-    margin: auto 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    // border: 1px solid red;
-
-    ul {
-      margin: auto 0px;
-      list-style-type: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    li {
-      margin: 0px 10px;
-    }
-  }
-
-  a {
-    color: #ffffff;
-    text-decoration: none;
-
-    &:visited {
-      color: white;
-    }
-    &:hover {
-      color: $orange;
-    }
-    &:active {
-      color: $orange;
-    }
-  }
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-
-  &:visited {
-    color: white;
-  }
-  &:hover {
-    color: $golden;
-  }
-  &:active {
-    color: $golden;
-  }
-}
-
-.nav-bar__right {
-  margin: auto auto;
-  // border: 1px solid blue;
-}
-
-.rsvp {
-  margin: 0px 20px;
-}
-
-// Buttons ===============================
-
-//Demo Day Button
-.demo-day-btn {
-  border: transparent;
-  border-radius: 5px;
-  padding: 5px 15px;
-  background: linear-gradient(to bottom left, #f2583e 0%, #f5b467 100%);
-  color: black;
-}
 }

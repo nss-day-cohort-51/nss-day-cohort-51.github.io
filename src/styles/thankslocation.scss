@@ -1,20 +1,37 @@
 .thanks-location {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 
-    h6 {
-        color: $midnight;
-  
-    }
+  h6 {
+    color: $midnight;
+  }
 }
 
 .thanks {
-    h4 {
-        color: $midnight;
-    }
+  h4 {
+    color: $midnight;
+  }
 }
+
+.location {
+  display: flex;
+
+  h4 {
+    color: $midnight;
+  }
+}
+
+.location-header {
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    color: $midnight;
+  }
+}
+
 
 .location {
     display: flex;

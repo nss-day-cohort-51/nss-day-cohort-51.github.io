@@ -5,7 +5,6 @@ import { Thanks } from "../components/Thanks";
 import { Location } from "../components/Location";
 
 
-
 export const ThanksLocation = () => {
   return (
     <>

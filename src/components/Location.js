@@ -2,13 +2,13 @@
 
 import React from "react";
 
-
 export const Location = () => {
   return (
     <>
       <div id="location" className="location-header">
         <div>
           <h4>WHERE IN THE WORLD ARE WE?</h4>
+
        </div>
        <div id="location" className="location">
         <ul>

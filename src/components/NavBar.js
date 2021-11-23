@@ -4,6 +4,7 @@ import React from "react";
 import { Scrollchor } from "react-scrollchor";
 import { DemoDayButton } from "../components/DemoDayButton";
 import "../styles/custom.scss";
+import "../styles/navbar.scss";
 
 export const NavBar = () => {
   return (
