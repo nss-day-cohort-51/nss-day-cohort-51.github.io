@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Gerson",
+      "lastName": "Diketama",
+      "devType": "Full Stack Developer",
+      "email": "email@email.com",
+      "githubURL": "https://www.google.com",
+      "linkedinURL": "https://www.google.com",
+      "personalURL": "https://www.google.com",
+      "funFact": "Fun Fact Lorem Khaled Ipsum is a major key to success. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Let’s see what.",
+      "locationCity": "Nashville",
+      "locationState": "TN",
+      "capstoneName1": "Capstone 1 Name",
+      "capstoneURL1": "https://www.google.com",
+      "capstoneName2": "Capstone 1 Name",
+      "capstoneURL2": "https://www.google.com",
+      "industryInterests": "Industry Interests Lorem Khaled Ipsum is a major key to success. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Let’s.",
+      "resumeURL": "https://www.google.com",
+      "podcastURL": "https://www.google.com",
+      "headshotPro": "sample-Pro-headshot.png",
+      "headshotFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 2,
+      "firstName": "Gerson",
+      "lastName": "Diketama",
+      "devType": "UI/UX Front-End Developer",
+      "email": "email@email.com",
+      "githubURL": "https://www.google.com",
+      "linkedinURL": "https://www.google.com",
+      "personalURL": "https://www.google.com",
+      "funFact": "Fun Fact Lorem Khaled Ipsum is a major key to success. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Let’s see what.",
+      "locationCity": "Nashville",
+      "locationState": "TN",
+      "capstoneName1": "Capstone 1 Name",
+      "capstoneURL1": "https://www.google.com",
+      "capstoneName2": "Capstone 1 Name",
+      "capstoneURL2": "https://www.google.com",
+      "industryInterests": "Industry Interests Lorem Khaled Ipsum is a major key to success. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Let’s.",
+      "resumeURL": "https://www.google.com",
+      "podcastURL": "https://www.google.com",
+      "headshotPro": "sample-Pro-headshot.png",
+      "headshotFun": "sample-Fun-headshot.png"
+    }
+  ],
+  "techStack": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "fullName": "ReactJS",
+      "URL": "https://reactjs.org/",
+      "devType": "All"
+    },
+    {
+      "id": 2,
+      "name": "GitHub",
+      "URL": "https://github.com/",
+      "fullName": "GitHub",
+      "devType": "All"
+    },
+    {
+      "id": 3,
+      "name": "NPM",
+      "fullName": "Node Package Manager",
+      "URL": "https://www.npmjs.com/",
+      "devType": "All"
+    },
+    {
+      "id": 4,
+      "name": "Figma",
+      "fullName": "Figma",
+      "URL": "https://www.figma.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 5,
+      "name": "C#",
+      "fullName": "C#",
+      "URL": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 6,
+      "name": ".NET",
+      "fullName": ".NET",
+      "URL": "https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 7,
+      "name": "JavaScript",
+      "fullName": "Javascript",
+      "URL": "https://www.javascript.com/",
+      "devType": "All"
+    },
+    {
+      "id": 8,
+      "name": "SASS",
+      "fullName": "Syntactically Awesome Style Sheets",
+      "URL": "https://sass-lang.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 9,
+      "name": "SQL Server",
+      "fullName": "SQL Server",
+      "URL": "https://sass-lang.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 10,
+      "name": "dbdiagram",
+      "fullName": "dbdiagram",
+      "URL": "https://dbdiagram.io/home",
+      "devType": "All"
+    },
+    {
+      "id": 11,
+      "name": "CSS3",
+      "fullName": "Cascading Style Sheets",
+      "URL": "https://www.w3.org/Style/CSS/",
+      "devType": "All"
+    },
+    {
+      "id": 12,
+      "name": "HTML5",
+      "fullName": "dbdiagram",
+      "URL": "",
+      "devType": "All"
+    },
+    {
+      "id": 13,
+      "name": "VS Code",
+      "fullName": "Visual Studio Code",
+      "URL": "https://code.visualstudio.com/",
+      "devType": "All"
+    },
+    {
+      "id": 14,
+      "name": "JSON Server",
+      "fullName": "JSON Server",
+      "URL": "https://github.com/typicode/json-server/",
+      "devType": "All"
+    },
+    {
+      "id": 15,
+      "name": "Postman",
+      "fullName": "Postman",
+      "URL": "https://www.postman.com/",
+      "devType": "All"
+    },
+    {
+      "id": 16,
+      "name": "Bootstrap",
+      "fullName": "Bootstrap",
+      "URL": "https://getbootstrap.com/",
+      "devType": "All"
+    },
+    {
+      "id": 17,
+      "name": "Google Fonts",
+      "fullName": "Google Fonts",
+      "URL": "https://fonts.google.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 18,
+      "name": "Coolors",
+      "fullName": "Coolors.co",
+      "URL": "https://coolors.co/",
+      "devType": "UI/UX Front-End Developer"
+    }
+  ]
+}
