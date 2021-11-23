@@ -13,6 +13,8 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 
 // Import any custom styles
 // @import "./checkbox.scss";
+
+
 //some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
 // Navbar ======================================================================
 
@@ -24,3 +26,7 @@ h1 {
 	color: $purple;
 }
 // Buttons =====================================================================
+
+.btn {
+	font-size: .5rem;
+}
