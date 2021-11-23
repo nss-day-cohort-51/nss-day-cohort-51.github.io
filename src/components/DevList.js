@@ -6,10 +6,11 @@ import "../styles/_colors.scss";
 import "../styles/custom.scss";
 
 export const DevList = () => {
+
   return (
     <>
       <div id="devList" className="dev-list">
-        <DevCard />
+        <DevCard devId={3} />
       </div>
     </>
   );
