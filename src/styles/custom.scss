@@ -1,8 +1,7 @@
 // C51 Website Color palette
 $midnight: #120000;
-$darkgray: #2b3e42;
-$medgray: #48596c; /* are we actually using this one? */
-$lightgray: #747e80;
+$space: #323637;
+$gray: #747e80;
 $blue: #82bad9;
 $orange: #f2583e;
 $mustard: #dfb775;
@@ -18,17 +17,69 @@ $platinum: #ecebea;
 // Import custom styles
 // @import "./checkbox.scss";
 //some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
+
+//Main styling =========================
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Space Mono",
+    "Roboto", "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: monospace, sans-serif;
+}
+
 // Header ===============================
 .nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 20px;
-  background-color: #2b3e42;
+  background-color: $midnight;
   font-size: 24px;
   font-weight: 600;
   color: white;
+
+  p {
+    border-right: solid 3px $orange;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 44px;
+    color: $orange;
+    margin: 0px 20px;
+    padding: 0px;
+  }
+
+  /* Animation */
+  p {
+    animation: animated-text 1s steps(12) 1s 1 normal both,
+      animated-cursor 600ms steps(12) infinite;
+  }
+
+  /* text animation */
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 250px;
+    }
+  }
+
+  /* cursor animations */
+  @keyframes animated-cursor {
+    from {
+      border-right-color: $golden;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
 }
+
 .nav-bar__left {
   padding: 0px;
   margin: 0px;
@@ -38,45 +89,10 @@ $platinum: #ecebea;
 // START OF TYPING TEXT SECTION
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 
-p {
-  border-right: solid 3px rgba(0, 255, 0, 0.75);
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 44px;
-  color: #f2583e;
-  margin: 0px 20px;
-}
-
-/* Animation */
-p {
-  animation: animated-text 1s steps(12) 1s 1 normal both,
-    animated-cursor 600ms steps(12) infinite;
-}
-
-/* text animation */
-@keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 250px;
-  }
-}
-
-/* cursor animations */
-@keyframes animated-cursor {
-  from {
-    border-right-color: #f5b467;
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
 // END OF TYPING TEXT SECTION
 
 .nav-bar__middle {
-  font-weight: bold;
+  font-weight: 500;
   flex: 1;
   margin: auto 10px;
   display: flex;
@@ -105,10 +121,10 @@ a {
     color: white;
   }
   &:hover {
-    color: $orange;
+    color: $golden;
   }
   &:active {
-    color: $orange;
+    color: $golden;
   }
 }
 
@@ -118,7 +134,16 @@ a {
 }
 
 .rsvp {
-  margin: 0px 30px;
+  margin: 0px 20px;
 }
 
 // Buttons ===============================
+
+//Demo Day Button
+.demo-day-btn {
+  border: transparent;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background: linear-gradient(to bottom left, #f2583e 0%, #f5b467 100%);
+  color: black;
+}

@@ -3,8 +3,6 @@
 import React from "react";
 import { Thanks } from "../components/Thanks";
 import { Location } from "../components/Location";
-
-import "../styles/_colors.scss";
 import "../styles/custom.scss";
 
 export const ThanksLocation = () => {
