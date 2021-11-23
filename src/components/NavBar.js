@@ -10,21 +10,20 @@ export const NavBar = () => {
   return (
     <>
       <div className="nav-bar">
-        <div className="nav-bar__left">COHORT 51</div>
+        <div className="nav-bar__left">
+          <p>COHORT 51</p>
+        </div>
 
         <div className="nav-bar__middle">
           <ul className="nav-menu">
             <li>
-              <Scrollchor to="#description">ABOUT</Scrollchor>
-            </li>
-            <li>
               <Scrollchor to="#devList">DEVELOPERS</Scrollchor>
             </li>
             <li>
-              <Scrollchor to="#thanksLocation">THANKS</Scrollchor>
+              <Scrollchor to="#techStack">TECH STACK</Scrollchor>
             </li>
             <li>
-              <Scrollchor to="#techStack">TECH STACK</Scrollchor>
+              <Scrollchor to="#thanks">THANKS</Scrollchor>
             </li>
           </ul>
         </div>
