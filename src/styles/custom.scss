@@ -8,17 +8,31 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
-// Import any custom styles
+// Import custom styles
 // @import "./checkbox.scss";
 //some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
 // Header ======================================================================
-
-.bg-dark {
-  background-color: $secondary !important;
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bar__left {
 }
 
-h1 {
-  color: $purple;
+.nav-bar__middle {
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-menu__item {
+}
+
+.nav-bar__right {
 }
 
 // Buttons =====================================================================
