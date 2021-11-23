@@ -1,6 +1,5 @@
 //Purpose: Creates and displays the Description component
 import React from "react";
-import "../styles/_colors.scss";
 import "../styles/custom.scss";
 import logo from "../images/logo.png"
 import "../index.css"
