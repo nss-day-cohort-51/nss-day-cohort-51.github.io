@@ -47,3 +47,5 @@ https://getbootstrap.com/
 https://create-react-app.dev/docs/adding-a-sass-stylesheet/
 https://sass-lang.com/
 
+## ERD - Cohort 51 Student Website 
+![Cohort 51 Student Website Entity Relationship Diagram](public/images/ERD-C51-Cohort-Website.png)
