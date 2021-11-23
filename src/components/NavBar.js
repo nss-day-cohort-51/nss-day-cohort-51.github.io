@@ -1,7 +1,7 @@
 //Purpose: Creates and displays the NavBar component
 
 import React from "react";
-import { Link } from "react-router-dom";
+import { Scrollchor } from "react-scrollchor";
 import { DemoDayButton } from "../components/DemoDayButton";
 import "../styles/_colors.scss";
 import "../styles/custom.scss";
@@ -10,31 +10,36 @@ export const NavBar = () => {
   return (
     <>
       <div className="nav-bar">
-        <div className="nav-bar__left"></div>
+        <div className="nav-bar__left">COHORT 51</div>
 
         <div className="nav-bar__middle">
           <ul className="nav-menu">
-            <li className="nav-menu__item">
-              <Link to="#description">ABOUT</Link>
+            <li>
+              <Scrollchor to="#description">ABOUT</Scrollchor>
             </li>
-            <li className="nav-menu__item">
-              <Link to="#dev-list">DEVELOPERS</Link>
+            <li>
+              <Scrollchor to="#devList">DEVELOPERS</Scrollchor>
             </li>
-            <li className="nav-menu__item">
-              <Link to="thanks-location">THANKS</Link>
+            <li>
+              <Scrollchor to="#thanksLocation">THANKS</Scrollchor>
             </li>
-            <li className="nav-menu__item">
-              <Link to="tech-stack">TECH STACK</Link>
-            </li>
-            <li className="nav-menu__item">
-              <Link to="tech-stack">
-                <DemoDayButton />
-              </Link>
+            <li>
+              <Scrollchor to="#techStack">TECH STACK</Scrollchor>
             </li>
           </ul>
         </div>
 
-        <div className="nav-bar__right"></div>
+        <div className="nav-bar__right">
+          <div className="rsvp">
+            <a
+              href="https://www.eventbrite.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DemoDayButton />
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );

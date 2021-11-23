@@ -7,7 +7,9 @@ import "../styles/custom.scss";
 export const TechStack = () => {
   return (
     <>
-      <div className="tech-stack">TECHSTACK</div>
+      <div id="techStack" className="tech-stack">
+        TECHSTACK
+      </div>
     </>
   );
 };

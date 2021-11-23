@@ -7,7 +7,9 @@ import "../styles/custom.scss";
 export const Footer = () => {
   return (
     <>
-      <div className="footer">FOOTER</div>
+      <div id="footer" className="footer">
+        FOOTER
+      </div>
     </>
   );
 };
