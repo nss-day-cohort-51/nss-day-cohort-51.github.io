@@ -31,3 +31,21 @@
     color: $midnight;
   }
 }
+
+
+.location {
+    display: flex;
+    
+    h4 {
+        color: $midnight;
+    }
+}
+
+.location-header {
+    display: flex;
+    flex-direction: column;
+    
+    h4 {
+        color: $midnight;
+    }
+}
