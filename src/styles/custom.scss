@@ -13,8 +13,8 @@ $platinum: #ecebea;
 
 // Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
+@import "./thankslocation.scss";
 @import "./description.scss";
-
 // Import custom styles
 // @import "./checkbox.scss";
 //some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
@@ -114,18 +114,42 @@ h3,h4,h5,h6 {
   justify-content: flex-end;
   // border: 1px solid red;
 
-  ul {
-    margin: auto 0px;
-    list-style-type: none;
+  .nav-bar__middle {
+    font-weight: bold;
+    flex: 1;
+    margin: auto 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    // border: 1px solid red;
+
+    ul {
+      margin: auto 0px;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    li {
+      margin: 0px 10px;
+    }
   }
 
-  li {
-    margin: 0px 10px;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+
+    &:visited {
+      color: white;
+    }
+    &:hover {
+      color: $orange;
+    }
+    &:active {
+      color: $orange;
+    }
   }
-}
 
 a {
   color: #ffffff;
@@ -160,4 +184,5 @@ a {
   padding: 5px 15px;
   background: linear-gradient(to bottom left, #f2583e 0%, #f5b467 100%);
   color: black;
+}
 }
