@@ -10,7 +10,7 @@ import "../styles/custom.scss";
 export const ThanksLocation = () => {
   return (
     <>
-      <div className="thanks-location">
+      <div id="thanksLocation" className="thanks-location">
         <div className="thanks-location__thanks">
           <Thanks />
         </div>

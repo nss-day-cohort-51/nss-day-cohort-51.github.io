@@ -7,7 +7,9 @@ import "../styles/custom.scss";
 export const Description = () => {
   return (
     <>
-      <div className="description">DESCRIPTION</div>
+      <div id="description" className="description">
+        DESCRIPTION
+      </div>
     </>
   );
 };

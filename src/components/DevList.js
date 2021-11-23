@@ -8,7 +8,7 @@ import "../styles/custom.scss";
 export const DevList = () => {
   return (
     <>
-      <div className="dev-list">
+      <div id="devList" className="dev-list">
         <DevCard />
       </div>
     </>

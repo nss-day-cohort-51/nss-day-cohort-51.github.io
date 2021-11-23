@@ -7,7 +7,9 @@ import "../styles/custom.scss";
 export const Location = () => {
   return (
     <>
-      <div className="location">LOCATIONS</div>
+      <div id="location" className="location">
+        LOCATIONS
+      </div>
     </>
   );
 };
