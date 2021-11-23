@@ -1,0 +1,111 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+// Header ===============================
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: $midnight;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+
+  p {
+    border-right: solid 3px $orange;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 44px;
+    color: $orange;
+    margin: 0px 20px;
+    padding: 0px;
+  }
+
+  /* Animation */
+  p {
+    animation: animated-text 1s steps(12) 1s 1 normal both,
+      animated-cursor 600ms steps(12) infinite;
+  }
+
+  /* text animation */
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 250px;
+    }
+  }
+
+  /* cursor animations */
+  @keyframes animated-cursor {
+    from {
+      border-right-color: $golden;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}
+
+.nav-bar__left {
+  padding: 0px;
+  margin: 0px;
+  // border: 1px solid purple;
+}
+
+.nav-bar__middle {
+  font-weight: 500;
+  flex: 1;
+  margin: auto 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  // border: 1px solid red;
+
+  ul {
+    margin: auto 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  li {
+    margin: 0px 10px;
+  }
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    color: $golden;
+  }
+  &:active {
+    color: $golden;
+  }
+}
+
+.nav-bar__right {
+  margin: auto auto;
+  // border: 1px solid blue;
+}
+
+.rsvp {
+  margin: 0px 20px;
+}
