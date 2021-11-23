@@ -18,6 +18,19 @@ $platinum: #ecebea;
 // @import "./checkbox.scss";
 //some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
 
+//Main styling =========================
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Space Mono",
+    "Roboto", "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: monospace, sans-serif;
+}
+
 // Header ===============================
 .nav-bar {
   display: flex;

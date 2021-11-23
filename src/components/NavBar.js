@@ -3,7 +3,6 @@
 import React from "react";
 import { Scrollchor } from "react-scrollchor";
 import { DemoDayButton } from "../components/DemoDayButton";
-import "../styles/_colors.scss";
 import "../styles/custom.scss";
 
 export const NavBar = () => {
