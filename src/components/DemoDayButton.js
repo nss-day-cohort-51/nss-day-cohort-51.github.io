@@ -10,7 +10,7 @@ export const DemoDayButton = () => {
     <>
       {" "}
       <a href="https://www.eventbrite.com" target="_blank" rel="noreferrer">
-        <div className="demo-day-btn">RSVP for Demo Day Feb 11, 2021</div>
+        <div className="demo-day-btn">RSVP for Demo Day Feb 11, 2022</div>
       </a>
     </>
   );
