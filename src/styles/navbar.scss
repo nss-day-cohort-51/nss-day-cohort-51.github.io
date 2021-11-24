@@ -10,24 +10,24 @@ $platinum: #ecebea;
 // *************************
 
 // Header ===============================
-.nav-bar {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  background-color: $midnight;
+  padding: 20px 30px;
+  background-color: $midnight !important;
   font-size: 24px;
   font-weight: 600;
-  color: white;
+  margin-bottom: 20px;
 
   p {
     border-right: solid 3px $orange;
     white-space: nowrap;
     overflow: hidden;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: "Space Mono", monospace;
     font-size: 44px;
     color: $orange;
-    margin: 0px 20px;
+    margin: auto 0px;
     padding: 0px;
   }
 
@@ -58,20 +58,11 @@ $platinum: #ecebea;
   }
 }
 
-.nav-bar__left {
-  padding: 0px;
-  margin: 0px;
-  // border: 1px solid purple;
-}
-
-.nav-bar__middle {
+.nav-menu {
   font-weight: 500;
-  flex: 1;
-  margin: auto 10px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  // border: 1px solid red;
+  flex-direction: column;
+  align-items: center;
 
   ul {
     margin: auto 0px;
@@ -79,33 +70,35 @@ $platinum: #ecebea;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
   }
 
   li {
-    margin: 0px 10px;
+    margin: 5px 0px 5px 20px;
+  }
+
+  a {
+    font-weight: 500;
+    color: $golden;
+    text-decoration: none;
+
+    &:visited {
+      color: $golden;
+    }
+    &:hover {
+      color: $orange;
+    }
+    &:active {
+      color: $orange;
+    }
   }
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-
-  &:visited {
-    color: white;
-  }
-  &:hover {
-    color: $golden;
-  }
-  &:active {
-    color: $golden;
-  }
-}
-
-.nav-bar__right {
-  margin: auto auto;
-  // border: 1px solid blue;
+.navbar-toggler {
+  margin-right: 10px;
 }
 
 .rsvp {
-  margin: 0px 20px;
+  margin-left: 10px;
 }

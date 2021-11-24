@@ -11,10 +11,22 @@ $platinum: #ecebea;
 
 //Demo Day Button
 .demo-day-btn {
+  display: flex;
   border: transparent;
   border-radius: 5px;
   padding: 5px 15px;
   background: linear-gradient(to bottom left, #f2583e 0%, #f5b467 100%);
   color: black;
+  font-weight: 600;
   white-space: nowrap;
+  text-decoration: none;
+
+  .btn-item {
+    text-align: center;
+    text-decoration: none;
+
+    a {
+      text-decoration: none;
+    }
+  }
 }

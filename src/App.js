@@ -8,7 +8,7 @@ import { Footer } from "./components/Footer";
 import "./styles/_colors.scss";
 import "./styles/custom.scss";
 
-function App() {
+export const App = () => {
   return (
     <div className="page">
       <NavBar />
@@ -19,6 +19,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
