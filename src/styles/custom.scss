@@ -10,15 +10,12 @@ $platinum: #ecebea;
 // *************************
 
 @import "./_colors.scss";
+@import "bootstrap/scss/bootstrap.scss";
 @import "./buttons.scss";
 @import "./navbar.scss";
+@import "./description.scss";
+@import "./thankslocation.scss";
 
-// Import Bootstrap
-@import "bootstrap/scss/bootstrap.scss";
-
-// Import custom styles
-// @import "./checkbox.scss";
-//some other examples: https://github.com/brendalong/christmas-list/blob/main/src/scss/custom.scss
 
 // Import Google Fonts
 // font-family: 'Poppins', sans-serif;
@@ -52,4 +49,8 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
