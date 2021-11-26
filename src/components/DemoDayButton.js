@@ -8,9 +8,12 @@ import "../styles/buttons.scss";
 export const DemoDayButton = () => {
   return (
     <>
-      {" "}
       <a href="https://www.nashss.com/demoday" target="_blank" rel="noreferrer">
-        <div className="demo-day-btn">RSVP for Demo Day Feb 11, 2022</div>
+        <div className="demo-day-btn">
+          <div className="btn-item">RSVP</div>
+          <div className="btn-item">&nbsp;Demo Day&nbsp;</div>
+          <div className="btn-item">2-11-22</div>
+        </div>
       </a>
     </>
   );
