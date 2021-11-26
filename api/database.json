@@ -20,7 +20,7 @@
       "picFun": "sample-Fun-headshot.png"
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Brady Williams",
       "title": "Full Stack Developer",
       "email": "email@email.com",
@@ -43,127 +43,109 @@
     {
       "id": 1,
       "name": "ReactJS",
-      "fullName": "ReactJS",
-      "URL": "https://reactjs.org/",
+      "url": "https://reactjs.org/",
       "devType": "All"
     },
     {
       "id": 2,
       "name": "GitHub",
-      "URL": "https://github.com/",
-      "fullName": "GitHub",
+      "url": "https://github.com/",
       "devType": "All"
     },
     {
       "id": 3,
       "name": "NPM",
-      "fullName": "Node Package Manager",
-      "URL": "https://www.npmjs.com/",
+      "url": "https://www.npmjs.com/",
       "devType": "All"
     },
     {
       "id": 4,
       "name": "Figma",
-      "fullName": "Figma",
-      "URL": "https://www.figma.com/",
+      "url": "https://www.figma.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 5,
       "name": "C#",
-      "fullName": "C#",
-      "URL": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
       "devType": "Full Stack Developer"
     },
     {
       "id": 6,
       "name": ".NET",
-      "fullName": ".NET",
-      "URL": "https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet",
+      "url": "https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet",
       "devType": "Full Stack Developer"
     },
     {
       "id": 7,
       "name": "JavaScript",
-      "fullName": "Javascript",
-      "URL": "https://www.javascript.com/",
+      "url": "https://www.javascript.com/",
       "devType": "All"
     },
     {
       "id": 8,
       "name": "SASS",
-      "fullName": "Syntactically Awesome Style Sheets",
-      "URL": "https://sass-lang.com/",
+      "url": "https://sass-lang.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 9,
       "name": "SQL Server",
-      "fullName": "SQL Server",
-      "URL": "https://sass-lang.com/",
+      "url": "https://sass-lang.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 10,
       "name": "dbdiagram",
-      "fullName": "dbdiagram",
-      "URL": "https://dbdiagram.io/home",
+      "url": "https://dbdiagram.io/home",
       "devType": "All"
     },
     {
       "id": 11,
       "name": "CSS3",
-      "fullName": "Cascading Style Sheets",
-      "URL": "https://www.w3.org/Style/CSS/",
+      "url": "https://www.w3.org/Style/CSS/",
       "devType": "All"
     },
     {
       "id": 12,
       "name": "HTML5",
-      "fullName": "dbdiagram",
-      "URL": "",
+      "url": "",
       "devType": "All"
     },
     {
       "id": 13,
       "name": "VS Code",
-      "fullName": "Visual Studio Code",
-      "URL": "https://code.visualstudio.com/",
+      "url": "https://code.visualstudio.com/",
       "devType": "All"
     },
     {
       "id": 14,
       "name": "JSON Server",
-      "fullName": "JSON Server",
-      "URL": "https://github.com/typicode/json-server/",
+      "url": "https://github.com/typicode/json-server/",
       "devType": "All"
     },
     {
       "id": 15,
       "name": "Postman",
-      "fullName": "Postman",
-      "URL": "https://www.postman.com/",
+      "url": "https://www.postman.com/",
       "devType": "All"
     },
     {
       "id": 16,
       "name": "Bootstrap",
-      "fullName": "Bootstrap",
-      "URL": "https://getbootstrap.com/",
+      "url": "https://getbootstrap.com/",
       "devType": "All"
     },
     {
       "id": 17,
       "name": "Google Fonts",
-      "fullName": "Google Fonts",
-      "URL": "https://fonts.google.com/",
+      "url": "https://fonts.google.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 18,
       "name": "Coolors",
-      "fullName": "Coolors.co",
-      "URL": "https://coolors.co/",
+      "url": "https://coolors.co/",
       "devType": "UI/UX Front-End Developer"
     }
   ]
