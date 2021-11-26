@@ -16,22 +16,22 @@ export const MediaIcons = ({ obj }) => {
     <>
       <div className="media-btn">
         <div className="icon">
-          <a href={obj?.linkedin}>
+          <a href={obj?.linkedin} target="_blank" rel="noreferrer">
             <BsLinkedin />
           </a>
         </div>
         <div className="icon">
-          <a href={obj?.git}>
+          <a href={obj?.git} target="_blank" rel="noreferrer">
             <BsGithub />
           </a>
         </div>
         <div className="icon">
-          <a href={obj?.personal}>
+          <a href={obj?.personal} target="_blank" rel="noreferrer">
             <BsGlobe2 />
           </a>
         </div>
         <div className="icon">
-          <a href={obj?.resume}>
+          <a href={obj?.resume} target="_blank" rel="noreferrer">
             <BsFillFileTextFill />
           </a>
         </div>
