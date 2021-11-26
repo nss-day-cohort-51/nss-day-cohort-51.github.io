@@ -7,26 +7,24 @@ import { useEffect, useState } from "react";
 import { getAllDevs } from "./APIManager";
 
 export const DevList = () => {
-
   const [allDevs, setAllDevs] = useState([]);
   const getDevs = () => {
-      getAllDevs().then(allDevsFromAPI => {
-
-          console.log("alldevfrom api are", allDevsFromAPI);
-          setAllDevs(allDevsFromAPI)
-
-      });
+    getAllDevs().then((allDevsFromAPI) => {
+      console.log("alldevfrom api are", allDevsFromAPI);
+      setAllDevs(allDevsFromAPI);
+    });
   };
 
   useEffect(() => {
     getDevs();
-}, []);
-
+  }, []);
 
   return (
     <>
       <div id="devList" className="dev-list">
-      {allDevs.map(obj =><DevCard key={obj.id} obj={obj}/>)}
+        {allDevs.map((obj) => (
+          <DevCard key={obj.id} obj={obj} />
+        ))}
       </div>
     </>
   );

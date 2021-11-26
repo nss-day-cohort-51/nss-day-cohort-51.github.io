@@ -1,5 +1,4 @@
 // C51 Website Color palette
-// C51 Website Color palette
 $midnight: #120000;
 $space: #323637;
 $gray: #747e80;
@@ -10,7 +9,17 @@ $golden: #f5b467;
 $platinum: #ecebea;
 // *************************
 
-/*
-https://coolors.co/120000-323637-747e80-82bad9-f2583e-dfb775-f5b467-ecebea
-*/
-// *************************
+.media-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  margin: auto 5px;
+
+  a {
+    font-size: 45px;
+    color: $space;
+  }
+}
