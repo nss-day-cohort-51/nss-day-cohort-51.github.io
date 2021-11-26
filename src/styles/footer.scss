@@ -12,6 +12,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: $midnight;
+    padding-bottom: 10px;
+    padding-top: 10px;
     
     
 }
@@ -22,7 +25,12 @@
     justify-content: center;
     
     
+    
         .icon {
             margin: auto 10px;
+        
+        }
+        a {
+            color: white;
         }
 }
