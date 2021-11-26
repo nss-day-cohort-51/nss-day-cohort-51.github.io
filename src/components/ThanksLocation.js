@@ -8,11 +8,13 @@ export const ThanksLocation = () => {
   return (
     <>
       <div id="thanksLocation" className="thanks-location">
-        <div className="thanks-location__thanks">
-          <Thanks />
-        </div>
-        <div className="thanks-location__location">
-          <Location />
+        <div className="bg-image">
+          <div className="thanks-location__thanks">
+            <Thanks />
+          </div>
+          <div className="thanks-location__location">
+            <Location />
+          </div>
         </div>
       </div>
     </>
