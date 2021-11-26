@@ -1,3 +1,14 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
 .thanks-location {
   display: flex;
   align-items: center;
@@ -32,20 +43,19 @@
   }
 }
 
-
 .location {
-    display: flex;
-    
-    h4 {
-        color: $midnight;
-    }
+  display: flex;
+
+  h4 {
+    color: $midnight;
+  }
 }
 
 .location-header {
-    display: flex;
-    flex-direction: column;
-    
-    h4 {
-        color: $midnight;
-    }
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    color: $midnight;
+  }
 }

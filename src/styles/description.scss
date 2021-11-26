@@ -1,23 +1,34 @@
-#description{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 600px;
-    margin-top: 200px;
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
 
-    h1 {
+#description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 600px;
+  margin-top: 200px;
+
+  h1 {
     color: $midnight;
-    }
-    p{
-    color: $midnight
-    }
+  }
+  p {
+    color: $midnight;
+  }
 
-    a{
+  a {
     color: $orange;
-    }
+  }
 }
 
 img.logo__img {
-    width: 450px;
-    float: left;
+  width: 450px;
+  float: left;
 }
