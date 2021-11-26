@@ -15,7 +15,6 @@ export const ThanksLocation = () => {
           <Location />
         </div>
       </div>
-      <div className="graphic"></div>
     </>
   );
 };
