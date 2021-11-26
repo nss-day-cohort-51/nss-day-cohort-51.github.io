@@ -14,6 +14,10 @@ $platinum: #ecebea;
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
+  background-image: url("../images/footer-img.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   h6 {
     color: $midnight;
@@ -58,4 +62,8 @@ $platinum: #ecebea;
   h4 {
     color: $midnight;
   }
+}
+
+.graphic {
+  height: 100px;
 }

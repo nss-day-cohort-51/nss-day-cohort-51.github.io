@@ -4,7 +4,6 @@ import React from "react";
 import { Thanks } from "../components/Thanks";
 import { Location } from "../components/Location";
 
-
 export const ThanksLocation = () => {
   return (
     <>
@@ -16,6 +15,7 @@ export const ThanksLocation = () => {
           <Location />
         </div>
       </div>
+      <div className="graphic"></div>
     </>
   );
 };
