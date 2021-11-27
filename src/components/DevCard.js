@@ -2,6 +2,7 @@
 
 import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
+import { CapBtn, PodPlayer } from "../components/MediaButtons";
 import "../styles/custom.scss";
 
 export const DevCard = ({ obj }) => {
@@ -31,8 +32,12 @@ export const DevCard = ({ obj }) => {
         <div className="dev-card__icons">
           <MediaIcons key={obj.id} obj={obj} />
         </div>
-        <div className="dev-card__capstone">CAPSTONE BUTTON</div>
-        <div className="dev-card__podcast">PODCAST BUTTON</div>
+        <div className="dev-card__capstone">
+          <CapBtn />
+        </div>
+        <div className="dev-card__podcast">
+          <PodPlayer />
+        </div>
       </div>
     </>
   );

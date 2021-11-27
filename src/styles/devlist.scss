@@ -1,0 +1,57 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+//Developer List section
+.dev-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}
+
+//Developer Card
+.dev-card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 1px solid black;
+  width: 320px;
+  margin: 15px;
+
+  .dev-card__title {
+  }
+
+  .dev-card__pic {
+  }
+
+  .dev-card__name {
+  }
+
+  .dev-card__interests {
+  }
+
+  //Dev Card media icons
+  .dev-card__icons {
+    text-align: center;
+  }
+
+  //Capstone and Podcast buttons
+  .dev-card__capstone {
+    width: 80%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .dev-card__podcast {
+    align-self: center;
+    text-align: center;
+  }
+}
