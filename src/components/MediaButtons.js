@@ -16,7 +16,7 @@ export const CapBtn = () => {
         CAPSTONE
       </div>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
