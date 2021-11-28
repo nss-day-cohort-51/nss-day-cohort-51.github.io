@@ -56,7 +56,7 @@ export const CapBtn = ({ obj }) => {
                     <iframe
                       width="360"
                       height="202"
-                      src="https://www.youtube.com/embed/GyDZS1fGJ7k"
+                      src={obj?.capLink}
                       title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -67,7 +67,7 @@ export const CapBtn = ({ obj }) => {
                     <iframe
                       width="360"
                       height="202"
-                      src="https://www.youtube.com/embed/GyDZS1fGJ7k"
+                      src={obj?.cap2Link}
                       title="YouTube video player"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
