@@ -3,7 +3,6 @@
 
 import React from "react";
 import "../styles/custom.scss";
-import "../styles/buttons.scss";
 
 export const DemoDayButton = () => {
   return (
