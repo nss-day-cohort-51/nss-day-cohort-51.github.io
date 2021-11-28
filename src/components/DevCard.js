@@ -29,11 +29,12 @@ export const DevCard = ({ obj }) => {
         </div>
         <div className="dev-card__name">{obj?.name}</div>
         <div className="dev-card__interests">{obj?.interests}</div>
+        <div className="dev-card__fact">{obj?.fact}</div>
         <div className="dev-card__icons">
           <MediaIcons key={obj.id} obj={obj} />
         </div>
         <div className="dev-card__capstone">
-          <CapBtn />
+          <CapBtn obj={obj} />
         </div>
         <div className="dev-card__podcast">
           <PodPlayer />

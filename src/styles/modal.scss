@@ -1,0 +1,76 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+.modal {
+  padding: 30px;
+
+  .modal-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .modal-name {
+  }
+
+  .modal-list__left {
+    border: 1px solid blue;
+  }
+
+  .modal-list__right {
+    border: 1px solid red;
+
+    .capstone-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      border: 1px solid green;
+    }
+
+    .cap1 {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      border: 1px solid aqua;
+    }
+
+    .cap2 {
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      border: 1px solid aqua;
+    }
+  }
+
+  .modal-pic {
+  }
+
+  .modal-title {
+  }
+
+  .modal-interests {
+  }
+
+  .modal-fact {
+  }
+
+  //Modal media icons
+  .modal-icons {
+    text-align: center;
+  }
+
+  .modal-pod {
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    border: 1px solid pink;
+  }
+}
