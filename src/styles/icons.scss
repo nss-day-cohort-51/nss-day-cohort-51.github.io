@@ -13,13 +13,54 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  // border: 1px solid blue;
 }
 
 .icon {
-  margin: auto 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: auto 0px;
+  // border: 1px solid red;
+  width: fit-content;
 
   a {
     font-size: 45px;
     color: $space;
+    text-decoration: none;
+    padding: 0px;
+  }
+}
+
+.git {
+  a {
+    // font-size: 50px;
+    vertical-align: top;
+    margin: auto 0px;
+    margin-right: 5px;
+  }
+}
+
+.linked {
+  a {
+    margin: auto 0px;
+  }
+}
+
+.mail {
+  a {
+    font-size: 55px;
+  }
+}
+
+.resume {
+  a {
+    margin: auto 0px;
+  }
+}
+
+.web {
+  a {
+    margin: auto 0px;
   }
 }

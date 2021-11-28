@@ -30,3 +30,39 @@ $platinum: #ecebea;
     }
   }
 }
+
+//Capstone button
+.cap-btn {
+  align-self: center;
+  // width: 80%;
+  padding: 5px 15px;
+  margin: 5px;
+  border: transparent;
+  background-color: $gray;
+  color: white;
+  cursor: pointer;
+}
+
+//Podcast Player section
+.pod-player {
+  margin: 5px;
+
+  a {
+    color: #cccccc;
+    text-decoration: none;
+  }
+
+  div {
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    // white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+      Garuda, Verdana, Tahoma, sans-serif;
+    font-weight: 100;
+    border: 1px solid;
+  }
+}
