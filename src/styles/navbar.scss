@@ -20,41 +20,10 @@ $platinum: #ecebea;
   font-weight: 600;
   margin-bottom: 20px;
 
-  p {
-    border-right: solid 3px $orange;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: "Space Mono", monospace;
-    font-size: 44px;
-    color: $orange;
+  .typing-holder {
+    width: 280px;
     margin: auto 0px;
     padding: 0px;
-  }
-
-  /* Animation */
-  p {
-    animation: animated-text 1s steps(12) 1s 1 normal both,
-      animated-cursor 600ms steps(12) infinite;
-  }
-
-  /* text animation */
-  @keyframes animated-text {
-    from {
-      width: 0;
-    }
-    to {
-      width: 250px;
-    }
-  }
-
-  /* cursor animations */
-  @keyframes animated-cursor {
-    from {
-      border-right-color: $golden;
-    }
-    to {
-      border-right-color: transparent;
-    }
   }
 }
 
