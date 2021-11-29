@@ -17,19 +17,27 @@ export const DevCard = ({ obj }) => {
             <img
               src={require(`../images/${obj?.pic}`).default}
               alt={obj?.name}
-              className=""
+              className="card-pic"
             />
           ) : (
             <img
               src={require(`../images/default.png`).default}
               alt="default-user"
-              className=""
+              className="card-pic"
             />
           )}
         </div>
         <div className="dev-card__name">{obj?.name}</div>
-        <div className="dev-card__interests">{obj?.interests}</div>
-        <div className="dev-card__fact">{obj?.fact}</div>
+        <div className="interest-fact__container">
+          <div>
+          <p>Industry Interest:</p>
+          <div className="dev-card__interests">{obj?.interests}</div>
+          </div>
+          <div>
+          <p>Fun Fact:</p>
+          <div className="dev-card__fact">{obj?.fact}</div>
+          </div>
+        </div>
         <div className="dev-card__icons">
           <MediaIcons key={obj.id} obj={obj} />
         </div>
