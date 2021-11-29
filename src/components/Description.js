@@ -16,7 +16,7 @@ export const Description = () => {
         <div className="rsvp">
             <DemoDayButton />
           </div>
-      </div>
+</div>
     </>
   );
 };

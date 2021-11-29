@@ -14,21 +14,31 @@ $platinum: #ecebea;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 600px;
-  margin-top: 200px;
+  margin-top: 150px;
+  margin-right: 100px;
 
   h1 {
     color: $midnight;
+    padding-bottom: 20px;
   }
   p {
     color: $midnight;
+    padding-bottom: 20px;
   }
 
   a {
     color: $orange;
+    text-decoration: none;
   }
+
+  .rsvp {
+    margin-left: 0px;
+    }
 }
 
+
 img.logo__img {
-  width: 450px;
+  width: 494px;
   float: left;
+  padding: 50px;
 }
