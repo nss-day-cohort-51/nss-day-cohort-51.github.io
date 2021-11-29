@@ -3,21 +3,8 @@
 import React from "react";
 import { DevCard } from "../components/DevCard";
 import "../styles/custom.scss";
-import { useEffect, useState } from "react";
-import { getAllDevs } from "./APIManager";
 
-export const DevList = () => {
-  const [allDevs, setAllDevs] = useState([]);
-  const getDevs = () => {
-    getAllDevs().then((allDevsFromAPI) => {
-      console.log("alldevfrom api are", allDevsFromAPI);
-      setAllDevs(allDevsFromAPI);
-    });
-  };
-
-  useEffect(() => {
-    getDevs();
-  }, []);
+export const DevList = ({ allDevs }) => {
 
   return (
     <>
