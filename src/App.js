@@ -9,16 +9,16 @@ import "./styles/_colors.scss";
 import "./styles/custom.scss";
 
 export const App = () => {
-  const [allDevs, setAllDevs] = useState([])
-  const [allTechStack, setTechStack] = useState([])
+  const [allDevs, setAllDevs] = useState([]);
+  const [allTechStack, setTechStack] = useState([]);
 
   useEffect(() => {
     fetch("api/database.json")
-    .then((res) => res.json())
-    .then((data) => {
-      setAllDevs(data.users);
-      setTechStack(data.techStack)
-    });
+      .then((res) => res.json())
+      .then((data) => {
+        setAllDevs(data.users);
+        setTechStack(data.techStack);
+      });
   }, []);
   return (
     <div className="page">
@@ -31,5 +31,3 @@ export const App = () => {
     </div>
   );
 };
-
-export default App;
