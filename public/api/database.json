@@ -2,27 +2,19 @@
   "users": [
     {
       "id": 1,
-<<<<<<< HEAD
-      "name": "Gerson M. Diketama",
-      "title": "FULL STACK DEVELOPER",
-      "email": "email@email.com",
-      "git": "https://github.com/GersonDiketama",
-      "linkedin": "https://www.linkedin.com/in/gerson-m-diketama-ab00a41a2/",
-=======
-      "name": "Michael Wright",
+      "name": "Micheal Wright",
       "title": "UI/UX FRONT-END DEVELOPER",
       "email": "mrwry7@gmail.com",
       "git": "https://github.com/sm3dev",
       "linkedin": "https://www.linkedin.com/in/mpw/",
->>>>>>> main
-      "personal": "https://www.google.com",
+      "personal": "https://slyydz.github.io/personal-website/elements.html",
       "fact": "I think the letter “W” should be called “wuh”",
       "capName": "Smilestones",
       "capLink": "https://www.youtube.com/embed/GyDZS1fGJ7k",
       "cap2Name": "Capstone 2 Name",
       "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
-      "interests": "Startups, Structured Onboarding, Social Platform, Small Agencies, Contractor",
-      "resume": "https://www.indeed.com/career-advice",
+      "interests": "Startups, Structured Onboarding, Social Platforms. ",
+      "resume": "https://www.google.com",
       "pod": "https://www.google.com",
       "pic": "default.png",
       "picFun": "sample-Fun-headshot.png"
@@ -30,21 +22,17 @@
     {
       "id": 2,
       "name": "Brady Williams",
-<<<<<<< HEAD
-      "title": "UI/UX FRONT-END DEVELOPER",
-=======
       "title": "FULL STACK DEVELOPER",
->>>>>>> main
       "email": "email@email.com",
       "git": "https://github.com/Slyydz",
       "linkedin": "https://www.linkedin.com/in/brady-c-williams/",
       "personal": "https://slyydz.github.io/personal-website/elements.html",
-      "fact": "Fun Fact Lorem Khaled Ipsum is a major key to success. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. Let’s see what.",
+      "fact": "Fun Fact Lorem Khaled Ipsum is a major key to success. The ladies always say Khaled you smell good.",
       "capName": "Drifting Apart",
       "capLink": "https://www.youtube.com/embed/GyDZS1fGJ7k",
       "cap2Name": "Capstone 2 Name",
       "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
-      "interests": "Industry Interests Lorem Khaled Ipsum is a major key to success.",
+      "interests": "Startups, Structured Onboarding, Social Platform, ",
       "resume": "https://www.google.com",
       "pod": "https://www.google.com",
       "pic": "default.png",
