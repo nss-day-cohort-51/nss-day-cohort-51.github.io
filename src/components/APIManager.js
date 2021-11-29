@@ -1,12 +1,19 @@
 //Purpose: Creates fetch calls to database.json
-const remoteURL = "http://localhost:8088"
 
-export const getDevById = (userId) => {
-  return fetch(`${remoteURL}/users/${userId}`)
-    .then(res => res.json())
-}
+let allData = {};
+
+export const getAllData = () => {
+  fetch("api/database.json")
+    .then((res) => res.json())
+    .then((data) => {
+      allData = data;
+    });
+};
 
 export const getAllDevs = () => {
-    return fetch(`${remoteURL}/users`)
-      .then(res => res.json())
-}
+  return allData.users;
+};
+
+export const getAllTechStackItems = () => {
+  return allData.techStack;
+};
