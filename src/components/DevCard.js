@@ -17,13 +17,13 @@ export const DevCard = ({ obj }) => {
             <img
               src={require(`../images/${obj?.pic}`).default}
               alt={obj?.name}
-              className=""
+              className="card-pic"
             />
           ) : (
             <img
               src={require(`../images/default.png`).default}
               alt="default-user"
-              className=""
+              className="card-pic"
             />
           )}
         </div>

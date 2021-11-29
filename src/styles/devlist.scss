@@ -22,21 +22,35 @@ $platinum: #ecebea;
 
 //Developer Card
 .dev-card {
-  background-color: white;
+  background-image: linear-gradient(180deg, #747e80 25%, #ecebea 0, #ecebea 10%);
+  // background-image: linear-gradient(180deg, #747e80 0 30%, #ecebea 50% 100%);
   display: flex;
   flex-direction: column;
-  align-content: center;
+  display: flex;
+  align-items: center;
   border: 1px solid black;
   width: 320px;
   margin: 15px;
+  border-radius: 12px;
+  
+  
 
   .dev-card__title {
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
   }
 
   .dev-card__pic {
-  }
+     img {
+    border: $mustard solid 7px;
+    border-radius: 50%;
+        }
+    }
+  
 
   .dev-card__name {
+   
   }
 
   .dev-card__interests {
