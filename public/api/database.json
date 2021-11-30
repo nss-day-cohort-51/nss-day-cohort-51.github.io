@@ -1,0 +1,266 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Micheal Wright",
+      "title": "UI/UX FRONT-END DEVELOPER",
+      "email": "mrwry7@gmail.com",
+      "git": "https://github.com/sm3dev",
+      "linkedin": "https://www.linkedin.com/in/mpw/",
+      "personal": "https://slyydz.github.io/personal-website/elements.html",
+      "fact": "I think the letter “W” should be called “wuh”",
+      "capName": "Smilestones",
+      "capLink": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Startups, Structured Onboarding, Social Platforms. ",
+      "resume": "https://www.google.com",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 2,
+      "name": "Brady Williams",
+      "title": "FULL STACK DEVELOPER",
+      "email": "email@email.com",
+      "git": "https://github.com/Slyydz",
+      "linkedin": "https://www.linkedin.com/in/brady-c-williams/",
+      "personal": "https://slyydz.github.io/personal-website/elements.html",
+      "fact": "Fun Fact Lorem Khaled Ipsum is a major key to success. The ladies always say Khaled you smell good.",
+      "capName": "Drifting Apart",
+      "capLink": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Startups, Structured Onboarding, Social Platform, ",
+      "resume": "https://www.google.com",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 3,
+      "name": "Susie Stanley",
+      "title": "UI/UX FRONT-END DEVELOPER",
+      "email": "susiestanley00@gmail.com",
+      "git": "https://github.com/SusieCodes",
+      "linkedin": "https://www.linkedin.com/in/susie-stanley/",
+      "personal": "https://slyydz.github.io/personal-website/elements.html",
+      "fact": "I am a Canadian that speaks Hungarian and I can't live without my power tools!",
+      "capName": "Capstone 1 Name",
+      "capLink": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Industry Interests Lorem Khaled Ipsum is a major key to success.",
+      "resume": "https://www.google.com",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 4,
+      "name": "Jacob Lashenik",
+      "title": "UI/UX FRONT-END DEVELOPER",
+      "email": "jmlashen@gmail.com",
+      "git": "https://github.com/jmlashen",
+      "linkedin": "https://www.linkedin.com/in/jake-lashenik/",
+      "personal": "https://slyydz.github.io/personal-website/elements.html",
+      "fact": "I have designed album artwork for several musical artists including Jason Wade of the band Lifehouse.",
+      "capName": "Card Caddie",
+      "capLink": "https://www.youtube.com/watch?v=GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Industry Interests Lorem Khaled Ipsum is a major key to success.",
+      "resume": "https://www.google.com",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 5,
+      "name": "Morgan Massey",
+      "title": "UI/UX FRONT-END DEVELOPER",
+      "email": "morganelizmassey@gmail.com",
+      "git": "https://github.com/morganmassey14",
+      "linkedin": "https://www.linkedin.com/in/morganelizmassey/",
+      "personal": "https://slyydz.github.io/personal-website/elements.html",
+      "fact": "I have seen every episode of the Golden Girls at least three times.",
+      "capName": "Mood Moons",
+      "capLink": "https://www.youtube.com/watch?v=GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Industry Interests Lorem Khaled Ipsum is a major key to success.",
+      "resume": "https://www.google.com",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 6,
+      "name": "Emily Reed",
+      "title": "FULL STACK DEVELOPER",
+      "email": "emily.reed0913@gmail.com",
+      "git": "https://github.com/householdgenius",
+      "linkedin": "https://www.linkedin.com/in/emilyreed0913/",
+      "personal": "https://householdgenius.github.io/",
+      "fact": "I was ranked 43rd in my senior class of 328 students.",
+      "capName": "Shelbye's Stacks",
+      "capLink": "https://www.youtube.com/watch?v=GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Companies with a solid onboarding process, possibly work from home but not required.",
+      "resume": "https://docs.google.com/document/d/e/2PACX-1vSIq0Pc_Gq8gua9W6G__rZTt2gY6SE1eWZInVF7t7YX3pbKeO5a4LGGpjHRz9ojBUWwqhnycfWoumgK/pub",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 7,
+      "name": "Kaitlyn Johns",
+      "title": "FULL STACK DEVELOPER",
+      "email": "kaitlynjohns10@gmail.com",
+      "git": "https://github.com/KatieJohns112",
+      "linkedin": "https://www.linkedin.com/in/kaitlynjohns112/",
+      "personal": "https://householdgenius.github.io/",
+      "fact": "I was ranked 43rd in my senior class of 328 students.",
+      "capName": "Zoo Adventures",
+      "capLink": "https://www.youtube.com/watch?v=GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Companies with a solid onboarding process, possibly work from home but not required.",
+      "resume": "https://docs.google.com/document/d/e/2PACX-1vSIq0Pc_Gq8gua9W6G__rZTt2gY6SE1eWZInVF7t7YX3pbKeO5a4LGGpjHRz9ojBUWwqhnycfWoumgK/pub",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    },
+    {
+      "id": 7,
+      "name": "Gerson M. Diketama",
+      "title": "FULL STACK DEVELOPER",
+      "email": "kaitlynjohns10@gmail.com",
+      "git": "https://github.com/KatieJohns112",
+      "linkedin": "https://www.linkedin.com/in/kaitlynjohns112/",
+      "personal": "https://householdgenius.github.io/",
+      "fact": "I was ranked 43rd in my senior class of 328 students.",
+      "capName": "Capstone 1 Name",
+      "capLink": "https://www.youtube.com/watch?v=GyDZS1fGJ7k",
+      "cap2Name": "Capstone 2 Name",
+      "cap2Link": "https://www.youtube.com/embed/GyDZS1fGJ7k",
+      "interests": "Companies with a solid onboarding process, possibly work from home but not required.",
+      "resume": "https://docs.google.com/document/d/e/2PACX-1vSIq0Pc_Gq8gua9W6G__rZTt2gY6SE1eWZInVF7t7YX3pbKeO5a4LGGpjHRz9ojBUWwqhnycfWoumgK/pub",
+      "pod": "https://www.google.com",
+      "pic": "default.png",
+      "picFun": "sample-Fun-headshot.png"
+    }
+  ],
+  "techStack": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "url": "https://reactjs.org/",
+      "devType": "All"
+    },
+    {
+      "id": 2,
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "devType": "All"
+    },
+    {
+      "id": 3,
+      "name": "NPM",
+      "url": "https://www.npmjs.com/",
+      "devType": "All"
+    },
+    {
+      "id": 4,
+      "name": "Figma",
+      "url": "https://www.figma.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 5,
+      "name": "C#",
+      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 6,
+      "name": ".NET",
+      "url": "https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 7,
+      "name": "JavaScript",
+      "url": "https://www.javascript.com/",
+      "devType": "All"
+    },
+    {
+      "id": 8,
+      "name": "SASS",
+      "url": "https://sass-lang.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 9,
+      "name": "SQL Server",
+      "url": "https://sass-lang.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 10,
+      "name": "dbdiagram",
+      "url": "https://dbdiagram.io/home",
+      "devType": "All"
+    },
+    {
+      "id": 11,
+      "name": "CSS3",
+      "url": "https://www.w3.org/Style/CSS/",
+      "devType": "All"
+    },
+    {
+      "id": 12,
+      "name": "HTML5",
+      "url": "",
+      "devType": "All"
+    },
+    {
+      "id": 13,
+      "name": "VS Code",
+      "url": "https://code.visualstudio.com/",
+      "devType": "All"
+    },
+    {
+      "id": 14,
+      "name": "JSON Server",
+      "url": "https://github.com/typicode/json-server/",
+      "devType": "All"
+    },
+    {
+      "id": 15,
+      "name": "Postman",
+      "url": "https://www.postman.com/",
+      "devType": "All"
+    },
+    {
+      "id": 16,
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com/",
+      "devType": "All"
+    },
+    {
+      "id": 17,
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 18,
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "devType": "UI/UX Front-End Developer"
+    }
+  ]
+}

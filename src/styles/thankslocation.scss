@@ -1,0 +1,81 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+.thanks-location {
+  display: flex;
+  background: linear-gradient(to bottom, #dfb775 0%, #ed563d 100%);
+
+  h6 {
+    color: $midnight;
+  }
+
+  .bg-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../images/footer-img.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px 0px 90px 0px;
+    margin: 0px;
+  }
+}
+
+.thanks-location__thanks,
+.thanks-location__location {
+  flex: 1;
+  align-self: flex-start;
+  margin: 30px 30px 30px;
+  min-width: 340px;
+  max-width: 450px;
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    color: $midnight;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    color: $midnight;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.location-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.location-list1,
+.location-list2 {
+  flex: 1;
+
+  li {
+    line-height: 2em;
+  }
+}
