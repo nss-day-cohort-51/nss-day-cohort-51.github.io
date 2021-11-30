@@ -6,6 +6,7 @@ import { TechStack } from "./components/TechStack";
 import { ThanksLocation } from "./components/ThanksLocation";
 import { Footer } from "./components/Footer";
 import "./styles/custom.scss";
+import { CallToActionSection } from "./components/CallToActionSection";
 
 export const App = () => {
   const [allDevs, setAllDevs] = useState([]);
@@ -24,6 +25,7 @@ export const App = () => {
       <NavBar />
       <Description />
       <DevList allDevs={allDevs} />
+      <CallToActionSection />
       <TechStack allTechStack={allTechStack} />
       <ThanksLocation />
       <Footer />
