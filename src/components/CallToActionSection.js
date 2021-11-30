@@ -15,7 +15,8 @@ export const CallToActionSection = () => {
         <a
           href="https://www.nashss.com/demoday"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer" 
+          className="link__no-underline"
         >
           <div className="demo-day-btn">
             <div className="btn-item">RSVP</div>
