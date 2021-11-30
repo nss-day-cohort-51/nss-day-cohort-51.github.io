@@ -10,7 +10,7 @@ $platinum: #ecebea;
 // *************************
 
 .modal-header {
-  background-color: $space;
+  background-color: $gray;
   text-align: center;
   padding-left: 30px;
 
@@ -38,7 +38,8 @@ $platinum: #ecebea;
 
   .modal-name {
     color: white;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 600;
     text-align: center;
     margin: 0px auto;
     // border: 1px solid pink;
@@ -68,6 +69,7 @@ $platinum: #ecebea;
     .modal-devtitle {
       font-family: "Space Mono", sans-serif;
       font-size: 1.4rem;
+      font-weight: 600;
       text-align: center;
     }
 
@@ -170,7 +172,7 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: $space;
+  background-color: $gray;
 
   .btn {
     color: white;

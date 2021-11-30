@@ -20,10 +20,10 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: auto;
-  margin-left: 2px;
+  // margin: auto;
+  margin: 5px;
   // border: 1px solid red;
-  width: fit-content;
+  // width: fit-content;
 
   a {
     font-size: 45px;
@@ -36,15 +36,15 @@ $platinum: #ecebea;
 .git {
   a {
     // font-size: 50px;
-    vertical-align: top;
+    // vertical-align: top;
     margin: auto 0px;
-    margin-right: 5px;
+    // margin-right: 5px;
   }
 }
 
 .linked {
   a {
-    margin: auto 0px;
+    margin: auto 2px auto 5px;
   }
 }
 
