@@ -2,6 +2,7 @@
 
 import React from "react";
 import { ScrollingText } from "./TextAnimation";
+// import { Example } from "../components/Example";
 import { DevCard } from "../components/DevCard";
 import "../styles/custom.scss";
 
