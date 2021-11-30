@@ -52,9 +52,17 @@ $platinum: #ecebea;
 
   .dev-card__pic {
      img {
-    border: $mustard solid 7px;
-    border-radius: 50%;
+    
+    border-radius: 50%; 
         }
+    .fsYellow {
+      border: $mustard solid 7px;
+      border-radius: 50%; 
+          }
+    .feBlue {
+      border: $blue solid 7px;
+      border-radius: 50%; 
+          }
     }
   .interest-fact__container {
     display: flex;

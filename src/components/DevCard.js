@@ -8,6 +8,14 @@ import "../styles/custom.scss";
 export const DevCard = ({ obj }) => {
   console.log("obj", obj);
   console.log("obj.name", obj.name);
+  const borderColor = (title) => {
+      if (title === "FULL STACK DEVELOPER") {
+        return "fsYellow";
+      } else {
+        return "feBlue";
+      }
+    };
+
   return (
     <>
       <div className="dev-card">
@@ -17,7 +25,7 @@ export const DevCard = ({ obj }) => {
             <img
               src={require(`../images/${obj?.pic}`).default}
               alt={obj?.name}
-              className="card-pic"
+              className={borderColor(obj.title)}
             />
           ) : (
             <img
