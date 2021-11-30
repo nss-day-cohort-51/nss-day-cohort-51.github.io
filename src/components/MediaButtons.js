@@ -16,7 +16,6 @@ export const CapBtn = ({ obj }) => {
       <div className="cap-btn" onClick={handleShow}>
         CAPSTONE
       </div>
-      {/* <div className="modal"> */}
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>
@@ -110,7 +109,6 @@ export const CapBtn = ({ obj }) => {
           </Button>
         </Modal.Footer>
       </Modal>
-      {/* </div> */}
     </>
   );
 };

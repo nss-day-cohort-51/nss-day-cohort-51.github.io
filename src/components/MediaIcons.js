@@ -25,12 +25,6 @@ export const MediaIcons = ({ obj }) => {
             <BsLinkedin />
           </a>
         </div>
-
-        <div className="icon mail">
-          <a href={"mailto:" + obj?.email}>
-            <MdEmail />
-          </a>
-        </div>
         <div className="icon resume">
           <a href={obj?.resume} target="_blank" rel="noreferrer">
             <BsFillFileTextFill />
@@ -39,6 +33,11 @@ export const MediaIcons = ({ obj }) => {
         <div className="icon web">
           <a href={obj?.personal} target="_blank" rel="noreferrer">
             <BsGlobe2 />
+          </a>
+        </div>
+        <div className="icon mail">
+          <a href={"mailto:" + obj?.email}>
+            <MdEmail />
           </a>
         </div>
       </div>
