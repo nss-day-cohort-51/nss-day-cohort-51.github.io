@@ -13,7 +13,7 @@ export const CallToActionSection = () => {
       </section>
       <section className="cta-section__">
         <a
-          href="https://www.nashss.com/demoday"
+          href="https://www.nashss.com/demoday/"
           target="_blank"
           rel="noreferrer" 
           className="link__no-underline"
