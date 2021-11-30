@@ -1,0 +1,16 @@
+.cta-section__block {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 320px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+> * {
+    margin-inline: .5rem;
+}
+
+}

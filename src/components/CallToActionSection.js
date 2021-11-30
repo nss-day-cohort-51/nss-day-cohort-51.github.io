@@ -4,7 +4,12 @@ export const CallToActionSection = () => {
   return (
     <div className="cta-section__block">
       <section className="cta-section__text-container">
-        <span className="cta__text"></span>
+        <div className="cta-text__block">
+          {" "}
+          <span className="cta__text">
+            JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022
+          </span>
+        </div>
       </section>
       <section className="cta-section__">
         <a
