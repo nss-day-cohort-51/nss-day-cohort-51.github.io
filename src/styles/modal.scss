@@ -26,6 +26,7 @@ $platinum: #ecebea;
 }
 
 .modal {
+  background-color: rgba(0, 0, 0, 0.75);
   .modal-wrapper {
     display: flex;
     flex-direction: row;
@@ -178,8 +179,8 @@ $platinum: #ecebea;
     color: white;
     font-size: 1.2rem;
     font-weight: 600;
-    border: 1px solid $orange;
+    border: 1px solid $golden;
     padding: 4px 10px;
-    margin: 10px;
+    margin: 12px 0px 10px 0px;
   }
 }
