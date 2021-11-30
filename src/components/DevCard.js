@@ -7,20 +7,18 @@ import "../styles/custom.scss";
 import {Fav} from './Fav';
 
 export const DevCard = ({ obj }) => {
-  console.log("obj", obj);
-  console.log("obj.name", obj.name);
+  
   return (
     <>
       <div className="dev-card">
-        <Fav devId={obj.id} />
+        
         <div className="dev-card__title">{obj?.title}</div>
         <div className="dev-card__pic">
           {obj?.pic ? (
             <img
               src={require(`../images/${obj?.pic}`).default}
               alt={obj?.name}
-              className="card-pic"
-            />
+              className="card-pic" />
           ) : (
             <img
               src={require(`../images/default.png`).default}
@@ -30,6 +28,7 @@ export const DevCard = ({ obj }) => {
           )}
         </div>
         <div className="dev-card__name">{obj?.name}</div>
+        <Fav devId={obj.id} />
         <div className="interest-fact__container">
           <div>
           <p>Industry Interest:</p>

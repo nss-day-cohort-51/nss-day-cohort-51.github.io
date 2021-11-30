@@ -34,10 +34,11 @@ export const Fav = ({devId}) => {
 
 	return (
 		<>
-		<div style={{"background-color":"black"}}>
-			<h2>Dev: {devId} Favorite:{checkForFav(devId)}</h2>
+		<div style={{"background-color":"black", color:"white"}}>
+			<label htmlFor="favorite">Interview ME!{checkForFav(devId)}</label>
 			<input type="checkbox" id="favorite" checked={isFavorite ? true : false} onChange={handleFavChange}/>
 		</div>
 		</>
 	)
 }
+
