@@ -36,6 +36,16 @@ export const TechStack = ({ allTechStack }) => {
         </section>
         <hr className="techStack__divider" />
         <section id="stacks-by-type__block">
+          {" "}
+          <section id="full-stack__block" className="list__block">
+            {" "}
+            <h4>Full Stack</h4>
+            <ul id="full-stack__list" className="stack__list no-bullet__list">
+              {allTheFullStack.map((stackItem) => (
+                <TechStackButton key={stackItem.id} stackItem={stackItem} />
+              ))}
+            </ul>
+          </section>
           <section id="front-end-stack__block" className="list__block">
             {" "}
             <h4>UI/UX Front-End</h4>
@@ -44,15 +54,6 @@ export const TechStack = ({ allTechStack }) => {
               className="stack__list no-bullet__list"
             >
               {allTheFrontEndStack.map((stackItem) => (
-                <TechStackButton key={stackItem.id} stackItem={stackItem} />
-              ))}
-            </ul>
-          </section>
-          <section id="full-stack__block" className="list__block">
-            {" "}
-            <h4>Full Stack</h4>
-            <ul id="full-stack__list" className="stack__list no-bullet__list">
-              {allTheFullStack.map((stackItem) => (
                 <TechStackButton key={stackItem.id} stackItem={stackItem} />
               ))}
             </ul>
