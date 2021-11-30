@@ -1,13 +1,13 @@
 //Purpose: Creates and displays the Tech Stack button
 
 import React from "react";
-import "../styles/_colors.scss";
 import "../styles/custom.scss";
 
-export const TechStackButton = () => {
+export const TechStackButton = ({ stackItem }) => {
   return (
     <>
-      <div className="tech-stack-btn">Tech Stack Button</div>
+      <li className="tech-stack-btn">{stackItem.name}</li>
     </>
   );
 };
+

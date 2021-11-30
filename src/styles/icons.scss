@@ -1,0 +1,66 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+.media-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  // border: 1px solid blue;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: auto 0px;
+  // border: 1px solid red;
+  width: fit-content;
+
+  a {
+    font-size: 45px;
+    color: $space;
+    text-decoration: none;
+    padding: 0px;
+  }
+}
+
+.git {
+  a {
+    // font-size: 50px;
+    vertical-align: top;
+    margin: auto 0px;
+    margin-right: 5px;
+  }
+}
+
+.linked {
+  a {
+    margin: auto 0px;
+  }
+}
+
+.mail {
+  a {
+    font-size: 55px;
+  }
+}
+
+.resume {
+  a {
+    margin: auto 0px;
+  }
+}
+
+.web {
+  a {
+    margin: auto 0px;
+  }
+}

@@ -1,0 +1,73 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+// Header ===============================
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: $space !important;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+
+  .typing-holder {
+    width: 280px;
+    margin: auto 0px;
+    padding: 0px;
+  }
+}
+
+.nav-menu {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  ul {
+    margin: auto 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  li {
+    margin: 5px 0px 5px 20px;
+  }
+
+  a {
+    font-weight: 500;
+    color: $golden;
+    text-decoration: none;
+
+    &:visited {
+      color: $golden;
+    }
+    &:hover {
+      color: $orange;
+    }
+    &:active {
+      color: $orange;
+    }
+  }
+}
+
+.navbar-toggler {
+  margin-right: 10px;
+}
+
+.rsvp {
+  margin-left: 10px;
+}

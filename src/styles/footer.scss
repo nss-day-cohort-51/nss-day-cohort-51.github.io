@@ -1,0 +1,39 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+.NSS__logo {
+  width: 300px;
+}
+
+.NSSlogo__img {
+  width: 300px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $space;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer-media__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .icon {
+    margin: auto 10px;
+  }
+  a {
+    color: white;
+  }
+}
