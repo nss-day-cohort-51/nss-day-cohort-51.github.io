@@ -13,7 +13,7 @@ export const Description = () => {
         <div className="description-section__about"
         style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: `cover`, backgroundRepeat: `no-repeat`, backgroundSize: `auto 100%`, backgroundPosition: `right bottom` }} >
           <h1>THE DEVELOPERS ARE OUT THERE!</h1>
-          <p>Our Cohort 51 was completely remote. We are a mix of both Full-Stack and UI/UX Front-End Developers. See our <a href="http://localhost:3000/#techStack" rel="techstack">
+          <p>Cohort 51 was completely remote. We are a mix of both Full-Stack and UI/UX Front-End Developers. See our <a href="http://localhost:3000/#techStack" rel="techstack">
             Tech Stack </a></p>
           <div className="rsvp">
             <DemoDayButton />
