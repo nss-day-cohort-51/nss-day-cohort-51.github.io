@@ -10,10 +10,6 @@ $platinum: #ecebea;
 
 #techStack {
   padding-block: 1rem;
-  border: 2rem solid;
-  border-image-slice: 1;
-  border-width: 1rem;
-  border-image-source: linear-gradient(to bottom, #ed563d 0%, #dfb775 100%);
 
   .background-overlay {
     background-color: #ecebea;
@@ -67,11 +63,12 @@ $platinum: #ecebea;
     margin: auto;
   }
   .tech-stack-btn a {
-    background-color: $space;
-    color: $platinum;
+    background-color: #323637;
+    color: #ecebea;
     text-decoration: none;
     padding-inline: 0.5rem;
-  }
+    border-radius: 5px;
+}
   h4 {
     text-align: center;
   }

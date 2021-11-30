@@ -33,10 +33,6 @@ export const TechStack = ({ allTechStack }) => {
               ))}
             </ul>
           </section>
-        </section>
-        <hr className="techStack__divider" />
-        <section id="stacks-by-type__block">
-          {" "}
           <section id="full-stack__block" className="list__block">
             {" "}
             <h4>Full Stack</h4>
@@ -59,6 +55,7 @@ export const TechStack = ({ allTechStack }) => {
             </ul>
           </section>
         </section>
+
       </section>
     </>
   );
