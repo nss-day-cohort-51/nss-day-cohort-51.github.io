@@ -1,9 +1,104 @@
-#techStack > * {
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+
+#techStack {
+  padding-block: 1rem;
+
+  .background-overlay {
+    background-color: #ecebea;
+    opacity: 0.1;
+    background-image: linear-gradient(#323637 2px, transparent 2px),
+      linear-gradient(90deg, #323637 2px, transparent 2px),
+      linear-gradient(#323637 1px, transparent 1px),
+      linear-gradient(90deg, #323637 1px, #ecebea 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  > section {
+    padding: 1rem;
+  }
+  #stacks-by-type__block {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  #combined-stack__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     align-content: center;
-    align-items: center;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+  }
+
+  .stack__list {
+    column-count: 2;
+    padding-left: 0;
+  }
+  .section__title {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .techStack__divider {
+    color: #f5b467;
+    width: 50vw;
+    margin: auto;
+  }
+  .tech-stack-btn a {
+    background-color: #323637;
+    color: #ecebea;
+    text-decoration: none;
+    padding-inline: 0.5rem;
+    border-radius: 5px;
+}
+  h4 {
+    text-align: center;
+  }
+  .list__block {
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin: 1rem;
+    box-shadow: 0 2px 0.5rem #747e80;
+  }
+  #frontend-stack__list .tech-stack-btn a,
+  #frontend-stack__list .tech-stack-btn a:visited {
+    background-color: #dfb775;
+    color: #323637;
+  }
+  #full-stack__block .tech-stack-btn a,
+  #full-stack__block .tech-stack-btn a:visited {
+    color: #323637;
+    background-color: #82bad9;
+  }
+  #frontend-stack__list .tech-stack-btn a.hasLink:hover,
+  #frontend-stack__list .tech-stack-btn a.hasLink:focus,
+  #full-stack__block .tech-stack-btn a.hasLink:hover,
+  #full-stack__block .tech-stack-btn a.hasLink:focus {
+    color: #ecebea;
+    outline: 0.5px solid #ecebea;
+    transition: 750ms;
+  }
 }
 
+.no-bullet__list {
+  list-style-type: none;
+}
