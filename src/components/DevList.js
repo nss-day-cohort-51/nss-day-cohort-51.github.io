@@ -11,7 +11,8 @@ export const DevList = ({ allDevs }) => {
     <>
       <div id="devList" className="dev-list__section">
         <section className="devList-title__block">
-          <h2 className="devList__title">Meet NSS Cohort 51!</h2>{" "}
+          <h2 className="devList__title">Our Developers are out of this world!</h2>{" "}
+          
         </section>
         <section className="scrolling-text__block">
           <ScrollingText />
