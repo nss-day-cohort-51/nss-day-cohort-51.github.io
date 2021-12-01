@@ -52,7 +52,23 @@ export const DevCard = ({ obj }) => {
           <CapBtn obj={obj} />
         </div>
         <div className="dev-card__podcast">
-          <PodPlayer />
+          <div className="card-pod-wrapper">
+            <h5>NSS Interview</h5>
+            <PodPlayer />
+          </div>
+          {/* <div className="modal-pod">
+            <div className="pod-title">Podcast Interview</div>
+            <div className="pod-wrapper">
+              <iframe
+                title="Podcast Player"
+                width="80%"
+                height="20"
+                scrolling="no"
+                frameBorder="no"
+                src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
+              ></iframe>
+            </div>
+          </div> */}
         </div>
       </div>
     </>
