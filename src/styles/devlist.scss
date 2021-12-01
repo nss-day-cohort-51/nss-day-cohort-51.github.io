@@ -9,14 +9,33 @@ $golden: #f5b467;
 $platinum: #ecebea;
 // *************************
 
-//Developer List section
+//Developer Section
+
+.dev-list__section {
+  background-color: $space;
+  padding-block: 1rem;
+
+  .devList__title {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .devList-title__block {
+    margin-block-end: 3rem;
+  }
+
+  .scrolling-text__block {
+    position: relative;
+}
+}
+
+//Developer List
 .dev-list {
-  position: relative; // this negates sticky navbar - find solution
+  // position: relative; // this negates sticky navbar - find solution
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 30px 0px;
-  background-color: $space;
   width: 100%;
   flex-wrap: wrap;
 }
