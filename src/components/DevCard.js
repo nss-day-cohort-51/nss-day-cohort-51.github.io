@@ -2,19 +2,18 @@
 
 import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
+// import { Example } from "../components/Example";
 import { CapBtn, PodPlayer } from "../components/MediaButtons";
 import "../styles/custom.scss";
 
 export const DevCard = ({ obj }) => {
-  console.log("obj", obj);
-  console.log("obj.name", obj.name);
   const borderColor = (title) => {
-      if (title === "FULL STACK DEVELOPER") {
-        return "fsYellow";
-      } else {
-        return "feBlue";
-      }
-    };
+    if (title === "FULL STACK DEVELOPER") {
+      return "fsYellow";
+    } else {
+      return "feBlue";
+    }
+  };
 
   return (
     <>
@@ -38,12 +37,12 @@ export const DevCard = ({ obj }) => {
         <div className="dev-card__name">{obj?.name}</div>
         <div className="interest-fact__container">
           <div>
-          <p>Industry Interest:</p>
-          <div className="dev-card__interests">{obj?.interests}</div>
+            <p>Industry Interest:</p>
+            <div className="dev-card__interests">{obj?.interests}</div>
           </div>
           <div>
-          <p>Fun Fact:</p>
-          <div className="dev-card__fact">{obj?.fact}</div>
+            <p>Fun Fact:</p>
+            <div className="dev-card__fact">{obj?.fact}</div>
           </div>
         </div>
         <div className="dev-card__icons">

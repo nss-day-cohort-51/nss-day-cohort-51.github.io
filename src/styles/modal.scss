@@ -9,68 +9,184 @@ $golden: #f5b467;
 $platinum: #ecebea;
 // *************************
 
+.modal-header {
+  background-color: $gray;
+  text-align: center;
+  padding-left: 30px;
+
+  .modal-title {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .btn-close {
+    background-color: white;
+    margin-right: 5px;
+  }
+}
+
 .modal {
-  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.75);
 
   .modal-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   .modal-name {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px auto;
   }
 
   .modal-list__left {
-    border: 1px solid blue;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    .modal-pic {
+      width: 200px;
+      height: 200px;
+      margin: 20px auto;
+    }
+
+    .primary {
+      width: 100%;
+      border-radius: 100px;
+      border: 5px solid $mustard;
+    }
+
+    .secondary {
+      width: 100%;
+      border-radius: 100px;
+      border: 5px solid $blue;
+    }
+
+    .modal-devtitle {
+      font-family: "Space Mono", sans-serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    //Modal media icons
+    .modal-icons {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .modal-intfact-wrapper {
+      background-color: white;
+      font-family: "Poppins", sans-serif;
+      padding: 5px 8px;
+      margin: 10px auto 12px;
+      border-radius: 5px;
+      border: 1px solid darkgray;
+    }
+
+    .modal-interests,
+    .modal-fact {
+      font-size: 1rem;
+      font-weight: 400;
+      padding: 5px;
+      text-align: left;
+    }
+
+    .modal-pod {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.1rem;
+      background-color: lightgray;
+      padding: 5px;
+      border: 1px solid rgb(172, 172, 172);
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto auto;
+
+      .pod-title {
+        margin: 6px auto 3px;
+      }
+
+      .pod-wrapper {
+        background-color: $platinum;
+        border-radius: 5px;
+        border: 1px solid darkgray;
+        padding: 11px 0px 3px 0px;
+        margin: 6px auto;
+      }
+    }
   }
 
   .modal-list__right {
-    border: 1px solid red;
+    // flex: 1 0 360px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    // border: 2px dashed red;
+
+    h4 {
+      margin-top: 25px;
+    }
 
     .capstone-wrapper {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      border: 1px solid green;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      align-items: center;
+      // border: 5px dotted orange;
     }
 
-    .cap1 {
-      display: flex;
-      justify-content: center;
-      flex: 1;
-      border: 1px solid aqua;
-    }
-
+    .cap1,
     .cap2 {
+      width: auto;
       display: flex;
-      justify-content: center;
-      flex: 1;
-      border: 1px solid aqua;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      // border: 1px solid aqua;
+
+      h5 {
+        font-weight: 500;
+        margin: 15px auto;
+      }
     }
   }
+}
 
-  .modal-pic {
-  }
+.modal-body {
+  width: 100%;
+  background-color: $platinum;
+  padding: 0px 0px 20px;
+}
 
-  .modal-title {
-  }
+.modal-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $gray;
 
-  .modal-interests {
+  .btn {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    margin: 12px 0px 10px 0px;
   }
+}
 
-  .modal-fact {
-  }
-
-  //Modal media icons
-  .modal-icons {
-    text-align: center;
-  }
-
-  .modal-pod {
-    width: 80%;
-    align-self: center;
-    text-align: center;
-    border: 1px solid pink;
-  }
+.modal-dialog {
+  width: 100%;
+  margin: 0px auto;
 }

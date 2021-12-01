@@ -37,7 +37,7 @@ $platinum: #ecebea;
 .thanks-location__location {
   flex: 1;
   align-self: flex-start;
-  margin: 30px 30px 30px;
+  margin: 30px 20px;
   min-width: 340px;
   max-width: 450px;
 }
@@ -45,8 +45,10 @@ $platinum: #ecebea;
 .thanks {
   display: flex;
   flex-direction: column;
+  padding: 0px 20px;
 
   h4 {
+    font-size: 1.3em;
     color: $midnight;
     text-align: center;
     margin-bottom: 20px;
@@ -59,6 +61,7 @@ $platinum: #ecebea;
   align-items: center;
 
   h4 {
+    font-size: 1.3em;
     color: $midnight;
     text-align: center;
     margin-bottom: 20px;
