@@ -14,17 +14,17 @@ export const MediaIcons = ({ obj }) => {
   const [iconColor, setIconColor] = useState("");
 
   // this sets icon color based on Dev Type
-  const setColor = (title) => {
-    if (title === "FULL STACK DEVELOPER") {
-      setIconColor("#dfb775");
-    } else {
-      setIconColor("#82bad9");
-    }
-  };
+  // const setColor = (title) => {
+  //   if (title === "FULL STACK DEVELOPER") {
+  //     setIconColor("#dfb775");
+  //   } else {
+  //     setIconColor("#82bad9");
+  //   }
+  // };
 
-  useEffect(() => {
-    setColor(obj.title);
-  }, []);
+  // useEffect(() => {
+  //   setColor(obj.title);
+  // }, [obj.title]);
 
   return (
     <>
