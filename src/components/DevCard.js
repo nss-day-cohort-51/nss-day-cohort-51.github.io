@@ -53,7 +53,7 @@ export const DevCard = ({ obj }) => {
         </div>
         <div className="dev-card__podcast">
           <div className="card-pod-wrapper">
-            <h5>Podcast Interview</h5>
+            <h5>NSS Interview</h5>
             <PodPlayer />
           </div>
           {/* <div className="modal-pod">
