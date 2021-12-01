@@ -11,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 import "../styles/custom.scss";
 
 export const MediaIcons = ({ obj }) => {
-  const [iconColor, setIconColor] = useState("");
+  // const [iconColor, setIconColor] = useState("");
 
   // this sets icon color based on Dev Type
   // const setColor = (title) => {
@@ -34,7 +34,8 @@ export const MediaIcons = ({ obj }) => {
             href={obj?.git}
             target="_blank"
             rel="noreferrer"
-            style={{ color: iconColor }}
+            title="github"
+            // style={{ color: iconColor }}
           >
             <BsGithub />
           </a>
@@ -44,7 +45,8 @@ export const MediaIcons = ({ obj }) => {
             href={obj?.linkedin}
             target="_blank"
             rel="noreferrer"
-            style={{ color: iconColor }}
+            title="linkedin"
+            // style={{ color: iconColor }}
           >
             <BsLinkedin />
           </a>
@@ -54,7 +56,8 @@ export const MediaIcons = ({ obj }) => {
             href={obj?.resume}
             target="_blank"
             rel="noreferrer"
-            style={{ color: iconColor }}
+            title="resume"
+            // style={{ color: iconColor }}
           >
             <BsFillFileTextFill />
           </a>
@@ -64,13 +67,18 @@ export const MediaIcons = ({ obj }) => {
             href={obj?.personal}
             target="_blank"
             rel="noreferrer"
-            style={{ color: iconColor }}
+            title="personal website"
+            // style={{ color: iconColor }}
           >
             <BsGlobe2 />
           </a>
         </div>
         <div className="icon mail">
-          <a href={"mailto:" + obj?.email} style={{ color: iconColor }}>
+          <a
+            href={"mailto:" + obj?.email}
+            title="email"
+            // style={{ color: iconColor }}
+          >
             <MdEmail />
           </a>
         </div>
