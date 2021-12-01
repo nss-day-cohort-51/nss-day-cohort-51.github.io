@@ -1,6 +1,6 @@
 //Purpose: Creates and displays the Media button component
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
@@ -8,29 +8,23 @@ import "../styles/custom.scss";
 
 export const CapBtn = ({ obj }) => {
   const [show, setShow] = useState(false);
-  const [colorSetting, setColorSetting] = useState("");
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  // this sets photo border and close button color
   const colorSet = (title) => {
     if (title === "FULL STACK DEVELOPER") {
-      console.log("if set colorSetting to primary");
-      setColorSetting("primary");
+      return "primary";
     } else {
-      console.log("else set colorSetting to secondary");
-      setColorSetting("secondary");
+      return "secondary";
     }
   };
-
-  useEffect(() => {
-    colorSet(obj?.title);
-  }, []);
 
   return (
     <>
       <div className="cap-btn" onClick={handleShow}>
-        CAPSTONE
+        CAPSTONES
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
@@ -46,7 +40,7 @@ export const CapBtn = ({ obj }) => {
                   <img
                     src={require(`../images/${obj?.pic}`).default}
                     alt={obj?.name}
-                    className={colorSetting}
+                    className={colorSet(obj.title)}
                   />
                 ) : (
                   <img
@@ -120,7 +114,7 @@ export const CapBtn = ({ obj }) => {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleClose} variant={colorSetting}>
+          <Button onClick={handleClose} variant={colorSet(obj.title)}>
             Close
           </Button>
         </Modal.Footer>
@@ -135,6 +129,7 @@ export const PodPlayer = () => {
       <div className="pod-player">
         <iframe
           title="Podcast Player"
+          color="#fff"
           width="80%"
           height="20"
           scrolling="no"

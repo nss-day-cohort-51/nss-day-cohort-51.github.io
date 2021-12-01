@@ -12,8 +12,9 @@ import "../styles/custom.scss";
 
 export const MediaIcons = ({ obj }) => {
   const [iconColor, setIconColor] = useState("");
+
+  // this sets icon color based on Dev Type
   const setColor = (title) => {
-    console.log("setColor invoked and title is ", title);
     if (title === "FULL STACK DEVELOPER") {
       setIconColor("#dfb775");
     } else {
