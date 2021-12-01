@@ -11,7 +11,7 @@ export const Description = () => {
       <div id="description" className="description">
         <div className="logo"><img className="logo-img" src={logo} alt="C51" /></div>
         <div className="description-section__about"
-        style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: `cover`, backgroundRepeat: `no-repeat`, backgroundSize: `auto 100%`, backgroundPosition: `right bottom` }} >
+        style={{ backgroundImage: `url(${backgroundImage})`, backgroundRepeat: `no-repeat`, backgroundSize: `auto 100%`, backgroundPosition: `right bottom` }} >
           <h1>THE DEVELOPERS ARE OUT THERE!</h1>
           <p>We are <strong>Nashville Software School's</strong> Cohort 51! Our Cohort is a little different. We learned front end foundations together, and then split into two paths: UI/UX Design and Full Stack. See our <a href="http://localhost:3000/#techStack" rel="techstack">
             Tech Stack </a></p>
