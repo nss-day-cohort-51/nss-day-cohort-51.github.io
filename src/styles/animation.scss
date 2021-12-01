@@ -271,13 +271,11 @@ $platinum: #ecebea;
 
 .typewriter2 {
   font-family: "Space Mono", sans-serif;
-  font-size: 44px;
+  font-size: 1.5em;
   font-weight: 600;
   color: $orange;
   display: flex;
   justify-content: flex-start;
-  font-size: 44px;
-  font-weight: 600;
 
   //won't work if changed - default inside typewriter-effect library
   .Typewriter__cursor {

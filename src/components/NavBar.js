@@ -32,7 +32,7 @@ export const NavBar = () => {
             <li className="nav-item">
               <a href="#thanksLocation">THANKS</a>
             </li>
-            <li>
+            <li id="demoday">
               <div className="rsvp">
                 <DemoDayButton />
               </div>
