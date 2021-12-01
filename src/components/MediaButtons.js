@@ -127,6 +127,7 @@ export const PodPlayer = () => {
   return (
     <>
       <div className="pod-player">
+  
         <iframe
           title="Podcast Player"
           color="#fff"
@@ -134,9 +135,15 @@ export const PodPlayer = () => {
           height="20"
           scrolling="no"
           frameBorder="no"
-          src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197966393&color=%23747e80&inverse=false&auto_play=false&show_user=true"
         ></iframe>
       </div>
     </>
   );
 };
+
+
+
+// &color=%23747e80
+
+// "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197966393&color=%23747e80&inverse=false&auto_play=false&show_user=true"
