@@ -14,7 +14,7 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 20px 10px 20px 30px;
   background-color: $space !important;
   font-size: 1.5em;
   font-weight: 600;
@@ -45,7 +45,7 @@ $platinum: #ecebea;
   }
 
   li {
-    margin: 5px 20px;
+    margin: 5px 10px;
     line-height: 1em;
   }
 
@@ -71,5 +71,5 @@ $platinum: #ecebea;
 }
 
 .rsvp {
-  margin: auto 10px;
+  margin: auto 20px;
 }

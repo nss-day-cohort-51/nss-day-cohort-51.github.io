@@ -1,6 +1,6 @@
 //Purpose: Creates and displays the Media button component
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
@@ -8,8 +8,24 @@ import "../styles/custom.scss";
 
 export const CapBtn = ({ obj }) => {
   const [show, setShow] = useState(false);
+  const [colorSetting, setColorSetting] = useState("");
+
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const colorSet = (title) => {
+    if (title === "FULL STACK DEVELOPER") {
+      console.log("if set colorSetting to primary");
+      setColorSetting("primary");
+    } else {
+      console.log("else set colorSetting to secondary");
+      setColorSetting("secondary");
+    }
+  };
+
+  useEffect(() => {
+    colorSet(obj?.title);
+  }, []);
 
   return (
     <>
@@ -30,13 +46,13 @@ export const CapBtn = ({ obj }) => {
                   <img
                     src={require(`../images/${obj?.pic}`).default}
                     alt={obj?.name}
-                    className="modal-img"
+                    className={colorSetting}
                   />
                 ) : (
                   <img
                     src={require(`../images/default.png`).default}
                     alt="default-user"
-                    className=""
+                    className="default"
                   />
                 )}
               </div>
@@ -65,7 +81,7 @@ export const CapBtn = ({ obj }) => {
                       width="80%"
                       height="20"
                       scrolling="no"
-                      frameborder="no"
+                      frameBorder="no"
                       src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
                     ></iframe>
                   </div>
@@ -78,11 +94,11 @@ export const CapBtn = ({ obj }) => {
                 <div className="cap1">
                   <h5>{obj?.capName}</h5>
                   <iframe
-                    width="360"
-                    height="202"
+                    width="340"
+                    height="235"
                     src={obj?.capLink}
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                   ></iframe>
@@ -90,11 +106,11 @@ export const CapBtn = ({ obj }) => {
                 <div className="cap2">
                   <h5>{obj?.cap2Name}</h5>
                   <iframe
-                    width="360"
-                    height="202"
+                    width="340"
+                    height="235"
                     src={obj?.cap2Link}
                     title="YouTube video player"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                   ></iframe>
@@ -104,7 +120,7 @@ export const CapBtn = ({ obj }) => {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button onClick={handleClose} variant={colorSetting}>
             Close
           </Button>
         </Modal.Footer>
@@ -117,21 +133,12 @@ export const PodPlayer = () => {
   return (
     <>
       <div className="pod-player">
-        {/* <iframe
-          title="Podcast Player"
-          width="82%"
-          height="166"
-          scrolling="no"
-          frameborder="no"
-          src={`https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9`}
-        ></iframe> */}
-
         <iframe
           title="Podcast Player"
           width="80%"
           height="20"
           scrolling="no"
-          frameborder="no"
+          frameBorder="no"
           src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
         ></iframe>
       </div>

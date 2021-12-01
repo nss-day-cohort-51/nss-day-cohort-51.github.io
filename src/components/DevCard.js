@@ -7,15 +7,13 @@ import { CapBtn, PodPlayer } from "../components/MediaButtons";
 import "../styles/custom.scss";
 
 export const DevCard = ({ obj }) => {
-  console.log("obj", obj);
-  console.log("obj.name", obj.name);
   const borderColor = (title) => {
-      if (title === "FULL STACK DEVELOPER") {
-        return "fsYellow";
-      } else {
-        return "feBlue";
-      }
-    };
+    if (title === "FULL STACK DEVELOPER") {
+      return "fsYellow";
+    } else {
+      return "feBlue";
+    }
+  };
 
   return (
     <>
