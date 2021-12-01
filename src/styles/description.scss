@@ -14,17 +14,13 @@ $platinum: #ecebea;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: $platinum;
-  // justify-content: space-between;
-
+  padding-top: 100px;
 
   h1 {
     color: $midnight;
-   
   }
   p {
     color: $midnight;
-   
-  
   }
   a {
     color: $orange;
@@ -33,9 +29,8 @@ $platinum: #ecebea;
 
   .rsvp {
     margin-left: 0px;
-    }  
+  }
 }
-
 
 .logo {
   width: 300px;
@@ -48,23 +43,22 @@ $platinum: #ecebea;
 }
 
 .description-section__about {
-flex: 1;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: center;
-padding: 35px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 35px;
 }
-
 
 // // img.description__img {
 // //   background-image: url("../images/description.svg");
 //   // position: fixed;
 //   // position: absolute;
 //   // z-index:-1;
-//   // top: -50%; 
-//   // left: -50%; 
-//   // width: 180%; 
+//   // top: -50%;
+//   // left: -50%;
+//   // width: 180%;
 //   // height: 100%;
 //   margin: 0;
 // background-repeat: no-repeat;

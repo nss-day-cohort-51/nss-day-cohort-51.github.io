@@ -14,14 +14,18 @@ $platinum: #ecebea;
   display: flex;
   border: transparent;
   border-radius: 5px;
-  padding: 5px 15px;
   background: linear-gradient(to bottom left, #f2583e 0%, #f5b467 100%);
   color: black;
+  font-size: 1em;
   font-weight: 600;
   white-space: nowrap;
   text-decoration: none;
+  padding: 5px 15px;
+  margin: 5px 0px;
 
   .btn-item {
+    font-size: 0.75em;
+    font-weight: 600;
     text-align: center;
     text-decoration: none;
 
