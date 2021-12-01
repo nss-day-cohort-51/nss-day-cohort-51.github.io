@@ -1,20 +1,25 @@
 import React from "react";
-import { DemoDayButton } from "./DemoDayButton";
 
 export const CallToActionSection = () => {
   return (
-    <div id="callToActionSection__container">
-      <section className="callToActionSection text__block">
-        <span>JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022 </span>
+    <div className="cta-section__block">
+      <section className="cta-section__text-container">
+        <div className="cta-text__block">
+          {" "}
+          <span className="cta__text">
+            JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022
+          </span>
+        </div>
       </section>
-      <section className="callToActionSection demo-day__block">
+      <section className="cta-section__">
         <a
-          href="https://www.nashss.com/demoday"
+          href="https://www.nashss.com/demoday/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer" 
+          className="link__no-underline"
         >
           <div className="demo-day-btn">
-            <div className="btn-item">&nbsp;RSVP&nbsp;</div>
+            <div className="btn-item">RSVP</div>
           </div>
         </a>
       </section>
