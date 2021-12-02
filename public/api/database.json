@@ -153,6 +153,7 @@
       "picFun": "sample-Fun-headshot.png"
     }
   ],
+
   "techStack": [
     {
       "id": 1,
@@ -161,85 +162,85 @@
       "devType": "All"
     },
     {
-      "id": 11,
+      "id": 2,
       "name": "CSS3",
       "url": "https://www.w3.org/Style/CSS/",
       "devType": "All"
     },
     {
-      "id": 7,
+      "id": 3,
       "name": "JavaScript",
       "url": "https://www.javascript.com/",
       "devType": "All"
     },
     {
-      "id": 2,
+      "id": 4,
       "name": "Git",
       "url": "https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
       "devType": "All"
     },
     {
-      "id": 2,
+      "id": 5,
       "name": "GitHub",
       "url": "https://github.com/",
       "devType": "All"
     },
     {
-      "id": 1,
+      "id": 6,
       "name": "ReactJS",
       "url": "https://reactjs.org/",
       "devType": "All"
     },
     {
-      "id": 1,
+      "id": 7,
       "name": "React Hooks",
       "url": "https://reactjs.org/",
       "devType": "All"
     },
     {
-      "id": 13,
+      "id": 8,
       "name": "VS Code",
       "url": "https://code.visualstudio.com",
       "devType": "All"
     },
     {
-      "id": 14,
+      "id": 9,
       "name": "JSON Server",
       "url": "https://github.com/typicode/json-server/",
       "devType": "All"
     },
     {
-      "id": 3,
+      "id": 10,
       "name": "NPM",
       "url": "https://www.npmjs.com/",
       "devType": "All"
     },
     {
-      "id": 15,
+      "id": 11,
       "name": "Postman",
       "url": "https://www.postman.com/",
       "devType": "All"
     },
     {
-      "id": 10,
+      "id": 12,
       "name": "dbdiagram",
       "url": "https://dbdiagram.io/home",
       "devType": "All"
     },
     {
-      "id": 16,
+      "id": 13,
       "name": "Bootstrap",
       "url": "https://getbootstrap.com/",
       "devType": "All"
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "Material Design",
       "url": "https://mui.com/",
       "devType": "All"
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "API",
       "url": "",
       "devType": "All"
@@ -251,91 +252,91 @@
       "devType": "All"
     },
     {
-      "id": 4,
+      "id": 17,
       "name": "Figma",
       "url": "https://www.figma.com",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 8,
+      "id": 18,
       "name": "SASS",
       "url": "https://sass-lang.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 8,
+      "id": 19,
       "name": "SCSS",
       "url": "https://www.createscss.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 8,
+      "id": 20,
       "name": "Usability Testing",
       "url": "",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 8,
+      "id": 17,
       "name": "User Research",
       "url": "",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 8,
+      "id": 18,
       "name": "Prototyping",
       "url": "",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 8,
+      "id": 19,
       "name": "Reactstrap",
       "url": "https://reactstrap.github.io/?path=/story/home-installation--page",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 5,
+      "id": 20,
       "name": "Agile",
       "url": "https://www.atlassian.com/agile/en-us/dotnet/csharp/",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 5,
+      "id": 21,
       "name": "Info Architecture",
       "url": "",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 5,
+      "id": 22,
       "name": "Mockups",
       "url": "",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 5,
+      "id": 23,
       "name": "C#",
       "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 5,
+      "id": 24,
       "name": "ASP",
       "url": "",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 9,
+      "id": 25,
       "name": "SQL Server",
       "url": "",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 6,
+      "id": 26,
       "name": ".NET",
       "url": "https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 9,
+      "id": 27,
       "name": "Visual Studio",
       "url": "https://visualstudio.microsoft.com/",
       "devType": "Full Stack Developer"
