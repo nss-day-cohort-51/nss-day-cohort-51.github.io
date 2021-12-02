@@ -24,7 +24,7 @@ export const CapBtn = ({ obj }) => {
   return (
     <>
       <div className="cap-btn" onClick={handleShow}>
-        PROJECTS
+        VIEW PROJECTS
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
