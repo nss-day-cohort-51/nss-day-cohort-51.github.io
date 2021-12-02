@@ -9,9 +9,7 @@ export const DemoDayButton = () => {
     <>
       <a href="https://www.nashss.com/demoday" target="_blank" rel="noreferrer">
         <div className="demo-day-btn">
-          <div className="btn-item">RSVP</div>
-          <div className="btn-item">&nbsp;Demo Day&nbsp;</div>
-          <div className="btn-item">2-11-22</div>
+          <div className="btn-item">Join Us For Demo Day</div>
         </div>
       </a>
     </>
