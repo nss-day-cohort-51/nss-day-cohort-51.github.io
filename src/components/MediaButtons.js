@@ -13,13 +13,13 @@ export const CapBtn = ({ obj }) => {
   const handleShow = () => setShow(true);
 
   // this sets photo border and close button color
-  const colorSet = (title) => {
-    if (title === "FULL STACK DEVELOPER") {
-      return "primary";
-    } else {
-      return "secondary";
-    }
-  };
+  // const colorSet = (title) => {
+  //   if (title === "FULL STACK DEVELOPER") {
+  //     return "primary";
+  //   } else {
+  //     return "secondary";
+  //   }
+  // };
 
   return (
     <>
@@ -127,7 +127,6 @@ export const PodPlayer = () => {
   return (
     <>
       <div className="pod-player">
-  
         <iframe
           title="Podcast Player"
           color="#fff"
@@ -141,8 +140,6 @@ export const PodPlayer = () => {
     </>
   );
 };
-
-
 
 // &color=%23747e80
 

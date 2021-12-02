@@ -51,7 +51,7 @@ export const TypingText2 = () => {
   return (
     <>
       <div className="typewriter2">
-        <p>COHORT 51</p>
+        <p>COHORT👽51</p>
         {/* <div className="dynamic"> */}
         {/* <Typewriter
             id="typewriter"
