@@ -16,46 +16,45 @@ export const TechStack = ({ allTechStack }) => {
 
   return (
     <>
-      <section id="techStack" className="tech-stack">
-        <div className="background-overlay"></div>
-        <h2 className="section__title">Tech Stack</h2>
+      <section id="techStack" className="tech-stack background-overlay">
+        <h2>Tech Stack</h2>
         <section id="combined-stack__block">
           <section id="combined-stack-list__block" className="list__block">
-            {" "}
-            <h4>Cohort 51 Combined</h4>
+            <h4 className="section__title">We All Learned the Following</h4>
             <ul
               id="combined-stack__list"
-              className="stack__list no-bullet__list"
+              className="no-bullet__list stack__list"
             >
               {" "}
               {allStack.map((stackItem) => (
                 <TechStackButton key={stackItem.id} stackItem={stackItem} />
               ))}
             </ul>
-          </section>
-          <section id="full-stack__block" className="list__block">
-            {" "}
-            <h4>Full Stack</h4>
-            <ul id="full-stack__list" className="stack__list no-bullet__list">
-              {allTheFullStack.map((stackItem) => (
-                <TechStackButton key={stackItem.id} stackItem={stackItem} />
-              ))}
-            </ul>
-          </section>
-          <section id="front-end-stack__block" className="list__block">
-            {" "}
-            <h4>UI/UX Front-End</h4>
-            <ul
-              id="frontend-stack__list"
-              className="stack__list no-bullet__list"
-            >
-              {allTheFrontEndStack.map((stackItem) => (
-                <TechStackButton key={stackItem.id} stackItem={stackItem} />
-              ))}
-            </ul>
+          </section>{" "}
+          <section id="stacks-by-type__block">
+            <section id="front-end-stack__block" className="list__block">
+              {" "}
+              <h4 className="section__title">UI/UX FRONT-END</h4>
+              <ul
+                id="frontend-stack__list"
+                className="no-bullet__list stack__list"
+              >
+                {allTheFrontEndStack.map((stackItem) => (
+                  <TechStackButton key={stackItem.id} stackItem={stackItem} />
+                ))}
+              </ul>
+            </section>
+            <section id="full-stack__block" className="list__block">
+              {" "}
+              <h4 className="section__title">FULL STACK</h4>
+              <ul id="full-stack__list" className="no-bullet__list stack__list">
+                {allTheFullStack.map((stackItem) => (
+                  <TechStackButton key={stackItem.id} stackItem={stackItem} />
+                ))}
+              </ul>
+            </section>
           </section>
         </section>
-
       </section>
     </>
   );
