@@ -216,61 +216,61 @@
       "devType": "All"
     },
     {
-      "id": 15,
+      "id": 11,
       "name": "Postman",
       "url": "https://www.postman.com/",
       "devType": "All"
     },
     {
-      "id": 10,
+      "id": 12,
       "name": "dbdiagram",
       "url": "https://dbdiagram.io/home",
       "devType": "All"
     },
     {
-      "id": 16,
+      "id": 13,
       "name": "Bootstrap",
       "url": "https://getbootstrap.com/",
       "devType": "All"
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "Material Design",
       "url": "https://mui.com/",
       "devType": "All"
     },
     {
-      "id": 11,
+      "id": 15,
       "name": "API",
       "url": "",
       "devType": "All"
     },
     {
-      "id": 12,
+      "id": 16,
       "name": "Wireframing",
       "url": "",
       "devType": "All"
     },
     {
-      "id": 13,
+      "id": 17,
       "name": "Figma",
       "url": "https://www.figma.com",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 14,
+      "id": 18,
       "name": "SASS",
       "url": "https://sass-lang.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 15,
+      "id": 19,
       "name": "SCSS",
       "url": "https://www.createscss.com/",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 16,
+      "id": 20,
       "name": "Usability Testing",
       "url": "",
       "devType": "UI/UX Front-End Developer"
