@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import alienface from "../images/alienface.svg";
 import "../styles/custom.scss";
 
 export const ScrollingText = () => {
@@ -50,7 +51,16 @@ export const TypingText1 = () => {
 export const TypingText2 = () => {
   return (
     <>
-      <div className="typewriter2">
+      <div
+        className="typewriter2"
+        style={{
+          backgroundImage: `url(${alienface})`,
+          // backgroundHeight: "0.5em",
+          backgroundSize: `52px 33px`,
+          backgroundRepeat: `no-repeat`,
+          backgroundPosition: `69% 48%`,
+        }}
+      >
         <p>COHORT 51</p>
         {/* <div className="dynamic"> */}
         {/* <Typewriter
