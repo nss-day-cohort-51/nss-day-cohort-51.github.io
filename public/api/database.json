@@ -156,8 +156,26 @@
   "techStack": [
     {
       "id": 1,
-      "name": "ReactJS",
-      "url": "https://reactjs.org/",
+      "name": "HTML5",
+      "url": "https://html.com/html5/",
+      "devType": "All"
+    },
+    {
+      "id": 11,
+      "name": "CSS3",
+      "url": "https://www.w3.org/Style/CSS/",
+      "devType": "All"
+    },
+    {
+      "id": 7,
+      "name": "JavaScript",
+      "url": "https://www.javascript.com/",
+      "devType": "All"
+    },
+    {
+      "id": 2,
+      "name": "Git",
+      "url": "https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
       "devType": "All"
     },
     {
@@ -167,14 +185,128 @@
       "devType": "All"
     },
     {
+      "id": 1,
+      "name": "ReactJS",
+      "url": "https://reactjs.org/",
+      "devType": "All"
+    },
+    {
+      "id": 1,
+      "name": "React Hooks",
+      "url": "https://reactjs.org/",
+      "devType": "All"
+    },
+    {
+      "id": 13,
+      "name": "VS Code",
+      "url": "https://code.visualstudio.com",
+      "devType": "All"
+    },
+    {
+      "id": 14,
+      "name": "JSON Server",
+      "url": "https://github.com/typicode/json-server/",
+      "devType": "All"
+    },
+    {
       "id": 3,
       "name": "NPM",
       "url": "https://www.npmjs.com/",
       "devType": "All"
     },
     {
+      "id": 15,
+      "name": "Postman",
+      "url": "https://www.postman.com/",
+      "devType": "All"
+    },
+    {
+      "id": 10,
+      "name": "dbdiagram",
+      "url": "https://dbdiagram.io/home",
+      "devType": "All"
+    },
+    {
+      "id": 16,
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com/",
+      "devType": "All"
+    },
+    {
+      "id": 16,
+      "name": "Material Design",
+      "url": "https://mui.com/",
+      "devType": "All"
+    },
+    {
+      "id": 16,
+      "name": "API",
+      "url": "",
+      "devType": "All"
+    },
+    {
+      "id": 16,
+      "name": "Wireframing",
+      "url": "",
+      "devType": "All"
+    },
+    {
       "id": 4,
       "name": "Figma",
+      "url": "https://www.figma.com",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 8,
+      "name": "SASS",
+      "url": "https://sass-lang.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 8,
+      "name": "SCSS",
+      "url": "https://www.createscss.com/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 8,
+      "name": "Usability Testing",
+      "url": "",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 8,
+      "name": "User Research",
+      "url": "",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 8,
+      "name": "Prototyping",
+      "url": "",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 8,
+      "name": "Reactstrap",
+      "url": "https://reactstrap.github.io/?path=/story/home-installation--page",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 5,
+      "name": "Agile",
+      "url": "https://www.atlassian.com/agile/en-us/dotnet/csharp/",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 5,
+      "name": "Info Architecture",
+      "url": "",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 5,
+      "name": "Mockups",
       "url": "",
       "devType": "UI/UX Front-End Developer"
     },
@@ -185,82 +317,28 @@
       "devType": "Full Stack Developer"
     },
     {
+      "id": 5,
+      "name": "ASP",
+      "url": "",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 9,
+      "name": "SQL Server",
+      "url": "",
+      "devType": "Full Stack Developer"
+    },
+    {
       "id": 6,
       "name": ".NET",
       "url": "https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 7,
-      "name": "JavaScript",
-      "url": "https://www.javascript.com/",
-      "devType": "All"
-    },
-    {
-      "id": 8,
-      "name": "SASS",
-      "url": "https://sass-lang.com/",
-      "devType": "UI/UX Front-End Developer"
-    },
-    {
       "id": 9,
-      "name": "SQL Server",
-      "url": "https://sass-lang.com/",
-      "devType": "UI/UX Front-End Developer"
-    },
-    {
-      "id": 10,
-      "name": "dbdiagram",
-      "url": "https://dbdiagram.io/home",
-      "devType": "All"
-    },
-    {
-      "id": 11,
-      "name": "CSS3",
-      "url": "https://www.w3.org/Style/CSS/",
-      "devType": "All"
-    },
-    {
-      "id": 12,
-      "name": "HTML5",
-      "url": "",
-      "devType": "All"
-    },
-    {
-      "id": 13,
-      "name": "VS Code",
-      "url": "https://code.visualstudio.com/",
-      "devType": "All"
-    },
-    {
-      "id": 14,
-      "name": "JSON Server",
-      "url": "https://github.com/typicode/json-server/",
-      "devType": "All"
-    },
-    {
-      "id": 15,
-      "name": "Postman",
-      "url": "https://www.postman.com/",
-      "devType": "All"
-    },
-    {
-      "id": 16,
-      "name": "Bootstrap",
-      "url": "https://getbootstrap.com/",
-      "devType": "All"
-    },
-    {
-      "id": 17,
-      "name": "Google Fonts",
-      "url": "https://fonts.google.com/",
-      "devType": "UI/UX Front-End Developer"
-    },
-    {
-      "id": 18,
-      "name": "Coolors",
-      "url": "https://coolors.co/",
-      "devType": "UI/UX Front-End Developer"
+      "name": "Visual Studio",
+      "url": "https://visualstudio.microsoft.com/",
+      "devType": "Full Stack Developer"
     }
   ]
 }
