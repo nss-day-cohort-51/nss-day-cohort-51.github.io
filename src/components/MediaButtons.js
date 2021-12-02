@@ -24,7 +24,7 @@ export const CapBtn = ({ obj }) => {
   return (
     <>
       <div className="cap-btn" onClick={handleShow}>
-        CAPSTONES
+        PROJECTS
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
@@ -35,7 +35,7 @@ export const CapBtn = ({ obj }) => {
         <Modal.Body>
           <div className="modal-wrapper">
             <div className="modal-list__left">
-              <div className="modal-pic">
+              {/* <div className="modal-pic">
                 {obj?.pic ? (
                   <img
                     src={require(`../images/${obj?.pic}`).default}
@@ -49,14 +49,14 @@ export const CapBtn = ({ obj }) => {
                     className="default"
                   />
                 )}
-              </div>
+              </div> */}
               <div className="modal-devtitle">
                 {obj?.title}
                 <div className="modal-icons">
                   <MediaIcons key={obj.id} obj={obj} />
                 </div>
 
-                <div className="modal-intfact-wrapper">
+                {/* <div className="modal-intfact-wrapper">
                   <div className="modal-interests">
                     <strong>Industry Interest: </strong>
                     {obj?.interests}
@@ -65,10 +65,10 @@ export const CapBtn = ({ obj }) => {
                     <strong>Fun Fact: </strong>
                     {obj?.fact}
                   </div>
-                </div>
+                </div> */}
 
                 <div className="modal-pod">
-                  <div className="pod-title">Podcast Interview</div>
+                  <div className="pod-title">NSS Interview</div>
                   <div className="pod-wrapper">
                     <iframe
                       title="Podcast Player"
@@ -114,7 +114,7 @@ export const CapBtn = ({ obj }) => {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleClose} variant={colorSet(obj.title)}>
+          <Button onClick={handleClose} variant="primary">
             Close
           </Button>
         </Modal.Footer>
@@ -127,6 +127,7 @@ export const PodPlayer = () => {
   return (
     <>
       <div className="pod-player">
+  
         <iframe
           title="Podcast Player"
           color="#fff"
@@ -134,9 +135,15 @@ export const PodPlayer = () => {
           height="20"
           scrolling="no"
           frameBorder="no"
-          src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197966393&color=%23747e80&inverse=false&auto_play=false&show_user=true"
         ></iframe>
       </div>
     </>
   );
 };
+
+
+
+// &color=%23747e80
+
+// "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197966393&color=%23747e80&inverse=false&auto_play=false&show_user=true"
