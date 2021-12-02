@@ -62,7 +62,7 @@ $platinum: #ecebea;
     width: 50vw;
     margin: auto;
   }
-  .tech-stack-btn a {
+  .tech-stack-btn span {
     background-color: #323637;
     color: #ecebea;
     text-decoration: none;
@@ -80,23 +80,30 @@ $platinum: #ecebea;
     margin: 1rem;
     box-shadow: 0 2px 0.5rem #747e80;
   }
-  #frontend-stack__list .tech-stack-btn a,
-  #frontend-stack__list .tech-stack-btn a:visited {
+  #frontend-stack__list .tech-stack-btn span {
     background-color: #dfb775;
     color: #323637;
   }
-  #full-stack__block .tech-stack-btn a,
-  #full-stack__block .tech-stack-btn a:visited {
+  #full-stack__block .tech-stack-btn span {
     color: #323637;
     background-color: #82bad9;
   }
-  #frontend-stack__list .tech-stack-btn a.hasLink:hover,
-  #frontend-stack__list .tech-stack-btn a.hasLink:focus,
-  #full-stack__block .tech-stack-btn a.hasLink:hover,
-  #full-stack__block .tech-stack-btn a.hasLink:focus {
-    color: #ecebea;
-    outline: 0.5px solid #ecebea;
-    transition: 750ms;
+
+  #full-stack__block.list__block,
+  #front-end-stack__block.list__block {
+    flex: 2 1 480px;
+  }
+
+  h4.section__title {
+    margin-block-end: 1rem;
+    margin-block-start: 1rem;
+  }
+  #front-end-stack__block .section__title {
+    border-bottom: 1px solid #dfb775;
+    line-height: 2rem;
+  }
+  #full-stack__block .section__title {
+    border-bottom: 1px solid #82bad9;
   }
 }
 

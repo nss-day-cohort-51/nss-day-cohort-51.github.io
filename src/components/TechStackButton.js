@@ -15,15 +15,7 @@ export const TechStackButton = ({ stackItem }) => {
   return (
     <>
       <li className="tech-stack-btn">
-        <a
-          href={stackItem.url}
-          title={stackItem.name}
-          target="_blank"
-          className={linkClass(stackItem.url)}
-          rel="noreferrer"
-        >
-          {stackItem.name}
-        </a>
+        <span>{stackItem.name}</span>
       </li>
     </>
   );
