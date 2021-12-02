@@ -15,9 +15,8 @@ export const Description = () => {
           <h1>THE DEVELOPERS ARE OUT THERE!</h1>
           <p>We are <strong>Nashville Software School's</strong> Cohort 51! Our Cohort is a little different. We learned front end foundations together, and then split into two paths: UI/UX Design and Full Stack. See our <a href="http://localhost:3000/#techStack" rel="techstack">
             Tech Stack </a></p>
-          <div className="rsvp">
+          <p>Abduct a developer at our virtual demo day on <strong>February 11, 2022</strong></p>
             <DemoDayButton />
-          </div>
         </div>
       </div>
     </>
