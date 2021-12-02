@@ -51,18 +51,36 @@ export const TypingText2 = () => {
   return (
     <>
       <div className="typewriter2">
-        <div className="dynamic">
-          <Typewriter
+        <p>COHORT 51</p>
+        {/* <div className="dynamic"> */}
+        {/* <Typewriter
             id="typewriter"
             options={{
               strings: ["COHORT 51"],
               autoStart: true,
               loop: true,
               delay: "natural",
+              stop: true,
             }}
-          />
-        </div>
+          /> */}
+        {/* </div> */}
       </div>
     </>
   );
 };
+
+<Typewriter
+  onInit={(typewriter) => {
+    typewriter
+      .typeString("Hello World!")
+      .callFunction(() => {
+        console.log("String typed out!");
+      })
+      .pauseFor(2500)
+      .deleteAll()
+      .callFunction(() => {
+        console.log("All strings were deleted");
+      })
+      .start();
+  }}
+/>;
