@@ -45,7 +45,7 @@ $platinum: #ecebea;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
   }
 
@@ -68,7 +68,8 @@ $platinum: #ecebea;
     text-decoration: none;
     padding-inline: 0.5rem;
     border-radius: 5px;
-}
+    line-height: 2rem;
+  }
   h4 {
     text-align: center;
   }
@@ -101,4 +102,13 @@ $platinum: #ecebea;
 
 .no-bullet__list {
   list-style-type: none;
+}
+
+#techStack > * {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
