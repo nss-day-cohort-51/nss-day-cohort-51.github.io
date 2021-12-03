@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
-import "../styles/custom.scss";
 import { buttonColor, colorSet } from "./helpers";
+import "../styles/custom.scss";
 
 export const CapBtn = ({ obj }) => {
   const [show, setShow] = useState(false);
@@ -18,7 +18,7 @@ export const CapBtn = ({ obj }) => {
       <div className={buttonColor(obj.title)} onClick={handleShow}>
         VIEW PROJECTS
       </div>
-    
+
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>
@@ -28,7 +28,7 @@ export const CapBtn = ({ obj }) => {
         <Modal.Body>
           <div className="modal-wrapper">
             <div className="modal-list__left">
-              {/* <div className="modal-pic">
+              <div className="modal-pic">
                 {obj?.pic ? (
                   <img
                     src={require(`../images/${obj?.pic}`).default}
@@ -42,7 +42,7 @@ export const CapBtn = ({ obj }) => {
                     className="default"
                   />
                 )}
-              </div> */}
+              </div>
               <div className="modal-devtitle">
                 {obj?.title}
                 <div className="modal-icons">
@@ -111,7 +111,7 @@ export const CapBtn = ({ obj }) => {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleClose} variant="primary">
+          <Button onClick={handleClose} variant={colorSet(obj.title)}>
             Close
           </Button>
         </Modal.Footer>
