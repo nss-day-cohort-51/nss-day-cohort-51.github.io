@@ -12,9 +12,9 @@ export const borderColor = (title) => {
 // this sets photo button color for full stack or front end dev
 export const buttonColor = (title) => {
     if (title === "FULL STACK DEVELOPER") {
-        return "fsButtonYellow";
+        return "fsButtonYellow dev-card__button";
     } else {
-        return "feButtonBlue";
+        return "feButtonBlue dev-card__button";
     }
 };
 
@@ -26,3 +26,11 @@ const colorSet = (title) => {
         return "secondary";
     }
 };
+
+export const DevCardTitleBG = (title) => {
+    if (title === "FULL STACK DEVELOPER") {
+        return "dev-card-title__block full-stack";
+    } else {
+        return "dev-card-title__block front-end";
+    }
+}

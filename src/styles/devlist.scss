@@ -52,48 +52,61 @@ $platinum: #ecebea;
   // background-image: linear-gradient(180deg, #747e80 0 30%, #ecebea 50% 100%);
   display: flex;
   flex-direction: column;
-  display: flex;
   align-items: center;
   border: 1px solid black;
   width: 320px;
   margin: 15px;
   border-radius: 12px;
 
+  // Dev Card Body
+  .dev-card__body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
   p {
     font-size: small;
-    font-weight: bold;
     font-size: 1em;
   }
 
-  a {
+  .dev-card-button__block a {
     text-decoration: none;
+    color: $platinum;
   }
-  
+
+  .dev-card-button__block a:hover {
+    color: $midnight;
+  }
+
   a:hover {
-    
     text-decoration: none;
-    
   }
 
   .dev-card__title {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    color: #ecebea;
+    color: $midnight;
     padding-top: 20px;
     padding-bottom: 10px;
     font-size: 18px;
+    text-align: center;
   }
   //Dev pic
   .dev-card__pic {
     img {
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor  
+    //this className cooresponds to one of the return values of borderColor
     .fsYellow {
       border: $mustard solid 7px;
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor 
+    //this className cooresponds to one of the return values of borderColor
     .feBlue {
       border: $blue solid 7px;
       border-radius: 50%;
@@ -101,27 +114,20 @@ $platinum: #ecebea;
   }
   // interests and facts container
   .interest-fact__container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
     border: #747e80 solid;
     border-radius: 5px;
     border-width: 1px;
     background-color: white;
-    max-width: 250px;
-    min-height: 202px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: .5rem;
   }
   //Dev name
   .dev-card__name {
     font-family: "Poppins", sans-serif;
-    font-weight: bold;
     color: #120000;
     font-size: x-large;
     padding-top: 15px;
-    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
   }
   //Dev interests
   .dev-card__interests {
@@ -130,12 +136,10 @@ $platinum: #ecebea;
     padding-right: 5px;
     margin-top: -20px;
   }
-  //Dev facrs
+  //Dev facts
   .dev-card__fact {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
-    margin-top: -20px;
-    padding-right: 5px;
   }
 
   //Dev Card media icons
@@ -143,39 +147,44 @@ $platinum: #ecebea;
     text-align: center;
   }
 
-  //Capstone and Podcast buttons
-  .dev-card__capstone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    // width: 80%;
-    align-self: center;
-    text-align: center;
+  // .dev-card__podcast {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: center;
+  //   align-self: center;
+  //   margin-bottom: 10px;
+
+  //   .card-pod-wrapper {
+  //     width: 82%;
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+  //     border-radius: 5px;
+  //     border: 1px solid lightgray;
+  //     background-color: white;
+  //     padding: 0px;
+  //     margin: 10px 0px;
+
+  //     h5 {
+  //       font-weight: 500;
+  //       font-size: 1em;
+  //       margin-top: 10px;
+  //     }
+  //   }
+  // }
+
+  .dev-card-title__block {
+    background-color: transparent;
+    width: 100%;
+    margin-block-end: 1rem;
+    border-radius: 12px 12px 0 0;
   }
 
-  .dev-card__podcast {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    margin-bottom: 10px;
+  .dev-card-title__block.full-stack {
+    background-color: #dfb775;
+  }
 
-    .card-pod-wrapper {
-      width: 82%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border-radius: 5px;
-      border: 1px solid lightgray;
-      background-color: white;
-      padding: 0px;
-      margin: 10px 0px;
-
-      h5 {
-        font-weight: 500;
-        font-size: 1em;
-        margin-top: 10px;
-      }
-    }
+  .dev-card-title__block.front-end {
+    background-color: #82bad9;
   }
 }

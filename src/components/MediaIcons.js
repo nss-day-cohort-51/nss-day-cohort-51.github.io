@@ -51,27 +51,6 @@ export const MediaIcons = ({ obj }) => {
             <BsLinkedin />
           </a>
         </div>
-        <div className="icon resume">
-          <a
-            href={obj?.resume}
-            target="_blank"
-            rel="noreferrer"
-            title="resume"
-            // style={{ color: iconColor }}
-          >
-            {/* <BsFillFileTextFill /> */}
-          </a>
-        </div>
-        <div className="icon web">
-          <a
-            href={obj?.personal}
-            target="_blank"
-            rel="noreferrer"
-            title="personal website"
-          >
-            {/* <BsGlobe2 /> */}
-          </a>
-        </div> 
 
         <div className="icon mail">
           <a
