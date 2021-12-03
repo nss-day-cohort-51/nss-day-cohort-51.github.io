@@ -68,11 +68,15 @@ export const CapBtn = ({ obj }) => {
                 </div> */}
 
                 <div className="modal-pod">
-                  <div className="pod-title">NSS Capstone Interview</div>
+                  <div className="modal-pod-title">NSS Capstone Interview</div>
+                  <div className="modal-pod-text">
+                    Check out the podcast interview I recorded about my
+                    capstone!
+                  </div>
                   <div className="pod-wrapper">
                     <iframe
                       title="Podcast Player"
-                      width="80%"
+                      width="90%"
                       height="20"
                       scrolling="no"
                       frameBorder="no"
@@ -94,7 +98,7 @@ export const CapBtn = ({ obj }) => {
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
                 <div className="cap2">
