@@ -292,7 +292,7 @@ $platinum: #ecebea;
   /* Animation */
   p {
     animation: animated-text 1s steps(12) 1s 1 normal both,
-      animated-cursor 600ms steps(12) infinite;
+      animated-cursor 850ms steps(12) infinite;
   }
 
   /* text animation */
@@ -301,7 +301,7 @@ $platinum: #ecebea;
       width: 0;
     }
     to {
-      width: 210px;
+      width: 220px;
     }
   }
 
@@ -316,7 +316,7 @@ $platinum: #ecebea;
   }
 
   //won't work if changed - default inside typewriter-effect library
-  // .Typewriter__cursor {
-  //   color: $golden;
-  // }
+  .Typewriter__cursor {
+    color: $golden;
+  }
 }

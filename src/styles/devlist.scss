@@ -14,6 +14,7 @@ $platinum: #ecebea;
 .dev-list__section {
   background-color: $space;
   padding-block: 1rem;
+  padding-top: 30px;
 
   .devList__title {
     text-align: center;
@@ -26,7 +27,7 @@ $platinum: #ecebea;
 
   .scrolling-text__block {
     position: relative;
-}
+  }
 }
 
 //Developer List
@@ -96,7 +97,7 @@ $platinum: #ecebea;
     border-width: 1px;
     background-color: white;
     max-width: 250px;
-    min-height: 250px;
+    min-height: 202px;
     padding-left: 10px;
     padding-top: 10px;
   }
