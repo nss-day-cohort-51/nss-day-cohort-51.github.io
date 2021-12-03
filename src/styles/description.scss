@@ -29,23 +29,63 @@ $platinum: #ecebea;
     color: $orange;
     text-decoration: none;
   }
+
+  .demo-day-btn {
+    display: flex;
+    border: transparent;
+    border-radius: 5px;
+    background: linear-gradient(to bottom left, #f2583e 0%, #f5b467 100%);
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 5px 0px;
+    width: 160px;
+  
+    .btn-item {
+      font-size: 0.75em;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+  
+      a {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .logo {
-  width: 300px;
-  margin: 40px;
-  margin-right: 40px;
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  margin: 40px auto -3px;
+  min-width: 360px;
 }
 
 .logo-img {
-  width: 100%;
+ align-self: flex-end;
+ width: 90%;
+
 }
 
 .description-section__about {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
   padding: 35px;
+  // border: solid cornflowerblue;
+
+
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 35px;
+  // border: solid springgreen;
 }
