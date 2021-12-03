@@ -59,7 +59,7 @@ export const MediaIcons = ({ obj }) => {
             title="resume"
             // style={{ color: iconColor }}
           >
-            <BsFillFileTextFill />
+            {/* <BsFillFileTextFill /> */}
           </a>
         </div>
         <div className="icon web">
@@ -70,7 +70,7 @@ export const MediaIcons = ({ obj }) => {
             title="personal website"
             // style={{ color: iconColor }}
           >
-            <BsGlobe2 />
+            {/* <BsGlobe2 /> */}
           </a>
         </div>
         <div className="icon mail">

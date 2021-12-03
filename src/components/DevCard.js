@@ -5,15 +5,9 @@ import { MediaIcons } from "../components/MediaIcons";
 // import { Example } from "../components/Example";
 import { CapBtn, PodPlayer } from "../components/MediaButtons";
 import "../styles/custom.scss";
+import { buttonColor, borderColor } from "./helpers";
 
 export const DevCard = ({ obj }) => {
-  const borderColor = (title) => {
-    if (title === "FULL STACK DEVELOPER") {
-      return "fsYellow";
-    } else {
-      return "feBlue";
-    }
-  };
 
   return (
     <>
@@ -24,7 +18,7 @@ export const DevCard = ({ obj }) => {
             <img
               src={require(`../images/${obj?.pic}`).default}
               alt={obj?.name}
-              className={borderColor(obj.title)}
+              className={borderColor(obj?.title)}
             />
           ) : (
             <img
@@ -51,10 +45,18 @@ export const DevCard = ({ obj }) => {
         <div className="dev-card__capstone">
           <CapBtn obj={obj} />
         </div>
+
+        <a href={obj?.resume} target="_blank" rel="noreferrer">
+          <div className={buttonColor(obj?.title)}>RESUME</div></a>
+
+        <a href={obj?.personal} target="_blank" rel="noreferrer">
+          <div className={buttonColor(obj?.title)}>PERSONAL SITE</div></a>
+
+
         <div className="dev-card__podcast">
           <div className="card-pod-wrapper">
-            <h5>NSS Interview</h5>
-            <PodPlayer />
+            {/* <h5>NSS Interview</h5>
+            <PodPlayer /> */}
           </div>
           {/* <div className="modal-pod">
             <div className="pod-title">Podcast Interview</div>
