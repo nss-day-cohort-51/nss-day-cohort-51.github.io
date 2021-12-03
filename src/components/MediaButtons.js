@@ -68,7 +68,7 @@ export const CapBtn = ({ obj }) => {
                 </div> */}
 
                 <div className="modal-pod">
-                  <div className="pod-title">NSS Interview</div>
+                  <div className="pod-title">NSS Capstone Interview</div>
                   <div className="pod-wrapper">
                     <iframe
                       title="Podcast Player"
