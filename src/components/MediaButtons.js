@@ -61,7 +61,7 @@ export const CapBtn = ({ obj }) => {
                 </div> */}
 
                 <div className="modal-pod">
-                  <div className="pod-title">NSS Interview</div>
+                  <div className="pod-title">NSS Capstone Interview</div>
                   <div className="pod-wrapper">
                     <iframe
                       title="Podcast Player"
@@ -120,7 +120,6 @@ export const PodPlayer = () => {
   return (
     <>
       <div className="pod-player">
-  
         <iframe
           title="Podcast Player"
           color="#fff"
@@ -134,8 +133,6 @@ export const PodPlayer = () => {
     </>
   );
 };
-
-
 
 // &color=%23747e80
 
