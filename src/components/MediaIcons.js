@@ -1,11 +1,11 @@
 //Purpose: Creates and displays the Media button component
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
   BsLinkedin,
   BsGithub,
-  BsGlobe2,
-  BsFillFileTextFill,
+  // BsGlobe2,
+  // BsFillFileTextFill,
 } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import "../styles/custom.scss";
@@ -51,14 +51,9 @@ export const MediaIcons = ({ obj }) => {
             <BsLinkedin />
           </a>
         </div>
-        <div className="icon resume">
-          <a
-            href={obj?.resume}
-            target="_blank"
-            rel="noreferrer"
-            title="resume"
-            // style={{ color: iconColor }}
-          >
+
+        {/* <div className="icon resume">
+          <a href={obj?.resume} target="_blank" rel="noreferrer" title="resume">
             <BsFillFileTextFill />
           </a>
         </div>
@@ -68,11 +63,11 @@ export const MediaIcons = ({ obj }) => {
             target="_blank"
             rel="noreferrer"
             title="personal website"
-            // style={{ color: iconColor }}
           >
             <BsGlobe2 />
           </a>
-        </div>
+        </div> */}
+
         <div className="icon mail">
           <a
             href={"mailto:" + obj?.email}
