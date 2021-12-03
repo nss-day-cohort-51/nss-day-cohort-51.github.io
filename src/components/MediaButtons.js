@@ -5,6 +5,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
 import "../styles/custom.scss";
+import { buttonColor, colorSet } from "./helpers";
 
 export const CapBtn = ({ obj }) => {
   const [show, setShow] = useState(false);
@@ -12,20 +13,12 @@ export const CapBtn = ({ obj }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  // this sets photo border and close button color
-  // const colorSet = (title) => {
-  //   if (title === "FULL STACK DEVELOPER") {
-  //     return "primary";
-  //   } else {
-  //     return "secondary";
-  //   }
-  // };
-
   return (
     <>
-      <div className="cap-btn" onClick={handleShow}>
+      <div className={buttonColor(obj.title)} onClick={handleShow}>
         VIEW PROJECTS
       </div>
+    
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>
