@@ -14,6 +14,7 @@ $platinum: #ecebea;
 .dev-list__section {
   background-color: $space;
   padding-block: 1rem;
+  padding-top: 30px;
 
   .devList__title {
     text-align: center;
@@ -26,7 +27,7 @@ $platinum: #ecebea;
 
   .scrolling-text__block {
     position: relative;
-}
+  }
 }
 
 //Developer List
@@ -64,6 +65,16 @@ $platinum: #ecebea;
     font-size: 1em;
   }
 
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    
+    text-decoration: none;
+    
+  }
+
   .dev-card__title {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -72,20 +83,23 @@ $platinum: #ecebea;
     padding-bottom: 10px;
     font-size: 18px;
   }
-
+  //Dev pic
   .dev-card__pic {
     img {
       border-radius: 50%;
     }
+    //this className cooresponds to one of the return values of borderColor  
     .fsYellow {
       border: $mustard solid 7px;
       border-radius: 50%;
     }
+    //this className cooresponds to one of the return values of borderColor 
     .feBlue {
       border: $blue solid 7px;
       border-radius: 50%;
     }
   }
+  // interests and facts container
   .interest-fact__container {
     display: flex;
     flex-wrap: wrap;
@@ -96,11 +110,11 @@ $platinum: #ecebea;
     border-width: 1px;
     background-color: white;
     max-width: 250px;
-    min-height: 250px;
+    min-height: 202px;
     padding-left: 10px;
     padding-top: 10px;
   }
-
+  //Dev name
   .dev-card__name {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -109,14 +123,14 @@ $platinum: #ecebea;
     padding-top: 15px;
     padding-bottom: 10px;
   }
-
+  //Dev interests
   .dev-card__interests {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
     padding-right: 5px;
     margin-top: -20px;
   }
-
+  //Dev facrs
   .dev-card__fact {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
