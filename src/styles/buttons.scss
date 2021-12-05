@@ -35,7 +35,7 @@ $platinum: #ecebea;
   }
 }
 
-//Capstone button --- commented out because the capstone button is styled like the other two buttons in div.dev-card-button__block 
+//Capstone button --- commented out because the capstone button is styled like the other two buttons in div.dev-card-button__block
 // .cap-btn {
 //   align-self: center;
 //   width: 250px;
@@ -54,7 +54,7 @@ $platinum: #ecebea;
 //   // box-shadow: 2px 2px 1px grey;
 // }
 
-//Resume button --- commented out because resume is styled like the other two buttons in div.dev-card-button__block 
+//Resume button --- commented out because resume is styled like the other two buttons in div.dev-card-button__block
 // .dev-card__resume {
 //   display: flex;
 //   justify-content: space-around;
@@ -73,7 +73,7 @@ $platinum: #ecebea;
 //   // background-image: linear-gradient(#444c4c, #747e80);
 // }
 
-//Resume button hover --- commented out because resume is styled like the other two buttons in div.dev-card-button__block 
+//Resume button hover --- commented out because resume is styled like the other two buttons in div.dev-card-button__block
 // .dev-card__resume:hover {
 //   background-color: $orange;
 //   color: #120000;
@@ -95,7 +95,6 @@ $platinum: #ecebea;
 //   letter-spacing: 3px;
 // }
 
-
 // commented out because a new class was created for the buttons' containing div ".dev-card-button__block", and the CSS rules were moved to devlist.scss
 // .feButtonBlue {
 //   display: flex;
@@ -115,34 +114,14 @@ $platinum: #ecebea;
 // }
 // these commented out lines will be permanently deleted before final site roll-out
 
-
 //Podcast Player section
 .pod-player {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5px 0px 10px;
-  width: 83%;
-  padding: 7px 0px;
+  padding: 7px 20px;
   background-color: white;
   border-radius: 8px;
   border: 1px solid lightgray;
-
-  // a {
-  //   color: #cccccc;
-  //   text-decoration: none;
-  // }
-
-  // div {
-  //   font-size: 10px;
-  //   color: #cccccc;
-  //   line-break: anywhere;
-  //   word-break: normal;
-  //   overflow: hidden;
-  //   text-overflow: ellipsis;
-  //   font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
-  //     Garuda, Verdana, Tahoma, sans-serif;
-  //   font-weight: 100;
-  //   border: 1px solid lightgray;
-  // }
 }

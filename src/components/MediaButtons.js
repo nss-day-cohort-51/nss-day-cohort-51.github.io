@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
-import "../styles/custom.scss";
 import { buttonColor, colorSet } from "./helpers";
+import "../styles/custom.scss";
 
 export const CapBtn = ({ obj }) => {
   const [show, setShow] = useState(false);
@@ -33,7 +33,7 @@ export const CapBtn = ({ obj }) => {
         <Modal.Body>
           <div className="modal-wrapper">
             <div className="modal-list__left">
-              {/* <div className="modal-pic">
+              <div className="modal-pic">
                 {obj?.pic ? (
                   <img
                     src={require(`../images/${obj?.pic}`).default}
@@ -47,7 +47,7 @@ export const CapBtn = ({ obj }) => {
                     className="default"
                   />
                 )}
-              </div> */}
+              </div>
               <div className="modal-devtitle">
                 {obj?.title}
                 <div className="modal-icons">
@@ -66,11 +66,15 @@ export const CapBtn = ({ obj }) => {
                 </div> */}
 
                 <div className="modal-pod">
-                  <div className="pod-title">NSS Capstone Interview</div>
+                  <div className="modal-pod-title">NSS Capstone Interview</div>
+                  <div className="modal-pod-text">
+                    Check out the podcast interview I recorded about my
+                    capstone!
+                  </div>
                   <div className="pod-wrapper">
                     <iframe
                       title="Podcast Player"
-                      width="80%"
+                      width="90%"
                       height="20"
                       scrolling="no"
                       frameBorder="no"
@@ -92,7 +96,7 @@ export const CapBtn = ({ obj }) => {
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                   ></iframe>
                 </div>
                 <div className="cap2">
@@ -112,7 +116,7 @@ export const CapBtn = ({ obj }) => {
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleClose} variant="primary">
+          <Button onClick={handleClose} variant={colorSet(obj.title)}>
             Close
           </Button>
         </Modal.Footer>

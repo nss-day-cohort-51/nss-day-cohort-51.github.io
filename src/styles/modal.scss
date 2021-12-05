@@ -103,7 +103,7 @@ $platinum: #ecebea;
       font-family: "Poppins", sans-serif;
       font-size: 1.1rem;
       background-color: lightgray;
-      padding: 5px;
+      padding: 15px 15px 8px;
       border: 1px solid rgb(172, 172, 172);
       border-radius: 5px;
       display: flex;
@@ -112,14 +112,24 @@ $platinum: #ecebea;
       margin: auto auto;
 
       .pod-title {
+        font-size: 1.1em;
+        font-weight: 600;
+        padding: 10px;
         margin: 6px auto 3px;
+      }
+
+      .modal-pod-text {
+        font-size: 0.9em;
+        font-weight: 400;
+        padding: 0px auto 10px;
+        max-width: 260px;
       }
 
       .pod-wrapper {
         background-color: $platinum;
         border-radius: 5px;
         border: 1px solid darkgray;
-        padding: 11px 0px 3px 0px;
+        padding: 11px 0px 3px;
         margin: 6px auto;
       }
     }
@@ -133,10 +143,6 @@ $platinum: #ecebea;
     align-items: center;
     padding: 25px 0px;
     // border: 2px dashed red;
-
-    h4 {
-      // margin-top: 25px;
-    }
 
     .capstone-wrapper {
       display: flex;
@@ -183,6 +189,10 @@ $platinum: #ecebea;
     font-weight: 600;
     padding: 4px 10px;
     margin: 12px 0px 10px 0px;
+  }
+
+  .btn:hover {
+    color: black;
   }
 }
 
