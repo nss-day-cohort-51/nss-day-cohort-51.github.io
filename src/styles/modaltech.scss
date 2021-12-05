@@ -13,7 +13,6 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 320px;
   margin-bottom: 5px;
   // border: 1px dashed red;
 
@@ -35,41 +34,37 @@ $platinum: #ecebea;
     }
   }
 
+  //styles full stack tech button
+  .fs-btn {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    .colors {
+      background-color: $mustard;
+      color: black;
+    }
+  }
+
+  //styles ux tech button
+  .ux-btn {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    .colors {
+      background-color: $blue;
+      color: black;
+    }
+  }
+
   // this controls whether all buttons start at left margin or centered within div
   .spacing {
     justify-content: center;
   }
-
-  .modal-tech__dev {
-    display: flex;
-    flex-direction: row;
-    margin: 5px auto;
-    // border: 1px solid red;
-
-    //styles full stack tech button
-    .fs-btn {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
-      .colors {
-        background-color: $golden;
-        color: black;
-      }
-    }
-
-    //styles ux tech button
-    .ux-btn {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
-      .colors {
-        background-color: $blue;
-        color: black;
-      }
-    }
-  }
+  // }
 
   .tech-btn {
     border-radius: 5px;

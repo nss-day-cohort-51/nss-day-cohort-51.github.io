@@ -73,6 +73,10 @@ export const CapBtn = ({ obj, allTechStack }) => {
               <div className="capstone-wrapper">
                 <div className="cap1">
                   <h5>{obj?.capName}</h5>
+                  <div className="capstone-description">
+                    Short description of capstone goes here. What languages did
+                    you use etc
+                  </div>
                   <iframe
                     width="340"
                     height="235"
@@ -85,6 +89,10 @@ export const CapBtn = ({ obj, allTechStack }) => {
                 </div>
                 <div className="cap2">
                   <h5>{obj?.cap2Name}</h5>
+                  <div className="capstone-description">
+                    Short description of capstone goes here. What languages did
+                    you use etc
+                  </div>
                   <iframe
                     width="340"
                     height="235"

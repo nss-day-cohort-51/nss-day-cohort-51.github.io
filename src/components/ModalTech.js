@@ -21,21 +21,19 @@ export const ModalTech = ({ dev, allTechStack }) => {
             <ModalStackBtn key={tech.id} tech={tech} />
           ))}
         </div>
-        <div className="modal-tech__dev">
-          {dev.title === "FULL STACK DEVELOPER" ? (
-            <div className="fs-btn spacing">
-              {allFullStack.map((tech) => (
-                <ModalStackBtn key={tech.id} tech={tech} />
-              ))}
-            </div>
-          ) : (
-            <div className="ux-btn spacing">
-              {allUX.map((tech) => (
-                <ModalStackBtn key={tech.id} tech={tech} />
-              ))}
-            </div>
-          )}
-        </div>
+        {dev.title === "FULL STACK DEVELOPER" ? (
+          <div className="fs-btn spacing">
+            {allFullStack.map((tech) => (
+              <ModalStackBtn key={tech.id} tech={tech} />
+            ))}
+          </div>
+        ) : (
+          <div className="ux-btn spacing">
+            {allUX.map((tech) => (
+              <ModalStackBtn key={tech.id} tech={tech} />
+            ))}
+          </div>
+        )}
       </div>
     </>
   );
