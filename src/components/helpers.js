@@ -27,10 +27,10 @@ const colorSet = (title) => {
     }
 };
 
-export const DevCardTitleBG = (title) => {
+export const DevCardAddClass = (title) => {
     if (title === "FULL STACK DEVELOPER") {
-        return "dev-card-title__block full-stack";
+        return "full-stack";
     } else {
-        return "dev-card-title__block front-end";
+        return "front-end";
     }
 }

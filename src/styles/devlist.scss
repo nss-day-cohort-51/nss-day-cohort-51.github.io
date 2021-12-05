@@ -157,6 +157,15 @@ $platinum: #ecebea;
     text-align: center;
   }
 
+  .dev-card__body.front-end .dev-card__icons svg:hover {
+    color: $blue;
+    transition: 250ms;
+  }
+  .dev-card__body.full-stack .dev-card__icons svg:hover {
+    color: $mustard;
+    transition: 250ms;
+  }
+
   // .dev-card__podcast {
   //   display: flex;
   //   flex-direction: row;

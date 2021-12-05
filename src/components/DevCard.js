@@ -5,16 +5,22 @@ import { MediaIcons } from "../components/MediaIcons";
 // import { Example } from "../components/Example";
 import { CapBtn, PodPlayer } from "../components/MediaButtons";
 import "../styles/custom.scss";
-import { buttonColor, borderColor, DevCardTitleBG } from "./helpers";
+import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
 
 export const DevCard = ({ obj }) => {
   return (
     <>
       <div className="dev-card">
-        <section className={DevCardTitleBG(obj?.title)}>
+        <section
+          className={
+            "dev-card-title__block" + " " + DevCardAddClass(obj?.title)
+          }
+        >
           <h5 className="dev-card__title">{obj?.title}</h5>
         </section>
-        <section className="dev-card__body">
+        <section
+          className={"dev-card__body" + " " + DevCardAddClass(obj?.title)}
+        >
           <div className="dev-card__pic">
             {obj?.pic ? (
               <img
