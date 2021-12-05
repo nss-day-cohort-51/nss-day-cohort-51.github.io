@@ -22,7 +22,7 @@ export const TechStack = ({ allTechStack }) => {
         <section id="combined-stack__block">
           <section id="combined-stack-list__block" className="list__block">
             <h4 className="section__title">We All Learned the Following</h4>
-            <p className="combined__description">Our hybrid cohort developed  skills and resources.</p>
+            <p className="combined__description">Our hybrid cohort developed these skills and resources.</p>
 
             <ul
               id="combined-stack__list"
