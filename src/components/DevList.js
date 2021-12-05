@@ -2,14 +2,15 @@
 
 import React from "react";
 import { ScrollingText } from "./TextAnimation";
-// import { Example } from "../components/Example";
+import ScrollableAnchor from "react-scrollable-anchor";
 import { DevCard } from "../components/DevCard";
 import "../styles/custom.scss";
 
 export const DevList = ({ allDevs, allTechStack }) => {
   return (
     <>
-      <div id="devList" className="dev-list__section">
+      <ScrollableAnchor id={"devList"}></ScrollableAnchor>
+      <div className="dev-list__section">
         <section className="devList-title__block">
           <h2 className="devList__title">
             Our Developers are out of this world!
