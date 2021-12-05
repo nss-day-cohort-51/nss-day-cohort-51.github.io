@@ -1,8 +1,16 @@
 import React from "react";
+import aliensThreeFaces from "../images/aliensThreeFaces.png";
 
 export const CallToActionSection = () => {
   return (
     <div className="cta-section__block">
+      <section className="cta-section__alien-faces__block">
+        <img
+          className="alien-faces__image"
+          src={aliensThreeFaces}
+          alt="three alien heads"
+        />
+      </section>
       <section className="cta-section__text-container">
         <div className="cta-text__block">
           {" "}
@@ -11,15 +19,15 @@ export const CallToActionSection = () => {
           </span>
         </div>
       </section>
-      <section className="cta-section__">
+      <section className="cta-section__demo-day-btn">
         <a
           href="https://www.nashss.com/demoday/"
           target="_blank"
-          rel="noreferrer" 
+          rel="noreferrer"
           className="link__no-underline"
         >
           <div className="demo-day-btn">
-            <div className="btn-item">RSVP</div>
+            <div className="btn-item" title="Event Link Updates after 11 January 2022">SIGN-UP NOW!</div>
           </div>
         </a>
       </section>
