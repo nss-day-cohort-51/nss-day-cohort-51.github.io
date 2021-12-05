@@ -29,54 +29,33 @@ export const MediaIcons = ({ obj }) => {
   return (
     <>
       <div className="media-btn">
-        <div className="icon git">
-          <a
-            href={obj?.git}
-            target="_blank"
-            rel="noreferrer"
-            title="github"
-            // style={{ color: iconColor }}
-          >
-            <BsGithub />
-          </a>
-        </div>
-        <div className="icon linked">
+        <div className="icon linkedin">
           <a
             href={obj?.linkedin}
             target="_blank"
             rel="noreferrer"
-            title="linkedin"
+            title="Visit LinkedIn"
             // style={{ color: iconColor }}
           >
             <BsLinkedin />
           </a>
         </div>
-        <div className="icon resume">
+        <div className="icon git">
           <a
-            href={obj?.resume}
+            href={obj?.git}
             target="_blank"
             rel="noreferrer"
-            title="resume"
+            title="Visit Github"
             // style={{ color: iconColor }}
           >
-            {/* <BsFillFileTextFill /> */}
+            <BsGithub />
           </a>
         </div>
-        <div className="icon web">
-          <a
-            href={obj?.personal}
-            target="_blank"
-            rel="noreferrer"
-            title="personal website"
-          >
-            {/* <BsGlobe2 /> */}
-          </a>
-        </div> 
 
         <div className="icon mail">
           <a
             href={"mailto:" + obj?.email}
-            title="email"
+            title={"Email " + obj?.name}
             // style={{ color: iconColor }}
           >
             <MdEmail />

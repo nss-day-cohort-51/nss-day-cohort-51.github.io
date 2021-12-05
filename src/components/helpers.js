@@ -26,3 +26,11 @@ const colorSet = (title) => {
         return "secondary";
     }
 };
+
+export const DevCardAddClass = (title) => {
+    if (title === "FULL STACK DEVELOPER") {
+        return "full-stack";
+    } else {
+        return "front-end";
+    }
+}
