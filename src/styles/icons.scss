@@ -13,48 +13,32 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
 
-.icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin: 3px;
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 3px 3px;
 
-  a {
-    font-size: 45px;
-    color: $space;
-    text-decoration: none;
-    padding: 0px;
+    a {
+      font-size: 45px;
+      color: $space;
+      text-decoration: none;
+      padding: 0px;
+    }
   }
-}
 
-.git {
-  a {
-    margin: auto 0px;
-  }
-}
-
-.linked {
-  a {
+  .linkedin a {
     margin: auto 2px auto 5px;
   }
-}
 
-.mail {
-  a {
+  .mail a {
     font-size: 55px;
   }
-}
 
-.resume {
-  a {
-    margin: auto 0px;
-  }
-}
-
-.web {
-  a {
+  .git a,
+  .web a,
+  .resume a {
     margin: auto 0px;
   }
 }

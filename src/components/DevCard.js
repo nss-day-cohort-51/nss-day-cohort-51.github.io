@@ -39,8 +39,6 @@ export const DevCard = ({ obj }) => {
             <p className="dev-card__fact">{obj?.fact}</p>
           </div>
 
-
-
           {/* <div className="dev-card__podcast">
             <div className="card-pod-wrapper">
               <h5>NSS Interview</h5>
@@ -62,9 +60,7 @@ export const DevCard = ({ obj }) => {
           </div> */}
         </section>
         <section className="dev-card__actions">
-                    <section className="dev-card-button__block">
-            <CapBtn obj={obj} />
-
+          <section className="dev-card-button__block">
             <div className={buttonColor(obj?.title)}>
               {" "}
               <a
@@ -76,7 +72,6 @@ export const DevCard = ({ obj }) => {
                 RESUME{" "}
               </a>
             </div>
-
             <div className={buttonColor(obj?.title)}>
               {" "}
               <a
@@ -87,7 +82,8 @@ export const DevCard = ({ obj }) => {
               >
                 PERSONAL SITE{" "}
               </a>
-            </div>
+            </div>{" "}
+            <CapBtn obj={obj} />
           </section>
         </section>
       </div>

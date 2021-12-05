@@ -58,7 +58,34 @@ $platinum: #ecebea;
   margin: 15px;
   border-radius: 12px;
 
-  // Dev Card Body
+  // Dev Card Title Block *********************************************
+
+  .dev-card-title__block {
+    background-color: transparent;
+    width: 100%;
+    margin-block-end: 1rem;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .dev-card-title__block.full-stack {
+    background-color: #dfb775;
+  }
+
+  .dev-card-title__block.front-end {
+    background-color: #82bad9;
+  }
+
+  .dev-card__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: $midnight;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  // Dev Card Body *********************************************
   .dev-card__body {
     display: flex;
     flex-direction: column;
@@ -74,39 +101,21 @@ $platinum: #ecebea;
     font-size: 1em;
   }
 
-  .dev-card-button__block a {
-    text-decoration: none;
-    color: $platinum;
-  }
-
-  .dev-card-button__block a:hover {
-    color: $midnight;
-  }
-
   a:hover {
     text-decoration: none;
   }
 
-  .dev-card__title {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    color: $midnight;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    text-align: center;
-  }
   //Dev pic
   .dev-card__pic {
     img {
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor
+    //this className corresponds to one of the return values of borderColor
     .fsYellow {
       border: $mustard solid 7px;
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor
+    //this className corresponds to one of the return values of borderColor
     .feBlue {
       border: $blue solid 7px;
       border-radius: 50%;
@@ -118,7 +127,8 @@ $platinum: #ecebea;
     border-radius: 5px;
     border-width: 1px;
     background-color: white;
-    padding: .5rem;
+    padding: 0.5rem;
+    height: 14ex;
   }
   //Dev name
   .dev-card__name {
@@ -173,18 +183,45 @@ $platinum: #ecebea;
   //   }
   // }
 
-  .dev-card-title__block {
-    background-color: transparent;
+  // Dev Card Actions ****************************************
+  .dev-card__actions {
     width: 100%;
-    margin-block-end: 1rem;
-    border-radius: 12px 12px 0 0;
+    padding: 0 1rem 1rem;
+    text-align: center;
   }
 
-  .dev-card-title__block.full-stack {
-    background-color: #dfb775;
+  //these lines of code were moved from buttons.scss. This selector was added in place of .feButtonBlue and .fsButtonYellow because each class had identical declarations
+  .dev-card-button__block > * {
+    padding: 5px 15px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #747e80;
+    color: $platinum;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 0 0 0.5rem;
+    box-shadow: 0 0.125rem 0.125rem 0px #120000;
   }
 
-  .dev-card-title__block.front-end {
-    background-color: #82bad9;
+  .dev-card-button__block a {
+    text-decoration: none;
+    color: $platinum;
+  }
+
+  .dev-card-button__block .fsButtonYellow:hover {
+    background-color: $mustard;
+    color: $midnight;
+    transition: 300ms;
+    box-shadow: 0 0.125rem 0.125rem 0px #12000050;
+  }
+
+  .dev-card-button__block .feButtonBlue:hover {
+    background-color: $blue;
+    color: $midnight;
+    transition: 300ms;
+    box-shadow: 0 0.125rem 0.125rem 0px #12000050;
   }
 }

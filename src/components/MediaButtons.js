@@ -15,8 +15,11 @@ export const CapBtn = ({ obj }) => {
 
   return (
     <>
-      <div className="dev-card__capstone dev-card__button">
-        <span className={buttonColor(obj.title)} onClick={handleShow}>
+      <div className={buttonColor(obj.title)}>
+        <span
+          className="dev-card__capstone dev-card__button"
+          onClick={handleShow}
+        >
           LEARN MORE
         </span>
       </div>
