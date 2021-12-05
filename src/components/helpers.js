@@ -19,7 +19,7 @@ export const buttonColor = (title) => {
 };
 
 // this sets photo border and close button color
-const colorSet = (title) => {
+export const colorSet = (title) => {
   if (title === "FULL STACK DEVELOPER") {
     return "primary";
   } else {
