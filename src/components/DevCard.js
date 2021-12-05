@@ -2,13 +2,11 @@
 
 import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
-// import { Example } from "../components/Example";
-import { CapBtn, PodPlayer } from "../components/MediaButtons";
+import { CapBtn } from "../components/MediaButtons";
 import "../styles/custom.scss";
 import { buttonColor, borderColor } from "./helpers";
 
-export const DevCard = ({ obj }) => {
-
+export const DevCard = ({ obj, allTechStack }) => {
   return (
     <>
       <div className="dev-card">
@@ -43,34 +41,19 @@ export const DevCard = ({ obj }) => {
           <MediaIcons key={obj.id} obj={obj} />
         </div>
         <div className="dev-card__capstone">
-          <CapBtn obj={obj} />
+          <CapBtn obj={obj} allTechStack={allTechStack} />
         </div>
 
         <a href={obj?.resume} target="_blank" rel="noreferrer">
-          <div className={buttonColor(obj?.title)}>RESUME</div></a>
+          <div className={buttonColor(obj?.title)}>RESUME</div>
+        </a>
 
         <a href={obj?.personal} target="_blank" rel="noreferrer">
-          <div className={buttonColor(obj?.title)}>PERSONAL SITE</div></a>
-
+          <div className={buttonColor(obj?.title)}>PERSONAL SITE</div>
+        </a>
 
         <div className="dev-card__podcast">
-          <div className="card-pod-wrapper">
-            {/* <h5>NSS Interview</h5>
-            <PodPlayer /> */}
-          </div>
-          {/* <div className="modal-pod">
-            <div className="pod-title">Podcast Interview</div>
-            <div className="pod-wrapper">
-              <iframe
-                title="Podcast Player"
-                width="80%"
-                height="20"
-                scrolling="no"
-                frameBorder="no"
-                src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
-              ></iframe>
-            </div>
-          </div> */}
+          <div className="card-pod-wrapper"></div>
         </div>
       </div>
     </>

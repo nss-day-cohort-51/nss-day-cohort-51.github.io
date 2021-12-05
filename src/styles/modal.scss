@@ -9,6 +9,10 @@ $golden: #f5b467;
 $platinum: #ecebea;
 // *************************
 
+.modal-content {
+  margin: auto auto;
+}
+
 .modal-header {
   background-color: $gray;
   text-align: center;
@@ -28,7 +32,7 @@ $platinum: #ecebea;
 .modal {
   background-color: rgba(0, 0, 0, 0.75);
 
-  .modal-wrapper {
+  .modal-content-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -54,7 +58,7 @@ $platinum: #ecebea;
     .modal-pic {
       width: 200px;
       height: 200px;
-      margin: 20px auto;
+      margin: 10px auto 0px;
     }
 
     .primary {
@@ -69,68 +73,66 @@ $platinum: #ecebea;
       border: 5px solid $blue;
     }
 
-    .modal-devtitle {
-      font-family: "Space Mono", sans-serif;
-      font-size: 1.4rem;
-      font-weight: 600;
-      text-align: center;
-    }
-
     //Modal media icons
     .modal-icons {
+      text-align: center;
+      // margin-bottom: 10px;
+    }
+
+    .modal-dev-title {
+      font-family: "Space Mono", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
       text-align: center;
       margin-bottom: 10px;
     }
 
-    .modal-intfact-wrapper {
-      background-color: white;
-      font-family: "Poppins", sans-serif;
-      padding: 5px 8px;
-      margin: 10px auto 12px;
-      border-radius: 5px;
-      border: 1px solid darkgray;
-    }
-
-    .modal-interests,
-    .modal-fact {
-      font-size: 1rem;
-      font-weight: 400;
-      padding: 5px;
-      text-align: left;
+    .modal-tech {
+      // border: 1px solid blue;
     }
 
     .modal-pod {
       font-family: "Poppins", sans-serif;
       font-size: 1.1rem;
       background-color: lightgray;
-      padding: 15px 15px 8px;
+      padding: 0px 15px 5px;
       border: 1px solid rgb(172, 172, 172);
       border-radius: 5px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin: auto auto;
+      margin: 10px auto 0px;
 
-      .pod-title {
+      .modal-pod__title {
         font-size: 1.1em;
         font-weight: 600;
-        padding: 10px;
-        margin: 6px auto 3px;
+        padding-top: 8px;
+        margin: 0px auto;
       }
 
-      .modal-pod-text {
+      .modal-pod__text {
         font-size: 0.9em;
         font-weight: 400;
-        padding: 0px auto 10px;
+        padding: 0px 0px 5px 0px;
         max-width: 260px;
+        text-align: center;
       }
 
-      .pod-wrapper {
+      .modal-pod__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
         background-color: $platinum;
         border-radius: 5px;
         border: 1px solid darkgray;
-        padding: 11px 0px 3px;
+        padding: 8px 0px;
         margin: 6px auto;
+        width: 320px;
+
+        iframe {
+          align-self: center;
+        }
       }
     }
   }

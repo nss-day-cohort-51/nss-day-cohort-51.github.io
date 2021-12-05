@@ -4,10 +4,11 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
+import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
 
-export const CapBtn = ({ obj }) => {
+export const CapBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -18,7 +19,6 @@ export const CapBtn = ({ obj }) => {
       <div className={buttonColor(obj.title)} onClick={handleShow}>
         VIEW PROJECTS
       </div>
-
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>
@@ -26,7 +26,7 @@ export const CapBtn = ({ obj }) => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className="modal-wrapper">
+          <div className="modal-content-wrapper">
             <div className="modal-list__left">
               <div className="modal-pic">
                 {obj?.pic ? (
@@ -43,39 +43,28 @@ export const CapBtn = ({ obj }) => {
                   />
                 )}
               </div>
-              <div className="modal-devtitle">
-                {obj?.title}
-                <div className="modal-icons">
-                  <MediaIcons key={obj.id} obj={obj} />
+              <div className="modal-icons">
+                <MediaIcons key={obj.id} obj={obj} />
+              </div>
+              <div className="modal-dev-title">{obj?.title}</div>
+
+              <div className="modal-tech">
+                <ModalTech key={obj.id} dev={obj} allTechStack={allTechStack} />
+              </div>
+              <div className="modal-pod">
+                <div className="modal-pod__title">NSS Capstone Interview</div>
+                <div className="modal-pod__text">
+                  Check out the podcast interview about my capstone!
                 </div>
-
-                {/* <div className="modal-intfact-wrapper">
-                  <div className="modal-interests">
-                    <strong>Industry Interest: </strong>
-                    {obj?.interests}
-                  </div>
-                  <div className="modal-fact">
-                    <strong>Fun Fact: </strong>
-                    {obj?.fact}
-                  </div>
-                </div> */}
-
-                <div className="modal-pod">
-                  <div className="modal-pod-title">NSS Capstone Interview</div>
-                  <div className="modal-pod-text">
-                    Check out the podcast interview I recorded about my
-                    capstone!
-                  </div>
-                  <div className="pod-wrapper">
-                    <iframe
-                      title="Podcast Player"
-                      width="90%"
-                      height="20"
-                      scrolling="no"
-                      frameBorder="no"
-                      src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
-                    ></iframe>
-                  </div>
+                <div className="modal-pod__wrapper">
+                  <iframe
+                    title="Podcast Player"
+                    width="90%"
+                    height="20"
+                    scrolling="no"
+                    frameBorder="no"
+                    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
+                  ></iframe>
                 </div>
               </div>
             </div>

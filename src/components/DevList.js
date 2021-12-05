@@ -6,7 +6,7 @@ import { ScrollingText } from "./TextAnimation";
 import { DevCard } from "../components/DevCard";
 import "../styles/custom.scss";
 
-export const DevList = ({ allDevs }) => {
+export const DevList = ({ allDevs, allTechStack }) => {
   return (
     <>
       <div id="devList" className="dev-list__section">
@@ -20,7 +20,7 @@ export const DevList = ({ allDevs }) => {
         </section>
         <section className="dev-list">
           {allDevs.map((obj) => (
-            <DevCard key={obj.id} obj={obj} />
+            <DevCard key={obj.id} obj={obj} allTechStack={allTechStack} />
           ))}
         </section>
       </div>

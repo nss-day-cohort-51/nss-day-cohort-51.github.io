@@ -1,12 +1,7 @@
 //Purpose: Creates and displays the Media button component
 
 import React from "react";
-import {
-  BsLinkedin,
-  BsGithub,
-  // BsGlobe2,
-  // BsFillFileTextFill,
-} from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import "../styles/custom.scss";
 
@@ -16,7 +11,7 @@ export const MediaIcons = ({ obj }) => {
       <div className="media-btn">
         <div className="icon git">
           <a href={obj?.git} target="_blank" rel="noreferrer" title="github">
-            <BsGithub />
+            <BsGithub /> {/* Github icon */}
           </a>
         </div>
         <div className="icon linked">
@@ -26,12 +21,12 @@ export const MediaIcons = ({ obj }) => {
             rel="noreferrer"
             title="linkedin"
           >
-            <BsLinkedin />
+            <BsLinkedin /> {/* Linkedin icon */}
           </a>
         </div>
         <div className="icon mail">
           <a href={"mailto:" + obj?.email} title="email">
-            <MdEmail />
+            <MdEmail /> {/* Email icon */}
           </a>
         </div>
       </div>
