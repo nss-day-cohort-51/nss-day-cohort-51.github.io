@@ -69,7 +69,7 @@ export const DevCard = ({ obj, allTechStack }) => {
                 rel="noreferrer"
                 className="dev-card__button personal-site__link"
               >
-                PERSONAL SITE{" "}
+                PORTFOLIO{" "}
               </a>
             </div>{" "}
             <CapBtn obj={obj} allTechStack={allTechStack} />
