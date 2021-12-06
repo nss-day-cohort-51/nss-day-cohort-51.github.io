@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec0efb13.chunk.css",
-    "main.js": "/static/js/main.7abff6ea.chunk.js",
-    "main.js.map": "/static/js/main.7abff6ea.chunk.js.map",
+    "main.css": "/static/css/main.e907690c.chunk.css",
+    "main.js": "/static/js/main.de477b9e.chunk.js",
+    "main.js.map": "/static/js/main.de477b9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1cfd00dd.js",
     "runtime-main.js.map": "/static/js/runtime-main.1cfd00dd.js.map",
-    "static/js/2.cfff385d.chunk.js": "/static/js/2.cfff385d.chunk.js",
-    "static/js/2.cfff385d.chunk.js.map": "/static/js/2.cfff385d.chunk.js.map",
+    "static/js/2.4db658b6.chunk.js": "/static/js/2.4db658b6.chunk.js",
+    "static/js/2.4db658b6.chunk.js.map": "/static/js/2.4db658b6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ec0efb13.chunk.css.map": "/static/css/main.ec0efb13.chunk.css.map",
-    "static/js/2.cfff385d.chunk.js.LICENSE.txt": "/static/js/2.cfff385d.chunk.js.LICENSE.txt",
+    "static/css/main.e907690c.chunk.css.map": "/static/css/main.e907690c.chunk.css.map",
+    "static/js/2.4db658b6.chunk.js.LICENSE.txt": "/static/js/2.4db658b6.chunk.js.LICENSE.txt",
     "static/media/alien-face-GREY-Hex323637-600x800px.png": "/static/media/alien-face-GREY-Hex323637-600x800px.78b13ab8.png",
     "static/media/alienface.svg": "/static/media/alienface.28a96475.svg",
     "static/media/aliensThreeFaces.svg": "/static/media/aliensThreeFaces.0321c3c0.svg",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1cfd00dd.js",
-    "static/js/2.cfff385d.chunk.js",
-    "static/css/main.ec0efb13.chunk.css",
-    "static/js/main.7abff6ea.chunk.js"
+    "static/js/2.4db658b6.chunk.js",
+    "static/css/main.e907690c.chunk.css",
+    "static/js/main.de477b9e.chunk.js"
   ]
 }
