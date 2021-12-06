@@ -18,11 +18,11 @@ export const TechStack = ({ allTechStack }) => {
     <>
       <section id="techStack" className="tech-stack background-overlay">
         <div className="background-overlay"></div>
-        <h2>Tech Stack</h2>
+        <h2 className="tech-stack__title">Tech Stack</h2>
         <section id="combined-stack__block">
           <section id="combined-stack-list__block" className="list__block">
             <h4 className="section__title">We All Learned the Following</h4>
-            <p className="combined__description">Our hybrid cohort developed  skills and resources.</p>
+            <p className="combined__description">Our hybrid cohort developed these skills and resources.</p>
 
             <ul
               id="combined-stack__list"
