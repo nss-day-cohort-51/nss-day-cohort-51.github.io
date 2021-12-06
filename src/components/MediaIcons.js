@@ -1,12 +1,7 @@
 //Purpose: Creates and displays the Media button component
 
 import React from "react";
-import {
-  BsLinkedin,
-  BsGithub,
-  // BsGlobe2,
-  // BsFillFileTextFill,
-} from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import "../styles/custom.scss";
 
@@ -22,7 +17,7 @@ export const MediaIcons = ({ obj }) => {
             title="Visit LinkedIn"
             // style={{ color: iconColor }}
           >
-            <BsLinkedin />
+            <BsLinkedin /> {/* Linkedin icon */}
           </a>
         </div>
         <div className="icon git">

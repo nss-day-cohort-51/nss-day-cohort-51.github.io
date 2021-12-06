@@ -24,7 +24,7 @@ export const App = () => {
     <div className="page">
       <NavBar />
       <Description />
-      <DevList allDevs={allDevs} />
+      <DevList allDevs={allDevs} allTechStack={allTechStack} />
       <CallToActionSection />
       <TechStack allTechStack={allTechStack} />
       <ThanksLocation />
