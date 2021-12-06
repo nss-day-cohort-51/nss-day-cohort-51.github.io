@@ -21,7 +21,6 @@ $platinum: #ecebea;
   position: fixed;
   z-index: 1000;
   width: 100%;
-  // border: 2px dashed red;
 
   .typing-holder {
     margin: auto 0px;
@@ -30,7 +29,7 @@ $platinum: #ecebea;
 }
 
 .nav-menu {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   flex-direction: column;
@@ -44,10 +43,14 @@ $platinum: #ecebea;
     justify-content: space-between;
     align-items: center;
     white-space: nowrap;
+    // border: 1px solid aqua;
   }
 
   li {
-    margin: 5px 10px;
+    margin: auto 10px;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+    // border: 1px dashed yellow;
   }
 
   #demoday {
@@ -69,13 +72,12 @@ $platinum: #ecebea;
       color: $orange;
     }
   }
-
-  .nav-item {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
 
 .rsvp {
   margin: auto 20px;
+}
+
+.collapsed {
+  margin-right: 15px;
 }

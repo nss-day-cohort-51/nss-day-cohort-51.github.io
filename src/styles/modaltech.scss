@@ -1,0 +1,74 @@
+// C51 Website Color palette
+$midnight: #120000;
+$space: #323637;
+$gray: #747e80;
+$blue: #82bad9;
+$orange: #f2583e;
+$mustard: #dfb775;
+$golden: #f5b467;
+$platinum: #ecebea;
+// *************************
+
+.modal-tech__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  // border: 1px dashed red;
+
+  .tech-btn {
+    text-align: center;
+    width: fit-content;
+  }
+
+  .all-devs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    // border: 1px solid blue;
+
+    .colors {
+      background-color: $space;
+      color: white;
+    }
+  }
+
+  //styles full stack tech button
+  .fs-btn {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    .colors {
+      background-color: $mustard;
+      color: black;
+    }
+  }
+
+  //styles ux tech button
+  .ux-btn {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    .colors {
+      background-color: $blue;
+      color: black;
+    }
+  }
+
+  // this controls whether all buttons start at left margin or centered within div
+  .spacing {
+    justify-content: center;
+  }
+  // }
+
+  .tech-btn {
+    border-radius: 5px;
+    padding: 0px 5px;
+    margin: 2px;
+  }
+}
