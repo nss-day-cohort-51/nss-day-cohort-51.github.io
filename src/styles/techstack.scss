@@ -31,6 +31,10 @@ $platinum: #ecebea;
     bottom: 0;
   }
 
+  .tech-stack__title {
+    text-transform: uppercase;
+  }
+
   > section {
     padding: 1rem;
   }
@@ -54,15 +58,18 @@ $platinum: #ecebea;
     column-count: 2;
     padding-left: 0;
   }
+
   .section__title {
     text-align: center;
     text-transform: uppercase;
   }
+
   .techStack__divider {
     color: #f5b467;
     width: 50vw;
     margin: auto;
   }
+
   .tech-stack-btn span {
     background-color: #323637;
     color: #ecebea;
@@ -71,9 +78,11 @@ $platinum: #ecebea;
     border-radius: 5px;
     line-height: 2rem;
   }
+
   h4 {
     text-align: center;
   }
+
   .list__block {
     padding: 1rem 2rem;
     background-color: #ffffff;
@@ -81,13 +90,16 @@ $platinum: #ecebea;
     margin: 1rem;
     box-shadow: 0 2px 0.5rem #747e80;
   }
+
   #frontend-stack__list .tech-stack-btn span {
-    background-color: #dfb775;
+    background-color: #82bad9;
     color: #323637;
   }
+
   #full-stack__block .tech-stack-btn span {
+    background-color: #dfb775;
+
     color: #323637;
-    background-color: #82bad9;
   }
 
   #full-stack__block.list__block,
@@ -99,13 +111,15 @@ $platinum: #ecebea;
     margin-block-end: 1rem;
     margin-block-start: 1rem;
   }
+
   #front-end-stack__block .section__title {
-    border-bottom: 1px solid #dfb775;
-    line-height: 2rem;
-  }
-  #full-stack__block .section__title {
     border-bottom: 1px solid #82bad9;
     line-height: 2rem;
+  }
+
+  #full-stack__block .section__title {
+    line-height: 2rem;
+    border-bottom: 1px solid #dfb775;
   }
 }
 

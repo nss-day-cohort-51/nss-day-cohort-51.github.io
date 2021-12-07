@@ -16,11 +16,6 @@ export const ModalTech = ({ dev, allTechStack }) => {
   return (
     <>
       <div className="modal-tech__wrapper">
-        <div className="all-devs spacing">
-          {allDevs.map((tech) => (
-            <ModalStackBtn key={tech.id} tech={tech} />
-          ))}
-        </div>
         {dev.title === "FULL STACK DEVELOPER" ? (
           <div className="fs-btn spacing">
             {allFullStack.map((tech) => (
@@ -34,6 +29,12 @@ export const ModalTech = ({ dev, allTechStack }) => {
             ))}
           </div>
         )}
+
+        <div className="all-devs spacing">
+          {allDevs.map((tech) => (
+            <ModalStackBtn key={tech.id} tech={tech} />
+          ))}
+        </div>
       </div>
     </>
   );

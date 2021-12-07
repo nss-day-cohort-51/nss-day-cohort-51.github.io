@@ -3,15 +3,7 @@
 import React from "react";
 
 export const TechStackButton = ({ stackItem }) => {
-  const linkClass = (URLvalue) => {
-    let linkExists = "";
-    if (URLvalue === "") {
-      linkExists = "noLink";
-    } else {
-      linkExists = "hasLink";
-    }
-    return linkExists;
-  };
+
   return (
     <>
       <li className="tech-stack-btn">

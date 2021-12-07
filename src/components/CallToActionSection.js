@@ -1,32 +1,40 @@
 import React from "react";
-// import ScrollableAnchor from "react-scrollable-anchor";
+import aliensThreeFaces from "../images/aliensThreeFaces.png";
 
 export const CallToActionSection = () => {
   return (
-    <>
-      <div id="callToAction"></div>
-      {/* <ScrollableAnchor id={"techStack"}></ScrollableAnchor> */}
-      <div className="cta-section__block">
-        <section className="cta-section__text-container">
-          <div className="cta-text__block">
-            {" "}
-            <div className="cta-text">
-              JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022
+    <div className="cta-section__block">
+      <section className="cta-section__alien-faces__block">
+        <img
+          className="alien-faces__image"
+          src={aliensThreeFaces}
+          alt="three alien heads"
+        />
+      </section>
+      <section className="cta-section__text-container">
+        <div className="cta-text__block">
+          {" "}
+          <div className="cta-text">
+            JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022
+          </div>
+        </div>
+      </section>
+      <section className="cta-section__demo-day-btn">
+        <a
+          href="https://www.nashss.com/demoday/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="demo-day-btn">
+            <div
+              className="btn-item"
+              title="Event Link Updates after 11 January 2022"
+            >
+              SIGN-UP NOW!
             </div>
           </div>
-        </section>
-        <section className="cta-section">
-          <a
-            href="https://www.nashss.com/demoday/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="demo-day-btn">
-              <div className="btn-item">RSVP</div>
-            </div>
-          </a>
-        </section>
-      </div>
-    </>
+        </a>
+      </section>
+    </div>
   );
 };

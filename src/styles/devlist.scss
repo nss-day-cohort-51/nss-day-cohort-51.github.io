@@ -14,6 +14,8 @@ $platinum: #ecebea;
   scroll-margin-top: 90px;
 }
 
+//Developer Section
+
 .dev-list__section {
   background-color: $space;
   padding-block: 1rem;
@@ -35,6 +37,7 @@ $platinum: #ecebea;
 
 //Developer List
 .dev-list {
+  // position: relative; // this negates sticky navbar - find solution
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -54,46 +57,70 @@ $platinum: #ecebea;
   // background-image: linear-gradient(180deg, #747e80 0 30%, #ecebea 50% 100%);
   display: flex;
   flex-direction: column;
-  display: flex;
   align-items: center;
   border: 1px solid black;
   width: 320px;
   margin: 15px;
   border-radius: 12px;
 
-  p {
-    font-size: small;
-    font-weight: bold;
-    font-size: 1em;
+  // Dev Card Title Block *********************************************
+
+  .dev-card-title__block {
+    background-color: transparent;
+    width: 100%;
+    margin-block-end: 1rem;
+    border-radius: 12px 12px 0 0;
   }
 
-  a {
-    text-decoration: none;
+  .dev-card-title__block.full-stack {
+    background-color: #dfb775;
+  }
+
+  .dev-card-title__block.front-end {
+    background-color: #82bad9;
+  }
+
+  .dev-card__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: $midnight;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  // Dev Card Body *********************************************
+  .dev-card__body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  p {
+    font-size: small;
+    font-size: 1em;
   }
 
   a:hover {
     text-decoration: none;
   }
 
-  .dev-card__title {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    color: #ecebea;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 18px;
-  }
   //Dev pic
   .dev-card__pic {
     img {
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor
+    //this className corresponds to one of the return values of borderColor
     .fsYellow {
       border: $mustard solid 7px;
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor
+    //this className corresponds to one of the return values of borderColor
     .feBlue {
       border: $blue solid 7px;
       border-radius: 50%;
@@ -101,27 +128,21 @@ $platinum: #ecebea;
   }
   // interests and facts container
   .interest-fact__container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
     border: #747e80 solid;
     border-radius: 5px;
     border-width: 1px;
     background-color: white;
-    max-width: 250px;
-    min-height: 202px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: 0.5rem;
+    height: 14ex;
   }
   //Dev name
   .dev-card__name {
     font-family: "Poppins", sans-serif;
-    font-weight: bold;
     color: #120000;
     font-size: x-large;
     padding-top: 15px;
-    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
   }
   //Dev interests
   .dev-card__interests {
@@ -130,12 +151,10 @@ $platinum: #ecebea;
     padding-right: 5px;
     margin-top: -20px;
   }
-  //Dev facrs
+  //Dev facts
   .dev-card__fact {
     font-family: "Poppins", sans-serif;
     font-size: 1em;
-    margin-top: -20px;
-    padding-right: 5px;
   }
 
   //Dev Card media icons
@@ -143,39 +162,80 @@ $platinum: #ecebea;
     text-align: center;
   }
 
-  //Capstone and Podcast buttons
-  .dev-card__capstone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    // width: 80%;
-    align-self: center;
+  .dev-card__body.front-end .dev-card__icons svg:hover {
+    color: $blue;
+    transition: 250ms;
+  }
+  .dev-card__body.full-stack .dev-card__icons svg:hover {
+    color: $mustard;
+    transition: 250ms;
+  }
+
+  // .dev-card__podcast {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: center;
+  //   align-self: center;
+  //   margin-bottom: 10px;
+
+  //   .card-pod-wrapper {
+  //     width: 82%;
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+  //     border-radius: 5px;
+  //     border: 1px solid lightgray;
+  //     background-color: white;
+  //     padding: 0px;
+  //     margin: 10px 0px;
+
+  //     h5 {
+  //       font-weight: 500;
+  //       font-size: 1em;
+  //       margin-top: 10px;
+  //     }
+  //   }
+  // }
+
+  // Dev Card Actions ****************************************
+  .dev-card__actions {
+    width: 100%;
+    padding: 0 1rem 1rem;
     text-align: center;
   }
 
-  .dev-card__podcast {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    margin-bottom: 10px;
+  //these lines of code were moved from buttons.scss. This selector was added in place of .feButtonBlue and .fsButtonYellow because each class had identical declarations
+  .dev-card-button__block > * {
+    padding: 5px 15px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #747e80;
+    color: $platinum;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 0 0 0.5rem;
+    box-shadow: 0 0.125rem 0.125rem 0px #120000;
+  }
 
-    .card-pod-wrapper {
-      width: 82%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border-radius: 5px;
-      border: 1px solid lightgray;
-      background-color: white;
-      padding: 0px;
-      margin: 10px 0px;
+  .dev-card-button__block a {
+    text-decoration: none;
+    color: $platinum;
+  }
 
-      h5 {
-        font-weight: 500;
-        font-size: 1em;
-        margin-top: 10px;
-      }
-    }
+  .dev-card-button__block .fsButtonYellow:hover {
+    background-color: $mustard;
+    color: $midnight;
+    transition: 300ms;
+    box-shadow: 0 0.125rem 0.125rem 0px #12000050;
+  }
+
+  .dev-card-button__block .feButtonBlue:hover {
+    background-color: $blue;
+    color: $midnight;
+    transition: 300ms;
+    box-shadow: 0 0.125rem 0.125rem 0px #12000050;
   }
 }

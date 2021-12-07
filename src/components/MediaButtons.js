@@ -16,8 +16,13 @@ export const CapBtn = ({ obj, allTechStack }) => {
 
   return (
     <>
-      <div className={buttonColor(obj.title)} onClick={handleShow}>
-        VIEW PROJECTS
+      <div className={buttonColor(obj.title)}>
+        <span
+          className="dev-card__capstone dev-card__button"
+          onClick={handleShow}
+        >
+          LEARN MORE
+        </span>
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
