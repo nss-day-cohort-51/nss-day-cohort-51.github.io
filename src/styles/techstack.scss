@@ -10,6 +10,7 @@ $platinum: #ecebea;
 
 #techStack {
   padding-block: 1rem;
+  scroll-margin-top: 90px;
 
   .background-overlay {
     background-color: #ecebea;
@@ -104,11 +105,8 @@ $platinum: #ecebea;
   }
   #full-stack__block .section__title {
     border-bottom: 1px solid #82bad9;
+    line-height: 2rem;
   }
-}
-
-.tech-stack h2 {
-  margin-top: 10px;
 }
 
 .no-bullet__list {
@@ -122,4 +120,8 @@ $platinum: #ecebea;
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.tech-stack h2 {
+  margin-top: 10px;
 }

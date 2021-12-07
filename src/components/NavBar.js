@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import { DemoDayButton } from "../components/DemoDayButton";
 import { TypingText2 } from "../components/TextAnimation";
 import "../styles/custom.scss";
@@ -28,7 +28,7 @@ export const NavBar = () => {
               <a href="#devList">DEVELOPERS</a>
             </li>
             <li className="nav-item">
-              <a href="#callToAction">TECH STACK</a>
+              <a href="#techStack">TECH STACK</a>
             </li>
             <li className="nav-item">
               <a href="#thanksLocation">THANKS</a>

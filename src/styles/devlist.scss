@@ -10,6 +10,9 @@ $platinum: #ecebea;
 // *************************
 
 //Developer Section
+#devList {
+  scroll-margin-top: 90px;
+}
 
 .dev-list__section {
   background-color: $space;
@@ -32,7 +35,6 @@ $platinum: #ecebea;
 
 //Developer List
 .dev-list {
-  // position: relative; // this negates sticky navbar - find solution
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,11 +70,9 @@ $platinum: #ecebea;
   a {
     text-decoration: none;
   }
-  
+
   a:hover {
-    
     text-decoration: none;
-    
   }
 
   .dev-card__title {
@@ -88,12 +88,12 @@ $platinum: #ecebea;
     img {
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor  
+    //this className cooresponds to one of the return values of borderColor
     .fsYellow {
       border: $mustard solid 7px;
       border-radius: 50%;
     }
-    //this className cooresponds to one of the return values of borderColor 
+    //this className cooresponds to one of the return values of borderColor
     .feBlue {
       border: $blue solid 7px;
       border-radius: 50%;
