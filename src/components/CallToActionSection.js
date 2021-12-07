@@ -1,10 +1,10 @@
 import React from "react";
-import ScrollableAnchor from "react-scrollable-anchor";
+// import ScrollableAnchor from "react-scrollable-anchor";
 
 export const CallToActionSection = () => {
   return (
     <>
-      <ScrollableAnchor id={"techStack"}></ScrollableAnchor>
+      {/* <ScrollableAnchor id={"techStack"}></ScrollableAnchor> */}
       <div className="cta-section__block">
         <section className="cta-section__text-container">
           <div className="cta-text__block">

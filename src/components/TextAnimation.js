@@ -55,25 +55,24 @@ export const TypingText2 = () => {
         className="typewriter2"
         style={{
           backgroundImage: `url(${alienface})`,
-          // backgroundHeight: "0.5em",
           backgroundSize: `52px 33px`,
           backgroundRepeat: `no-repeat`,
-          backgroundPosition: `69% 48%`,
+          backgroundPosition: `67% 48%`,
         }}
       >
-        <p>COHORT 51</p>
-        {/* <div className="dynamic"> */}
-        {/* <Typewriter
+        {/* <p>COHORT 51</p> */}
+        <div className="dynamic">
+          <Typewriter
             id="typewriter"
             options={{
               strings: ["COHORT 51"],
               autoStart: true,
               loop: true,
               delay: "natural",
-              stop: true,
+              stop: false,
             }}
-          /> */}
-        {/* </div> */}
+          />
+        </div>
       </div>
     </>
   );
