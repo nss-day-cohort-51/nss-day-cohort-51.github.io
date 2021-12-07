@@ -16,22 +16,16 @@ $platinum: #ecebea;
 .modal-header {
   background-color: $gray;
   text-align: center;
-  padding-left: 30px;
+  // padding-left: 30px;
 
   h4 {
     color: red;
-    font-size: 0.5em;
+    font-size: 0.1rem;
   }
 
   .modal-title {
     justify-content: center;
     text-align: center;
-  }
-
-  .modal-name {
-    color: red;
-    font-size: 0.5rem;
-    line-height: 1.8rem;
   }
 
   .btn-close {
@@ -40,8 +34,22 @@ $platinum: #ecebea;
   }
 }
 
+.fade.modal.show {
+  padding: 0px;
+  margin: 20px 0px 0px;
+}
+
 .modal {
   background-color: rgba(0, 0, 0, 0.75);
+
+  .modal-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 1.8rem;
+  }
 
   .modal-content-wrapper {
     display: flex;
@@ -49,14 +57,6 @@ $platinum: #ecebea;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
-  }
-
-  .modal-name {
-    color: white;
-    font-size: 2.2rem;
-    font-weight: 600;
-    text-align: center;
-    margin: 0px auto;
   }
 
   .modal-list__left {
@@ -182,10 +182,6 @@ $platinum: #ecebea;
       }
     }
   }
-}
-
-.fade.modal.show {
-  margin: 1rem auto 0;
 }
 
 .modal-body {
