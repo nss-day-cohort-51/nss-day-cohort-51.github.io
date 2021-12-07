@@ -65,3 +65,36 @@ h6 {
     scroll-margin-top: 222px;
   }
 }
+
+/* If the screen size is 860px or less, dont show the carousel text in devList */
+@media only screen and (max-width: 860px) {
+  .scrolling-text__block {
+    display: none;
+  }
+}
+
+/* If the screen size is 1075px or less, shrink description bg image to 50% */
+@media only screen and (max-width: 1074px) {
+  .description-section__about {
+    // flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 20px 50px;
+    font-size: 1rem;
+    background-image: url("../images/description.svg");
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: right bottom;
+
+    a {
+      font-size: 1.4rem;
+      text-decoration: none;
+    }
+
+    p {
+      max-width: 80%;
+    }
+  }
+}
