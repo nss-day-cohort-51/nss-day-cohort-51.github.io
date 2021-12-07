@@ -70,18 +70,9 @@ export const TypingText2 = () => {
               loop: true,
               delay: "natural",
               pauseFor: "4000ms",
-              // stop: false,
+              stop: false,
             }}
           />
-          {/* <Typewriter
-            onInit={(typewriter) => {
-              typewriter
-                .typeString("COHORT 51")
-                .pauseFor(2500)
-                .deleteAll()
-                .start();
-            }}
-          /> */}
         </div>
       </div>
     </>
