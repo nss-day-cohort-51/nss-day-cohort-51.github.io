@@ -1,24 +1,27 @@
 .cta-section__block {
   background-color: $platinum;
-  padding: 1rem 2rem;
+  padding: 15px 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   flex: 1 0 320px;
   align-items: center;
   justify-content: center;
-  align-content: center;
-  height: 6rem;
+  text-align: center;
+  font-size: 1.2rem;
 
-  .link__no-underline {
+  .cta-text {
+    margin: 5px 15px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .cta-section {
+    margin: 5px 15px;
+  }
+
+  .cta-section > * {
+    font-size: 1.3em;
     text-decoration: none;
   }
-
-  .cta__text {
-    text-align: center;
-  }
-}
-
-.cta-section__block > * {
-  margin-inline: 0.5rem;
 }

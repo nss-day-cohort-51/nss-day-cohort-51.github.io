@@ -28,7 +28,7 @@ export const NavBar = () => {
               <a href="#devList">DEVELOPERS</a>
             </li>
             <li className="nav-item">
-              <a href="#techStack">TECH STACK</a>
+              <a href="#callToAction">TECH STACK</a>
             </li>
             <li className="nav-item">
               <a href="#thanksLocation">THANKS</a>

@@ -10,7 +10,7 @@ export const DevList = ({ allDevs, allTechStack }) => {
   return (
     <>
       {/* <ScrollableAnchor id={"devList"}></ScrollableAnchor> */}
-      <div className="dev-list__section">
+      <div id="devList" className="dev-list__section">
         <section className="devList-title__block">
           <h2 className="devList__title">
             Our Developers are out of this world!

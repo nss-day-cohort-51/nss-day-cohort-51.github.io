@@ -16,7 +16,7 @@ export const TechStack = ({ allTechStack }) => {
 
   return (
     <>
-      <section className="tech-stack background-overlay">
+      <section id="techStack" className="tech-stack background-overlay">
         <div className="background-overlay"></div>
         <h2>Tech Stack</h2>
         <section id="combined-stack__block">
