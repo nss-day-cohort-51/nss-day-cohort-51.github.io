@@ -69,9 +69,19 @@ export const TypingText2 = () => {
               autoStart: true,
               loop: true,
               delay: "natural",
-              stop: false,
+              pauseFor: "4000ms",
+              // stop: false,
             }}
           />
+          {/* <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("COHORT 51")
+                .pauseFor(2500)
+                .deleteAll()
+                .start();
+            }}
+          /> */}
         </div>
       </div>
     </>
@@ -80,16 +90,6 @@ export const TypingText2 = () => {
 
 <Typewriter
   onInit={(typewriter) => {
-    typewriter
-      .typeString("Hello World!")
-      .callFunction(() => {
-        console.log("String typed out!");
-      })
-      .pauseFor(2500)
-      .deleteAll()
-      .callFunction(() => {
-        console.log("All strings were deleted");
-      })
-      .start();
+    typewriter.typeString("Hello World!").pauseFor(2500).deleteAll().start();
   }}
 />;
