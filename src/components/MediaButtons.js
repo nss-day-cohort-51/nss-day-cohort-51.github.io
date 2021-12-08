@@ -7,6 +7,8 @@ import { MediaIcons } from "../components/MediaIcons";
 import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
+import { IconName, FaVideo } from "react-icons/fa";
+
 
 export const CapBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
@@ -21,7 +23,7 @@ export const CapBtn = ({ obj, allTechStack }) => {
           className="dev-card__capstone dev-card__button"
           onClick={handleShow}
         >
-          LEARN MORE
+         <FaVideo /> &nbsp;LEARN MORE
         </span>
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
