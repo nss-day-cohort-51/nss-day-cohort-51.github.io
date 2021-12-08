@@ -158,7 +158,7 @@ $platinum: #ecebea;
       font-family: "Poppins", sans-serif;
       font-weight: 600;
       font-size: 18px;
-      letter-spacing: 3px;
+      letter-spacing: 5px;
       margin: 0 0 0.5rem;
     }
 
@@ -175,14 +175,14 @@ $platinum: #ecebea;
     .feButtonBlue:hover {
       background-color: $blue;
       color: $midnight;
-      transform: translateY(-2px) scale(1.005) translateZ(0);
+      transform: translateY(-2px) translateZ(0);
       box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
     }
 
     .fsButtonYellow:hover {
       background-color: $mustard;
       color: $midnight;
-      transform: translateY(-2px) scale(1.005) translateZ(0);
+      transform: translateY(-2px) translateZ(0);
       box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
     }
   }

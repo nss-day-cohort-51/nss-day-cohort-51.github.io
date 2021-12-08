@@ -34,11 +34,6 @@ $platinum: #ecebea;
   }
 }
 
-.fade.modal.show {
-  padding: 0px;
-  margin: 20px 0px 0px;
-}
-
 .modal {
   background-color: rgba(0, 0, 0, 0.75);
 
@@ -88,7 +83,6 @@ $platinum: #ecebea;
     //Modal media icons
     .modal-icons {
       text-align: center;
-      // margin-bottom: 10px;
     }
 
     .modal-dev-title {
@@ -213,4 +207,10 @@ $platinum: #ecebea;
 .modal-dialog {
   width: 100%;
   margin: 0px auto;
+}
+
+.fade.modal.show {
+  display: inline;
+  padding: 0px;
+  margin: 20px 0px 0px;
 }

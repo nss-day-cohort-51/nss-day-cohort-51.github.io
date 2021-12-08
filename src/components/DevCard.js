@@ -7,9 +7,10 @@ import "../styles/custom.scss";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
 
 export const DevCard = ({ obj, allTechStack }) => {
+  const anchortag = obj.name;
   return (
     <>
-      <div className="dev-card">
+      <div id={anchortag} className="dev-card">
         <section
           className={
             "dev-card-title__block" + " " + DevCardAddClass(obj?.title)
@@ -53,7 +54,7 @@ export const DevCard = ({ obj, allTechStack }) => {
               <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
             </a>
 
-            <a href={obj?.resume} target="_blank" rel="noreferrer">
+            <a href="#{anchortag}">
               <ModalBtn obj={obj} allTechStack={allTechStack} />
             </a>
           </section>
