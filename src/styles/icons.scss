@@ -21,11 +21,10 @@ $platinum: #ecebea;
   }
 
   .feButtonBlue {
-    cursor: pointer;
-    transition: 150ms all; /* this controls how smooth hover effect is */
-
     svg {
       color: $space;
+      cursor: pointer;
+      transition: 400ms all; /* this controls how smooth hover effect is */
     }
 
     svg:hover {
@@ -35,14 +34,13 @@ $platinum: #ecebea;
   }
 
   .fsButtonYellow {
-    cursor: pointer;
-    transition: 150ms all; /* this controls how smooth hover effect is */
-
-    a {
+    svg {
       color: $space;
+      cursor: pointer;
+      transition: 400ms all;
     }
 
-    a:hover {
+    svg:hover {
       color: $mustard;
       transform: scale(1.2);
     }

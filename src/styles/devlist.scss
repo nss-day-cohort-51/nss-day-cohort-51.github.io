@@ -47,7 +47,7 @@ $platinum: #ecebea;
 
 //Developer Card
 .dev-card {
-  background-image: linear-gradient(180deg, #747e80 27%, #ecebea 10%);
+  background-image: linear-gradient(180deg, #747e80 28%, #ecebea 10%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,44 +146,6 @@ $platinum: #ecebea;
     padding: 0 1rem 1rem;
     text-align: center;
   }
-
-  //these lines of code were moved from buttons.scss. This selector was added in place of .feButtonBlue and .fsButtonYellow because each class had identical declarations
-  // .dev-card-button__block > * {
-  //   padding: 5px 15px;
-  //   border: transparent;
-  //   border-radius: 8px;
-  //   background-color: #747e80;
-  //   cursor: pointer;
-  //   font-family: "Poppins", sans-serif;
-  //   font-weight: 600;
-  //   font-size: 18px;
-  //   letter-spacing: 3px;
-  //   margin: 0 0 0.5rem;
-  // }
-
-  // .dev-card-button__block a {
-  // text-decoration: none;
-  // color: $platinum;
-  // }
-
-  // .dev-card-button__block a:hover {
-  // text-decoration: none;
-  // color: $midnight;
-  // }
-
-  // .dev-card-button__block .fsButtonYellow:hover {
-  //   background-color: $mustard;
-  //   transition: 200ms;
-  //   transform: translateY(-2px) scale(1.005) translateZ(0);
-  //   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
-  // }
-
-  // .dev-card-button__block .feButtonBlue:hover {
-  //   background-color: $blue;
-  //   transition: 200ms;
-  //   transform: translateY(-2px) scale(1.005) translateZ(0);
-  //   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
-  // }
 
   .dev-card-button__block {
     div {
