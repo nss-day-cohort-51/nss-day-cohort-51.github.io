@@ -10,7 +10,7 @@ import "../styles/custom.scss";
 import { IconName, FaVideo } from "react-icons/fa";
 
 
-export const CapBtn = ({ obj, allTechStack }) => {
+export const ModalBtn = ({ obj, allTechStack, btnText }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -18,13 +18,8 @@ export const CapBtn = ({ obj, allTechStack }) => {
 
   return (
     <>
-      <div className={buttonColor(obj.title)}>
-        <span
-          className="dev-card__capstone dev-card__button"
-          onClick={handleShow}
-        >
-         <FaVideo /> &nbsp;LEARN MORE
-        </span>
+      <div className={buttonColor(obj.title)} onClick={handleShow}>
+      <FaVideo />&nbsp;LEARN MORE
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
@@ -120,6 +115,16 @@ export const CapBtn = ({ obj, allTechStack }) => {
           </Button>
         </Modal.Footer>
       </Modal>
+    </>
+  );
+};
+
+export const DevCardBtn = ({ obj, btnText }) => {
+  return (
+    <>
+      <div className={buttonColor(obj.title)}>
+        <div className="dev-card__btn">{btnText}</div>
+      </div>
     </>
   );
 };
