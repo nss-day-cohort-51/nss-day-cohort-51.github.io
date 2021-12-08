@@ -18,17 +18,36 @@ $platinum: #ecebea;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin: 0 3px 3px;
+  }
 
-    a {
-      font-size: 45px;
+  .feButtonBlue {
+    svg {
       color: $space;
-      text-decoration: none;
-      padding: 0px;
+      cursor: pointer;
+      transition: 400ms all; /* this controls how smooth hover effect is */
+    }
+
+    svg:hover {
+      color: $blue;
+      transform: scale(1.2);
+    }
+  }
+
+  .fsButtonYellow {
+    svg {
+      color: $space;
+      cursor: pointer;
+      transition: 400ms all;
+    }
+
+    svg:hover {
+      color: $mustard;
+      transform: scale(1.2);
     }
   }
 
   .linkedin a {
+    font-size: 40px;
     margin: auto 2px auto 5px;
   }
 
@@ -36,9 +55,13 @@ $platinum: #ecebea;
     font-size: 55px;
   }
 
-  .git a,
+  .git a {
+    font-size: 40px;
+    margin: auto 12px auto 15px;
+  }
+
   .web a,
   .resume a {
-    margin: auto 0px;
+    margin: auto 5px;
   }
 }

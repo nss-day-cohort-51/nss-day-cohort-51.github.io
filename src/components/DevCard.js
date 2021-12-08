@@ -2,14 +2,15 @@
 
 import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
-import { CapBtn } from "../components/MediaButtons";
+import { ModalBtn } from "../components/MediaButtons";
 import "../styles/custom.scss";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
 
 export const DevCard = ({ obj, allTechStack }) => {
+  const anchortag = obj.name;
   return (
     <>
-      <div className="dev-card">
+      <div id={anchortag} className="dev-card">
         <section
           className={
             "dev-card-title__block" + " " + DevCardAddClass(obj?.title)
@@ -39,40 +40,23 @@ export const DevCard = ({ obj, allTechStack }) => {
           <div className="dev-card__icons">
             <MediaIcons key={obj.id} obj={obj} />
           </div>
-
-          <div className="dev-card__podcast">
-            <div className="card-pod-wrapper"></div>
-          </div>
-          <div className="interest-fact__container">
+          <div className="fact-container">
             <h6>Fun Fact:</h6>
             <p className="dev-card__fact">{obj?.fact}</p>
           </div>
         </section>
         <section className="dev-card__actions">
           <section className="dev-card-button__block">
-            <div className={buttonColor(obj?.title)}>
-              {" "}
-              <a
-                href={obj?.resume}
-                target="_blank"
-                rel="noreferrer"
-                className="dev-card__button resume-site__link"
-              >
-                RESUME{" "}
-              </a>
-            </div>
-            <div className={buttonColor(obj?.title)}>
-              {" "}
-              <a
-                href={obj?.personal}
-                target="_blank"
-                rel="noreferrer"
-                className="dev-card__button personal-site__link"
-              >
-                PORTFOLIO{" "}
-              </a>
-            </div>{" "}
-            <CapBtn obj={obj} allTechStack={allTechStack} />
+            <a href={obj?.resume} target="_blank" rel="noreferrer">
+              <div className={buttonColor(obj?.title)}>RESUME</div>
+            </a>
+            <a href={obj?.personal} target="_blank" rel="noreferrer">
+              <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
+            </a>
+
+            <a href="#{anchortag}">
+              <ModalBtn obj={obj} allTechStack={allTechStack} />
+            </a>
           </section>
         </section>
       </div>
