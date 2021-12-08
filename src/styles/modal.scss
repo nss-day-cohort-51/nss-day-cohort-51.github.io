@@ -18,9 +18,20 @@ $platinum: #ecebea;
   text-align: center;
   padding-left: 30px;
 
+  h4 {
+    color: red;
+    font-size: 0.5em;
+  }
+
   .modal-title {
     justify-content: center;
     text-align: center;
+  }
+
+  .modal-name {
+    color: red;
+    font-size: 0.5rem;
+    line-height: 1.8rem;
   }
 
   .btn-close {

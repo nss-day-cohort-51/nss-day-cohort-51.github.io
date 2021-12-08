@@ -1,4 +1,5 @@
 import React from "react";
+// import Typewriter from "typewriter-effect";
 import { DemoDayButton } from "../components/DemoDayButton";
 import { TypingText2 } from "../components/TextAnimation";
 import "../styles/custom.scss";
@@ -6,7 +7,7 @@ import "../styles/custom.scss";
 export const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-xl navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="typing-holder">
           <TypingText2 />
         </div>

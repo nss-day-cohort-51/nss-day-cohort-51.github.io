@@ -14,9 +14,9 @@ export const CallToActionSection = () => {
       <section className="cta-section__text-container">
         <div className="cta-text__block">
           {" "}
-          <span className="cta__text">
+          <div className="cta-text">
             JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022
-          </span>
+          </div>
         </div>
       </section>
       <section className="cta-section__demo-day-btn">
@@ -24,10 +24,14 @@ export const CallToActionSection = () => {
           href="https://www.nashss.com/demoday/"
           target="_blank"
           rel="noreferrer"
-          className="link__no-underline"
         >
           <div className="demo-day-btn">
-            <div className="btn-item" title="Event Link Updates after 11 January 2022">SIGN-UP NOW!</div>
+            <div
+              className="btn-item"
+              title="Event Link Updates after 11 January 2022"
+            >
+              SIGN-UP NOW!
+            </div>
           </div>
         </a>
       </section>

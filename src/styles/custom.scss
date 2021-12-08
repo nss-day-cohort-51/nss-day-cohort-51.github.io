@@ -56,3 +56,12 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
+
+/* If the screen size is 991px or less, set the scroll-margin-top to 222px */
+@media only screen and (max-width: 991px) {
+  #devList,
+  #techStack,
+  #thanksLocation {
+    scroll-margin-top: 222px;
+  }
+}
