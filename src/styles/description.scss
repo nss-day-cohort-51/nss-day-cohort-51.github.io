@@ -15,20 +15,6 @@ $platinum: #ecebea;
   flex-wrap: wrap;
   background-color: $platinum;
   padding-top: 100px;
-
-  h1 {
-    color: $midnight;
-    font-family: "Poppins", sans-serif;
-    padding-bottom: 20px;
-  }
-  p {
-    color: $midnight;
-    max-width: 800px;
-  }
-  a {
-    color: $orange;
-    text-decoration: none;
-  }
 }
 
 .logo {
@@ -42,10 +28,55 @@ $platinum: #ecebea;
 }
 
 .description-section__about {
+  min-width: 360;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding: 35px;
+  background-image: url("../images/description.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right bottom;
+
+  h1 {
+    min-width: 320px;
+    max-width: 95%;
+    color: $midnight;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    min-width: 320px;
+    max-width: 95%;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: $midnight;
+    min-width: 320px;
+    max-width: 90%;
+    font-size: 1.4rem;
+  }
+
+  a {
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+}
+
+.fullstack {
+  background-color: #dfb775;
+  color: #323637;
+  border-radius: 6px;
+  padding: 1px 5px;
+}
+
+.uiux {
+  color: #323637;
+  background-color: #82bad9;
+  border-radius: 6px;
+  padding: 1px 5px;
 }

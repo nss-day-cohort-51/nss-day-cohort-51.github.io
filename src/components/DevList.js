@@ -2,13 +2,14 @@
 
 import React from "react";
 import { ScrollingText } from "./TextAnimation";
-// import { Example } from "../components/Example";
+// import ScrollableAnchor from "react-scrollable-anchor";
 import { DevCard } from "../components/DevCard";
 import "../styles/custom.scss";
 
-export const DevList = ({ allDevs }) => {
+export const DevList = ({ allDevs, allTechStack }) => {
   return (
     <>
+      {/* <ScrollableAnchor id={"devList"}></ScrollableAnchor> */}
       <div id="devList" className="dev-list__section">
         <section className="devList-title__block">
           <h2 className="devList__title">
@@ -20,7 +21,7 @@ export const DevList = ({ allDevs }) => {
         </section>
         <section className="dev-list">
           {allDevs.map((obj) => (
-            <DevCard key={obj.id} obj={obj} />
+            <DevCard key={obj.id} obj={obj} allTechStack={allTechStack} />
           ))}
         </section>
       </div>
