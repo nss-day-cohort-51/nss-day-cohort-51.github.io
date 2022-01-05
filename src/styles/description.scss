@@ -80,3 +80,16 @@ $platinum: #ecebea;
   border-radius: 6px;
   padding: 1px 5px;
 }
+
+/* If the screen size is less than 1075px, shrink description bg image to 50% */
+@media only screen and (max-width: 1074px) {
+  .description-section__about {
+    padding: 20px 20px 50px;
+    font-size: 1rem;
+    background-size: auto 50%;
+
+    p {
+      max-width: 80%;
+    }
+  }
+}
