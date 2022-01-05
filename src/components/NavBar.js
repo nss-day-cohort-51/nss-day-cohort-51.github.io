@@ -1,5 +1,4 @@
 import React from "react";
-// import Typewriter from "typewriter-effect";
 import { DemoDayButton } from "../components/DemoDayButton";
 import { TypingText2 } from "../components/TextAnimation";
 import "../styles/custom.scss";
