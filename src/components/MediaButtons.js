@@ -9,7 +9,7 @@ import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
 import { FaVideo } from "react-icons/fa";
 
-export const ModalBtn = ({ obj, allTechStack, btnText }) => {
+export const ModalBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -146,7 +146,3 @@ export const PodPlayer = () => {
     </>
   );
 };
-
-// &color=%23747e80
-
-// "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197966393&color=%23747e80&inverse=false&auto_play=false&show_user=true"
