@@ -33,7 +33,6 @@ export const Location = () => {
             <li>Spring Hill, TN</li>
             <li>Ashland City, TN</li>
             <li>Portland, TN</li>
-            <li>Spring Hill, TN</li>
             <li>Madison, TN</li>
           </ul>
         </div>
