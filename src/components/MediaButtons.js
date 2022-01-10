@@ -7,7 +7,6 @@ import { MediaIcons } from "../components/MediaIcons";
 import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
-import { FaVideo } from "react-icons/fa";
 
 export const ModalBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
@@ -15,11 +14,61 @@ export const ModalBtn = ({ obj, allTechStack }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  const checkForCapLink = (capLinkString) => {
+    let capLink;
+
+    if (
+      capLinkString.includes("youtube") ||
+      capLinkString.includes("youtu.be")
+    ) {
+      capLink = (
+        <iframe
+          width="340"
+          height="235"
+          src={obj?.capLink}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      );
+    } else {
+      if (capLinkString === "#") {
+        capLink = (
+          <div className="alien-placeholder__image">
+            <img
+              src="alien-coming-soon-340w-235h.png"
+              alt="Coming Soon"
+              className="placeholder__image"
+            />
+          </div>
+        );
+      } else {
+        capLink = (
+          <div className="repo-placeholder__block">
+            <a
+              href={obj.capRepo}
+              title={`${obj?.capName} Repo`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={capLinkString}
+                alt="Capstone"
+                className="repo-placeholder__image"
+              />
+            </a>
+          </div>
+        );
+      }
+    }
+    return capLink;
+  };
+
   return (
     <>
       <div className={buttonColor(obj.title)} onClick={handleShow}>
-        <FaVideo />
-        &nbsp;LEARN MORE
+        LEARN MORE
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
@@ -71,40 +120,37 @@ export const ModalBtn = ({ obj, allTechStack }) => {
               </div>
             </div>
             <div className="modal-list__right">
-              <h4>Capstone Video Demos</h4>
+              <h4>Capstones</h4>
               <div className="capstone-wrapper">
                 <div className="cap1">
-                  <h5>{obj?.capName}</h5>
-                  <div className="capstone-description">
-                    Short description of capstone goes here. What languages did
-                    you use etc
-                  </div>
-                  <iframe
-                    width="340"
-                    height="235"
-                    src={obj?.capLink}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
+                  <h5>
+                    <a
+                      href={obj.capRepo}
+                      title={`${obj?.capName} Repo`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {obj?.capName}
+                    </a>
+                  </h5>
+                  <p className="cap1 capstone-description">
+                    {obj?.capDescription}
+                  </p>
+                  {checkForCapLink(obj?.capLink)}
                 </div>
-                <div className="cap2">
-                  <h5>{obj?.cap2Name}</h5>
-                  <div className="capstone-description">
-                    Short description of capstone goes here. What languages did
-                    you use etc
+
+                {/* If no capstone 2, do not display the section for capstone 2 anything */}
+
+                {obj.cap2Name !== "" ? (
+                  <div className="cap2">
+                    <h5>{obj?.cap2Name}</h5>
+                    <p className="cap2 capstone-description">
+                      {obj?.cap2Description}
+                    </p>
+
+                    {checkForCapLink(obj?.cap2Link)}
                   </div>
-                  <iframe
-                    width="340"
-                    height="235"
-                    src={obj?.cap2Link}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </div>
+                ) : null}
               </div>
             </div>
           </div>
