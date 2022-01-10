@@ -21,7 +21,7 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
   const checkForCapLink = (capLinkString) => {
     let capLink;
 
-    if (capLinkString.includes("youtube")) {
+    if (capLinkString.includes("youtube") || capLinkString.includes("youtu.be")) {
       capLink = (
         <iframe
           width="340"
@@ -38,7 +38,7 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
         capLink = (
           <div className="video-placeholder__image">
             <img
-              src="../images/alien-coming-soon-340w-235h.png"
+              src="alien-coming-soon-340w-235h.png"
               alt="Coming Soon image"
               className="placeholder__image"
             />
