@@ -7,6 +7,8 @@ import { MediaIcons } from "../components/MediaIcons";
 import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
+import { IconName, FaVideo } from "react-icons/fa";
+
 
 export const ModalBtn = ({ obj, allTechStack, btnText }) => {
   const [show, setShow] = useState(false);
@@ -17,7 +19,7 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
   return (
     <>
       <div className={buttonColor(obj.title)} onClick={handleShow}>
-        LEARN MORE
+      <FaVideo />&nbsp;LEARN MORE
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>

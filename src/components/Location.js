@@ -15,7 +15,7 @@ export const Location = () => {
             <li>Nashville, TN</li>
             <li>Franklin, TN</li>
             <li>Austin, TX</li>
-            <li>Cleveland, OH</li>
+            <li>Cincinnati, OH</li>
             <li>Chattanooga, TN</li>
             <li>Huntsville, AL</li>
           </ul>

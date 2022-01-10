@@ -13,11 +13,13 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-right: 2px;
 
   .icon {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin: auto 7px;
   }
 
   .feButtonBlue {
@@ -47,17 +49,18 @@ $platinum: #ecebea;
   }
 
   .linkedin a {
-    font-size: 40px;
+    font-size: 44px;
     margin: auto 2px auto 5px;
   }
 
   .mail a {
-    font-size: 55px;
+    font-size: 64px;
+    padding-bottom: 3px;
   }
 
   .git a {
-    font-size: 40px;
-    margin: auto 12px auto 15px;
+    font-size: 46px;
+    margin: auto;
   }
 
   .web a,

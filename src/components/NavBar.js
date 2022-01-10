@@ -1,5 +1,4 @@
 import React from "react";
-// import Typewriter from "typewriter-effect";
 import { DemoDayButton } from "../components/DemoDayButton";
 import { TypingText2 } from "../components/TextAnimation";
 import "../styles/custom.scss";
@@ -22,7 +21,12 @@ export const NavBar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarText">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarText"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+        >
           <ul className="navbar-nav nav-menu ms-auto">
             <li className="nav-item">
               <a href="#devList">DEVELOPERS</a>

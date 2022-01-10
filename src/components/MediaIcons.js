@@ -20,6 +20,13 @@ export const MediaIcons = ({ obj }) => {
             <BsLinkedin /> {/* Linkedin icon */}
           </a>
         </div>
+
+        <div className={"icon mail" + " " + buttonColor(obj?.title)}>
+          <a href={"mailto:" + obj?.email} title={"Email " + obj?.name}>
+            <MdEmail />
+          </a>
+        </div>
+
         <div className={"icon git" + " " + buttonColor(obj?.title)}>
           <a
             href={obj?.git}
@@ -28,12 +35,6 @@ export const MediaIcons = ({ obj }) => {
             title="Visit Github"
           >
             <BsGithub />
-          </a>
-        </div>
-
-        <div className={"icon mail" + " " + buttonColor(obj?.title)}>
-          <a href={"mailto:" + obj?.email} title={"Email " + obj?.name}>
-            <MdEmail />
           </a>
         </div>
       </div>

@@ -57,44 +57,25 @@ h6 {
   font-weight: bold;
 }
 
-/* If the screen size is less than 991px, set the scroll-margin-top to 222px */
-@media only screen and (max-width: 991px) {
-  #devList,
-  #techStack,
-  #thanksLocation {
-    scroll-margin-top: 222px;
-  }
-}
+// MEDIA QUERIES
 
-/* If the screen size is less than 860px, hide the carousel text in devList */
+/* When screen size is less than 860px, hide the carousel text in devList */
 @media only screen and (max-width: 859px) {
   .scrolling-text__block {
     display: none;
   }
 }
 
-/* If the screen size is less than 1075px, shrink description bg image to 50% */
-@media only screen and (max-width: 1074px) {
-  .description-section__about {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 20px 20px 50px;
-    font-size: 1rem;
-    background-image: url("../images/description.svg");
-    background-repeat: no-repeat;
-    background-size: auto 50%;
-    background-position: right bottom;
+/* When screen size is less than 480px */
+@media only screen and (max-width: 479px) {
+  .dev-list {
+    padding: 0px;
+  }
+  .dev-list__section {
+    padding: 30px 0px 10px;
+  }
 
-    a {
-      font-size: 1.4rem;
-      text-decoration: none;
-    }
-
-    p {
-      max-width: 80%;
-    }
+  #techStack > section {
+    padding: 0;
   }
 }
