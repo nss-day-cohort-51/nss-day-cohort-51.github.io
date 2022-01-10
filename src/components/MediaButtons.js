@@ -9,17 +9,61 @@ import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
 import { IconName, FaVideo } from "react-icons/fa";
 
-
 export const ModalBtn = ({ obj, allTechStack, btnText }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  let capLinkText1 = obj.capLink;
+  let capLinkText2 = obj.cap2Link;
+
+  const checkForCapLink = (capLinkString) => {
+    let capLink;
+
+    if (capLinkString.includes("youtube")) {
+      capLink = (
+        <iframe
+          width="340"
+          height="235"
+          src={obj?.capLink}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      );
+    } else {
+      if (capLinkString === "#") {
+        capLink = (
+          <div className="video-placeholder__image">
+            <img
+              src="../images/alien-coming-soon-340w-235h.png"
+              alt="Coming Soon image"
+              className="placeholder__image"
+            />
+          </div>
+        );
+      } else {
+        capLink = (
+          <div className="video-placeholder__image">
+            <img
+              src={capLinkString}
+              alt="Capstone Image"
+              className="placeholder__image"
+            />
+          </div>
+        );
+      }
+    }
+    return capLink;
+  };
+
   return (
     <>
       <div className={buttonColor(obj.title)} onClick={handleShow}>
-      <FaVideo />&nbsp;LEARN MORE
+        <FaVideo />
+        &nbsp;LEARN MORE
       </div>
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
@@ -79,15 +123,7 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
                     Short description of capstone goes here. What languages did
                     you use etc
                   </div>
-                  <iframe
-                    width="340"
-                    height="235"
-                    src={obj?.capLink}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
+                  {checkForCapLink(obj?.capLink)}
                 </div>
                 <div className="cap2">
                   <h5>{obj?.cap2Name}</h5>
@@ -95,15 +131,8 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
                     Short description of capstone goes here. What languages did
                     you use etc
                   </div>
-                  <iframe
-                    width="340"
-                    height="235"
-                    src={obj?.cap2Link}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
+
+                  {checkForCapLink(obj?.cap2Link)}
                 </div>
               </div>
             </div>
