@@ -15,6 +15,10 @@
 
 ![Cohort 51 Student Website Entity Relationship Diagram](src/images/c51-erd.png)
 
+## Information Architecture Outline - Cohort 51 Student Website
+
+![Cohort 51 Student Website Color Pallet Style Guide](src/images/c51-inventory-outline.png)
+
 ## WireFrame - Cohort 51 Student Website
 
 ![Cohort 51 Student Website Lo-Fidelity WireFrame](src/images/c51-wireframe.png)
@@ -30,6 +34,10 @@
 ## Logo Design - Cohort 51 Student Website
 
 ![Cohort 51 Student Website Logo Design](src/images/c51-logo-design.png)
+
+## Prototype - Cohort 51 Student Website
+
+![Cohort 51 Student Website Prototype] * [Click this link to view the prototype in Figma - https://nss-day-cohort-51.github.io/]()
 
 ## Modal Layout MOCK-UP - Cohort 51 Student Website
 
