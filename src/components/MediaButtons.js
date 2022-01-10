@@ -21,7 +21,10 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
   const checkForCapLink = (capLinkString) => {
     let capLink;
 
-    if (capLinkString.includes("youtube") || capLinkString.includes("youtu.be")) {
+    if (
+      capLinkString.includes("youtube") ||
+      capLinkString.includes("youtu.be")
+    ) {
       capLink = (
         <iframe
           width="340"
@@ -36,7 +39,7 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
     } else {
       if (capLinkString === "#") {
         capLink = (
-          <div className="video-placeholder__image">
+          <div className="alien-placeholder__image">
             <img
               src="alien-coming-soon-340w-235h.png"
               alt="Coming Soon image"
@@ -46,11 +49,11 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
         );
       } else {
         capLink = (
-          <div className="video-placeholder__image">
+          <div className="repo-placeholder__block">
             <img
               src={capLinkString}
               alt="Capstone Image"
-              className="placeholder__image"
+              className="repo-placeholder__image"
             />
           </div>
         );
@@ -115,25 +118,36 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
               </div>
             </div>
             <div className="modal-list__right">
-              <h4>Capstone Video Demos</h4>
+              <h4>Capstones</h4>
               <div className="capstone-wrapper">
                 <div className="cap1">
-                  <h5>{obj?.capName}</h5>
-                  <div className="capstone-description">
-                    Short description of capstone goes here. What languages did
-                    you use etc
-                  </div>
+                  <h5>
+                    <a
+                      href={obj.capRepo}
+                      title={`${obj?.capName} Repo`}
+                      target="_blank"
+                    >
+                      {obj?.capName}
+                    </a>
+                  </h5>
+                  <p className="cap1 capstone-description">
+                    {obj?.capDescription}
+                  </p>
                   {checkForCapLink(obj?.capLink)}
                 </div>
-                <div className="cap2">
-                  <h5>{obj?.cap2Name}</h5>
-                  <div className="capstone-description">
-                    Short description of capstone goes here. What languages did
-                    you use etc
-                  </div>
 
-                  {checkForCapLink(obj?.cap2Link)}
-                </div>
+                {/* If no capstone 2, do not display the section for capstone 2 anything */}
+
+                {obj.cap2Name !== "" ? (
+                  <div className="cap2">
+                    <h5>{obj?.cap2Name}</h5>
+                    <p className="cap2 capstone-description">
+                      {obj?.cap2Description}
+                    </p>
+
+                    {checkForCapLink(obj?.cap2Link)}
+                  </div>
+                ) : null}
               </div>
             </div>
           </div>

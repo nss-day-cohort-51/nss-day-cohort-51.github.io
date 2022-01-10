@@ -37,6 +37,16 @@ $platinum: #ecebea;
 .modal {
   background-color: rgba(0, 0, 0, 0.75);
 
+  img.repo-placeholder__image {
+    width: 340px;
+    height: auto;
+  }
+
+  .repo-placeholder__block {
+    height: 235px;
+    overflow-y: hidden;
+  }
+
   .modal-name {
     color: white;
     font-size: 1.5rem;
