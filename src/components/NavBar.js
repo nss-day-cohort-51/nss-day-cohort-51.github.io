@@ -7,9 +7,12 @@ export const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="typing-holder">
-          <TypingText2 />
-        </div>
+        <a href="#" className="home-button__link">
+          <div className="typing-holder">
+            <TypingText2 />
+          </div>
+        </a>
+
         <button
           className="navbar-toggler"
           type="button"
