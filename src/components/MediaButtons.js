@@ -50,11 +50,17 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
       } else {
         capLink = (
           <div className="repo-placeholder__block">
-            <img
-              src={capLinkString}
-              alt="Capstone Image"
-              className="repo-placeholder__image"
-            />
+            <a
+              href={obj.capRepo}
+              title={`${obj?.capName} Repo`}
+              target="_blank"
+            >
+              <img
+                src={capLinkString}
+                alt="Capstone Image"
+                className="repo-placeholder__image"
+              />
+            </a>
           </div>
         );
       }
