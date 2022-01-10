@@ -8,14 +8,11 @@ import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
 
-export const ModalBtn = ({ obj, allTechStack, btnText }) => {
+export const ModalBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
-  let capLinkText1 = obj.capLink;
-  let capLinkText2 = obj.cap2Link;
 
   const checkForCapLink = (capLinkString) => {
     let capLink;
@@ -41,7 +38,7 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
           <div className="alien-placeholder__image">
             <img
               src="alien-coming-soon-340w-235h.png"
-              alt="Coming Soon image"
+              alt="Coming Soon"
               className="placeholder__image"
             />
           </div>
@@ -53,10 +50,11 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
               href={obj.capRepo}
               title={`${obj?.capName} Repo`}
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={capLinkString}
-                alt="Capstone Image"
+                alt="Capstone"
                 className="repo-placeholder__image"
               />
             </a>
@@ -130,6 +128,7 @@ export const ModalBtn = ({ obj, allTechStack, btnText }) => {
                       href={obj.capRepo}
                       title={`${obj?.capName} Repo`}
                       target="_blank"
+                      rel="noreferrer"
                     >
                       {obj?.capName}
                     </a>
@@ -193,7 +192,3 @@ export const PodPlayer = () => {
     </>
   );
 };
-
-// &color=%23747e80
-
-// "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197966393&color=%23747e80&inverse=false&auto_play=false&show_user=true"
