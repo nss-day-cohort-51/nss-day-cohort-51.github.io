@@ -1,14 +1,12 @@
 //Purpose: Wrapper for Thanks & Location components
 
 import React from "react";
-// import ScrollableAnchor from "react-scrollable-anchor";
 import { Thanks } from "../components/Thanks";
 import { Location } from "../components/Location";
 
 export const ThanksLocation = () => {
   return (
     <>
-      {/* <ScrollableAnchor id={"thanksLocation"}></ScrollableAnchor> */}
       <div id="thanksLocation" className="thanks-location">
         <div className="bg-image">
           <div className="thanks-location__thanks">
