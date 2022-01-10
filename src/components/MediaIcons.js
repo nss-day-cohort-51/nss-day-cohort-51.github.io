@@ -21,13 +21,13 @@ export const MediaIcons = ({ obj }) => {
           </a>
         </div>
 
-        <div className={`icon mail" + " " + ${buttonColor(obj?.title)}`}>
+        <div className={`icon mail ${buttonColor(obj?.title)}`}>
           <a href={"mailto:" + obj?.email} title={"Email " + obj?.name}>
             <MdEmail />
           </a>
         </div>
 
-        <div className={`icon git" + " " + ${buttonColor(obj?.title)}`}>
+        <div className={`icon git ${buttonColor(obj?.title)}`}>
           <a
             href={obj?.git}
             target="_blank"
