@@ -5,7 +5,6 @@ import { MediaIcons } from "../components/MediaIcons";
 import { ModalBtn } from "../components/MediaButtons";
 import "../styles/custom.scss";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
-import { IconName } from "react-icons/fa";
 
 export const DevCard = ({ obj, allTechStack }) => {
   const anchortag = obj.name;
