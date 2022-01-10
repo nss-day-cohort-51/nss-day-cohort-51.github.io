@@ -18,16 +18,23 @@ export const Location = () => {
             <li>Cincinnati, OH</li>
             <li>Chattanooga, TN</li>
             <li>Huntsville, AL</li>
+            <li>Dickson, TN</li>
+            <li>Clarkesville, TN</li>
+            <li>Thompsons Station, TN</li>
           </ul>
         </div>
         <div className="location-list2">
           <ul>
             <li>Old Hickory, TN</li>
-            <li>Hendersonville, TN</li>
+            <li>Bowling Green, KY</li>
             <li>Antioch, TN</li>
             <li>Smyrna, TN</li>
             <li>Shelbyville, TN</li>
             <li>Spring Hill, TN</li>
+            <li>Ashland City, TN</li>
+            <li>Portland, TN</li>
+            <li>Spring Hill, TN</li>
+            <li>Madison, TN</li>
           </ul>
         </div>
       </div>
