@@ -23,7 +23,7 @@ export const MediaIcons = ({ obj }) => {
 
         <div className={`icon mail ${buttonColor(obj?.title)}`}>
           <a href={"mailto:" + obj?.email} title={"Email " + obj?.name}>
-            <MdEmail />
+            <MdEmail /> {/* Mail icon */}
           </a>
         </div>
 
@@ -34,7 +34,7 @@ export const MediaIcons = ({ obj }) => {
             rel="noreferrer"
             title="Visit Github"
           >
-            <BsGithub />
+            <BsGithub /> {/* Github icon */}
           </a>
         </div>
       </div>
