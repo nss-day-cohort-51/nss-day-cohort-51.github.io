@@ -5,7 +5,6 @@ import { MediaIcons } from "../components/MediaIcons";
 import { ModalBtn } from "../components/MediaButtons";
 import "../styles/custom.scss";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
-import { IconName } from "react-icons/fa";
 
 export const DevCard = ({ obj, allTechStack }) => {
   const anchortag = obj.name;
@@ -54,10 +53,9 @@ export const DevCard = ({ obj, allTechStack }) => {
             <a href={obj?.personal} target="_blank" rel="noreferrer">
               <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
             </a>
-
-            <a href="#{anchortag}">
+            <span title={`More about ${obj?.name}`}>
               <ModalBtn obj={obj} allTechStack={allTechStack} />
-            </a>
+            </span>
           </section>
         </section>
       </div>

@@ -26,6 +26,13 @@ $platinum: #ecebea;
     margin: auto 0px;
     padding-left: 20px;
   }
+  
+  a.home-button__link,
+  a.home-button__link:hover,
+  a.home-button__link:focus,
+  a.home-button__link:visited {
+    text-decoration: none;
+  }
 }
 
 .nav-menu {

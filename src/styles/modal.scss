@@ -218,8 +218,9 @@ $platinum: #ecebea;
   margin: 0px auto;
 }
 
+// We use !important to override an inline style padding-left declaration that comes from Bootstrap
 .fade.modal.show {
   display: inline;
-  padding: 0px;
+  padding: .5rem!important;
   margin: 20px 0px 0px;
 }
