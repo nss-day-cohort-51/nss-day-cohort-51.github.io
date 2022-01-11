@@ -5,9 +5,10 @@ Place this component in the DevCard and pass it the devId
 
 import react, { useEffect } from "react";
 import { useState, setState } from "react";
-import {checkForFav, getFavs, updateFavs} from './FavsManager';
+import { checkForFav, getFavs, updateFavs } from './FavsManager';
+// import { FaRegHeart } from 'react-icons';
 
-export const Fav = ({devId}) => {
+export const Fav = ({ devId }) => {
 	const [isFavorite, setisFavorite] = useState(false)
 
 	//update localStorage
@@ -15,11 +16,11 @@ export const Fav = ({devId}) => {
 		const storageToChange = getFavs();
 		const foundFavorite = storageToChange.findIndex(oneFav => oneFav === devId);
 
-		if (foundFavorite !== -1){
+		if (foundFavorite !== -1) {
 			//remove it
-			storageToChange.splice(foundFavorite,1);
-			setisFavorite(false)	
-		}else {
+			storageToChange.splice(foundFavorite, 1);
+			setisFavorite(false)
+		} else {
 			//add it
 			storageToChange.push(devId)
 			setisFavorite(true)
@@ -34,10 +35,13 @@ export const Fav = ({devId}) => {
 
 	return (
 		<>
-		<div style={{"background-color":"black", color:"white"}}>
-			<label htmlFor="favorite">Interview ME!{checkForFav(devId)}</label>
-			<input type="checkbox" id="favorite" checked={isFavorite ? true : false} onChange={handleFavChange}/>
-		</div>
+		
+		{checkForFav(devId)}
+		<span onClick={handleFavChange}>
+			<input type="checkbox" checked={isFavorite ? true : false} />
+			<span></span>
+		</span>
+			
 		</>
 	)
 }
