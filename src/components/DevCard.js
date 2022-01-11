@@ -54,9 +54,9 @@ export const DevCard = ({ obj, allTechStack }) => {
               <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
             </a>
 
-            <a href="#">
+            <span title={`More about ${obj?.name}`}>
               <ModalBtn obj={obj} allTechStack={allTechStack} />
-            </a>
+            </span>
           </section>
         </section>
       </div>
