@@ -7,6 +7,7 @@ import { MediaIcons } from "../components/MediaIcons";
 import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
+import { Fav } from "./Fav";
 
 export const ModalBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
@@ -94,6 +95,7 @@ export const ModalBtn = ({ obj, allTechStack }) => {
                   />
                 )}
               </div>
+              <Fav devId={obj?.id} />
               <div className="modal-icons">
                 <MediaIcons key={obj.id} obj={obj} />
               </div>

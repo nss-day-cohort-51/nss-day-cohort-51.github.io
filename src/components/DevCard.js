@@ -6,37 +6,6 @@ import { ModalBtn } from "../components/MediaButtons";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
 import {Fav} from './Fav';
 
-// export const DevCard = ({ obj }) => {
-  
-//   return (
-//     <>
-//       <div className="dev-card">
-        
-//         <div className="dev-card__title">{obj?.title}</div>
-//         <div className="dev-card__pic">
-//           {obj?.pic ? (
-//             <img
-//               src={require(`../images/${obj?.pic}`).default}
-//               alt={obj?.name}
-//               className="card-pic" />
-//           ) : (
-//             <img
-//               src={require(`../images/default.png`).default}
-//               alt="default-user"
-//               className="card-pic"
-//             />
-//           )}
-//         </div>
-//         <div className="dev-card__name">{obj?.name}</div>
-//         <Fav devId={obj.id} />
-//         <div className="interest-fact__container">
-//           <div>
-//           <p>Industry Interest:</p>
-//           <div className="dev-card__interests">{obj?.interests}</div>
-
-
-
-
 export const DevCard = ({ obj, allTechStack }) => {
   
   return (
