@@ -1,0 +1,49 @@
+/*      CHECKBOX         */
+// @import "FaRegHeart" from 'react-icons';
+
+
+input[type="checkbox"] {
+	display: none;
+  }
+
+  input[type="checkbox"] + span:after{
+	content: "";
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	width: 24px;
+	height: 24px;
+	margin: -1px 0px 0 0;
+	vertical-align: middle;
+	background: url("favorite-border.svg") center no-repeat;
+	// border: 1px solid #ccc;
+	cursor: pointer;
+  }
+
+//   input[type="checkbox"] + span:after{
+// 	content: "♡";
+//   }
+
+
+//   input[type="checkbox"]:checked + span {
+// 	background: $orange -19px top no-repeat;
+//   }
+  
+//   input[type="checkbox"] + span {
+// 	margin-right: 4px;
+//   }
+
+  input[type=checkbox]:checked + span:after {
+    content: "";
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	width: 24px;
+	height: 24px;
+	margin: -1px 0px 0 0;
+	vertical-align: middle;
+	background: url("favorite.svg") center no-repeat;
+    // background: #0a0;
+}
+ 
+/*                       */
