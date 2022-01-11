@@ -9,68 +9,217 @@ $golden: #f5b467;
 $platinum: #ecebea;
 // *************************
 
-.modal {
-  padding: 30px;
+.modal-content {
+  margin: auto auto;
+}
 
-  .modal-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+.modal-header {
+  background-color: $gray;
+  text-align: center;
+  // padding-left: 30px;
 
-  .modal-name {
-  }
-
-  .modal-list__left {
-    border: 1px solid blue;
-  }
-
-  .modal-list__right {
-    border: 1px solid red;
-
-    .capstone-wrapper {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      border: 1px solid green;
-    }
-
-    .cap1 {
-      display: flex;
-      justify-content: center;
-      flex: 1;
-      border: 1px solid aqua;
-    }
-
-    .cap2 {
-      display: flex;
-      justify-content: center;
-      flex: 1;
-      border: 1px solid aqua;
-    }
-  }
-
-  .modal-pic {
+  h4 {
+    color: red;
+    font-size: 0.1rem;
   }
 
   .modal-title {
-  }
-
-  .modal-interests {
-  }
-
-  .modal-fact {
-  }
-
-  //Modal media icons
-  .modal-icons {
+    justify-content: center;
     text-align: center;
   }
 
-  .modal-pod {
-    width: 80%;
-    align-self: center;
-    text-align: center;
-    border: 1px solid pink;
+  .btn-close {
+    background-color: white;
+    margin-right: 5px;
   }
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.75);
+
+  img.repo-placeholder__image {
+    width: 340px;
+    height: auto;
+  }
+
+  .repo-placeholder__block {
+    height: 235px;
+    overflow-y: hidden;
+  }
+
+  .modal-name {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px auto;
+    line-height: 1.8rem;
+  }
+
+  .modal-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .modal-list__left {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    // border: 1px dotted pink;
+
+    .modal-pic {
+      width: 200px;
+      height: 200px;
+      margin: 10px auto 0px;
+    }
+
+    .primary {
+      width: 100%;
+      border-radius: 100px;
+      border: 5px solid $mustard;
+    }
+
+    .secondary {
+      width: 100%;
+      border-radius: 100px;
+      border: 5px solid $blue;
+    }
+
+    //Modal media icons
+    .modal-icons {
+      text-align: center;
+    }
+
+    .modal-dev-title {
+      font-family: "Space Mono", sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .modal-tech {
+      margin: 0px;
+    }
+
+    .modal-pod {
+      align-self: stretch;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.1rem;
+      background-color: lightgray;
+      padding: 0px auto 5px;
+      margin: 10px 0px 0px;
+      border: 1px solid rgb(172, 172, 172);
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .modal-pod__title {
+        font-size: 1.1em;
+        font-weight: 600;
+        padding-top: 8px;
+        margin: 0px auto;
+      }
+
+      .modal-pod__text {
+        font-size: 0.9em;
+        font-weight: 400;
+        padding: 0px 0px 5px 0px;
+        max-width: 260px;
+        text-align: center;
+      }
+
+      .modal-pod__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        background-color: $platinum;
+        border-radius: 5px;
+        border: 1px solid darkgray;
+        padding: 8px 0px;
+        margin: 6px auto 10px;
+
+        iframe {
+          align-self: center;
+        }
+      }
+    }
+  }
+
+  .modal-list__right {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+
+    .capstone-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .cap1,
+    .cap2 {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h5 {
+        font-weight: 500;
+        margin: 15px auto 5px;
+      }
+
+      .capstone-description {
+        padding: 0px 15px 5px;
+      }
+    }
+  }
+}
+
+.modal-body {
+  width: 100%;
+  background-color: $platinum;
+  padding: 0px 0px 20px;
+}
+
+.modal-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $gray;
+
+  .btn {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    margin: 12px 0px 10px 0px;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+}
+
+.modal-dialog {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.fade.modal.show {
+  display: inline;
+  padding: 0px;
+  margin: 20px 0px 0px;
 }

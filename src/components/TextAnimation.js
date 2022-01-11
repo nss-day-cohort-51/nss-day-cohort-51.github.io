@@ -1,19 +1,20 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import alienface from "../images/alienface.svg";
 import "../styles/custom.scss";
 
 export const ScrollingText = () => {
   return (
     <>
-      <div class="content">
-        <div class="content__container">
-          <p class="content__container__text">We are</p>
+      <div className="content">
+        <div className="content__container">
+          <p className="content__container__text">We are</p>
 
-          <ul class="content__container__list">
-            <li class="content__container__list__item">developers</li>
-            <li class="content__container__list__item">full stack</li>
-            <li class="content__container__list__item">ui/ux designers</li>
-            <li class="content__container__list__item">ready to work!</li>
+          <ul className="content__container__list">
+            <li className="content__container__list__item">developers</li>
+            <li className="content__container__list__item">full stack</li>
+            <li className="content__container__list__item">ui/ux designers</li>
+            <li className="content__container__list__item">ready to work!</li>
           </ul>
         </div>
       </div>
@@ -50,7 +51,16 @@ export const TypingText1 = () => {
 export const TypingText2 = () => {
   return (
     <>
-      <div className="typewriter2">
+      <div
+        className="typewriter2"
+        style={{
+          backgroundImage: `url(${alienface})`,
+          backgroundSize: `52px 33px`,
+          backgroundRepeat: `no-repeat`,
+          backgroundPosition: `67% 48%`,
+        }}
+      >
+        {/* <p>COHORT 51</p> */}
         <div className="dynamic">
           <Typewriter
             id="typewriter"
@@ -59,6 +69,8 @@ export const TypingText2 = () => {
               autoStart: true,
               loop: true,
               delay: "natural",
+              pauseFor: "4000ms",
+              stop: false,
             }}
           />
         </div>
@@ -66,3 +78,9 @@ export const TypingText2 = () => {
     </>
   );
 };
+
+<Typewriter
+  onInit={(typewriter) => {
+    typewriter.typeString("Hello World!").pauseFor(2500).deleteAll().start();
+  }}
+/>;

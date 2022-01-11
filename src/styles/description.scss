@@ -14,28 +14,8 @@ $platinum: #ecebea;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: $platinum;
-  // justify-content: space-between;
-
-
-  h1 {
-    color: $midnight;
-   
-  }
-  p {
-    color: $midnight;
-   
-  
-  }
-  a {
-    color: $orange;
-    text-decoration: none;
-  }
-
-  .rsvp {
-    margin-left: 0px;
-    }  
+  padding-top: 100px;
 }
-
 
 .logo {
   width: 300px;
@@ -48,26 +28,68 @@ $platinum: #ecebea;
 }
 
 .description-section__about {
-flex: 1;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-justify-content: center;
-padding: 35px;
+  min-width: 360;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 35px;
+  background-image: url("../images/description.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right bottom;
+
+  h1 {
+    min-width: 320px;
+    max-width: 95%;
+    color: $midnight;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    min-width: 320px;
+    max-width: 95%;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: $midnight;
+    min-width: 320px;
+    max-width: 90%;
+    font-size: 1.4rem;
+  }
+
+  a {
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
 }
 
+.fullstack {
+  background-color: #dfb775;
+  color: #323637;
+  border-radius: 6px;
+  padding: 1px 5px;
+}
 
-// // img.description__img {
-// //   background-image: url("../images/description.svg");
-//   // position: fixed;
-//   // position: absolute;
-//   // z-index:-1;
-//   // top: -50%; 
-//   // left: -50%; 
-//   // width: 180%; 
-//   // height: 100%;
-//   margin: 0;
-// background-repeat: no-repeat;
-//   background-size: cover;
-// // background-size: contain;
-// }
+.uiux {
+  color: #323637;
+  background-color: #82bad9;
+  border-radius: 6px;
+  padding: 1px 5px;
+}
+
+/* If the screen size is less than 1075px, shrink description bg image to 50% */
+@media only screen and (max-width: 1074px) {
+  .description-section__about {
+    padding: 20px 20px 50px;
+    font-size: 1rem;
+    background-size: auto 50%;
+
+    p {
+      max-width: 80%;
+    }
+  }
+}

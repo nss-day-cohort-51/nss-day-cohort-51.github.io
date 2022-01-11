@@ -12,55 +12,59 @@ $platinum: #ecebea;
 .media-btn {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  // border: 1px solid blue;
-}
+  justify-content: space-evenly;
+  padding-right: 2px;
 
-.icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin: auto 0px;
-  // border: 1px solid red;
-  width: fit-content;
-
-  a {
-    font-size: 45px;
-    color: $space;
-    text-decoration: none;
-    padding: 0px;
+  .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto 7px;
   }
-}
 
-.git {
-  a {
-    // font-size: 50px;
-    vertical-align: top;
-    margin: auto 0px;
-    margin-right: 5px;
+  .feButtonBlue {
+    svg {
+      color: $space;
+      cursor: pointer;
+      transition: 400ms all; /* this controls how smooth hover effect is */
+    }
+
+    svg:hover {
+      color: $blue;
+      transform: scale(1.2);
+    }
   }
-}
 
-.linked {
-  a {
-    margin: auto 0px;
+  .fsButtonYellow {
+    svg {
+      color: $space;
+      cursor: pointer;
+      transition: 400ms all;
+    }
+
+    svg:hover {
+      color: $mustard;
+      transform: scale(1.2);
+    }
   }
-}
 
-.mail {
-  a {
-    font-size: 55px;
+  .linkedin a {
+    font-size: 44px;
+    margin: auto 2px auto 5px;
   }
-}
 
-.resume {
-  a {
-    margin: auto 0px;
+  .mail a {
+    font-size: 64px;
+    padding-bottom: 3px;
   }
-}
 
-.web {
-  a {
-    margin: auto 0px;
+  .git a {
+    font-size: 46px;
+    margin: auto;
+  }
+
+  .web a,
+  .resume a {
+    margin: auto 5px;
   }
 }

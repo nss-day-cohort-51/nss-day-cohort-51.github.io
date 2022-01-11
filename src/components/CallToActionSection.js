@@ -1,20 +1,37 @@
 import React from "react";
-import { DemoDayButton } from "./DemoDayButton";
+import aliensThreeFaces from "../images/aliensThreeFaces.png";
 
 export const CallToActionSection = () => {
   return (
-    <div id="callToActionSection__container">
-      <section className="callToActionSection text__block">
-        <span>JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022 </span>
+    <div className="cta-section__block">
+      <section className="cta-section__alien-faces__block">
+        <img
+          className="alien-faces__image"
+          src={aliensThreeFaces}
+          alt="three alien heads"
+        />
       </section>
-      <section className="callToActionSection demo-day__block">
+      <section className="cta-section__text-container">
+        <div className="cta-text__block">
+          {" "}
+          <div className="cta-text">
+            JOIN US FOR DEMO DAY ON FEBRUARY 11, 2022
+          </div>
+        </div>
+      </section>
+      <section className="cta-section__demo-day-btn">
         <a
-          href="https://www.nashss.com/demoday"
+          href="https://www.nashss.com/demoday/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="demo-day-btn">
-            <div className="btn-item">&nbsp;RSVP&nbsp;</div>
+            <div
+              className="btn-item"
+              title="Event Link Updates after 11 January 2022"
+            >
+              SIGN-UP NOW!
+            </div>
           </div>
         </a>
       </section>

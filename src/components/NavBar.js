@@ -6,10 +6,13 @@ import "../styles/custom.scss";
 export const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-xl navbar-dark bg-dark">
-        <div className="typing-holder">
-          <TypingText2 />
-        </div>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" className="home-button__link">
+          <div className="typing-holder">
+            <TypingText2 />
+          </div>
+        </a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -21,7 +24,12 @@ export const NavBar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarText">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarText"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+        >
           <ul className="navbar-nav nav-menu ms-auto">
             <li className="nav-item">
               <a href="#devList">DEVELOPERS</a>
@@ -32,7 +40,7 @@ export const NavBar = () => {
             <li className="nav-item">
               <a href="#thanksLocation">THANKS</a>
             </li>
-            <li>
+            <li id="demoday">
               <div className="rsvp">
                 <DemoDayButton />
               </div>

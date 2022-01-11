@@ -30,10 +30,10 @@ $platinum: #ecebea;
 // You can define a value and calculate the others if you want to change the speed or number of lines
 
 .content {
-  background-color: $space;
+  background-color: #323637;
   position: absolute;
   top: 55%;
-  left: 20%;
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 40px;
   overflow: hidden;
@@ -271,13 +271,49 @@ $platinum: #ecebea;
 
 .typewriter2 {
   font-family: "Space Mono", sans-serif;
-  font-size: 44px;
+  font-size: 1.5em;
   font-weight: 600;
   color: $orange;
   display: flex;
   justify-content: flex-start;
-  font-size: 44px;
-  font-weight: 600;
+  width: 225px;
+
+  p {
+    border-right: solid 3px $orange;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Space Mono", monospace;
+    font-size: 1em;
+    color: $orange;
+    margin: auto 0px;
+    padding: 0px;
+  }
+
+  /* Animation */
+  p {
+    animation: animated-text 1s steps(12) 1s 1 normal both,
+      animated-cursor 850ms steps(12) infinite;
+  }
+
+  /* text animation */
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 220px;
+    }
+  }
+
+  /* cursor animations */
+  @keyframes animated-cursor {
+    from {
+      border-right-color: $golden;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
 
   //won't work if changed - default inside typewriter-effect library
   .Typewriter__cursor {

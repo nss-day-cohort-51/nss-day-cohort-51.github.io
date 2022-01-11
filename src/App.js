@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { NavBar } from "./components/NavBar";
 import { Description } from "./components/Description";
 import { DevList } from "./components/DevList";
+import { CallToActionSection } from "./components/CallToActionSection";
 import { TechStack } from "./components/TechStack";
 import { ThanksLocation } from "./components/ThanksLocation";
 import { Footer } from "./components/Footer";
 import "./styles/custom.scss";
-import { CallToActionSection } from "./components/CallToActionSection";
 
 export const App = () => {
   const [allDevs, setAllDevs] = useState([]);
@@ -24,7 +24,7 @@ export const App = () => {
     <div className="page">
       <NavBar />
       <Description />
-      <DevList allDevs={allDevs} />
+      <DevList allDevs={allDevs} allTechStack={allTechStack} />
       <CallToActionSection />
       <TechStack allTechStack={allTechStack} />
       <ThanksLocation />

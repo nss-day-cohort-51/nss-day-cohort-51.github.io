@@ -9,6 +9,10 @@ $golden: #f5b467;
 $platinum: #ecebea;
 // *************************
 
+#thanksLocation {
+  scroll-margin-top: 90px;
+}
+
 .thanks-location {
   display: flex;
   background: linear-gradient(to bottom, #dfb775 0%, #ed563d 100%);
@@ -37,7 +41,7 @@ $platinum: #ecebea;
 .thanks-location__location {
   flex: 1;
   align-self: flex-start;
-  margin: 30px 30px 30px;
+  margin: 30px 20px;
   min-width: 340px;
   max-width: 450px;
 }
@@ -45,8 +49,10 @@ $platinum: #ecebea;
 .thanks {
   display: flex;
   flex-direction: column;
+  padding: 0px 20px;
 
   h4 {
+    font-size: 1.3em;
     color: $midnight;
     text-align: center;
     margin-bottom: 20px;
@@ -59,6 +65,7 @@ $platinum: #ecebea;
   align-items: center;
 
   h4 {
+    font-size: 1.3em;
     color: $midnight;
     text-align: center;
     margin-bottom: 20px;

@@ -14,63 +14,23 @@ $platinum: #ecebea;
   display: flex;
   border: transparent;
   border-radius: 5px;
-  padding: 5px 15px;
   background: linear-gradient(to bottom left, #f2583e 0%, #f5b467 100%);
   color: black;
+  font-size: 1em;
   font-weight: 600;
   white-space: nowrap;
   text-decoration: none;
+  padding: 5px 15px;
+  margin: 5px 0px;
 
   .btn-item {
+    font-size: 0.75em;
+    font-weight: 600;
     text-align: center;
     text-decoration: none;
 
     a {
       text-decoration: none;
     }
-  }
-}
-
-//Capstone button
-.cap-btn {
-  align-self: center;
-  // width: 80%;
-  padding: 5px 15px;
-  margin: 5px;
-  border: transparent;
-  border-radius: 10px;
-  background-color: $gray;
-  color: white;
-  cursor: pointer;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  background-image: linear-gradient(#444c4c, #747e80);
-  box-shadow:2px 2px 1px grey;
-  
-  
-}
-
-//Podcast Player section
-.pod-player {
-  margin: 5px;
-
-  a {
-    color: #cccccc;
-    text-decoration: none;
-  }
-
-  div {
-    font-size: 10px;
-    color: #cccccc;
-    line-break: anywhere;
-    word-break: normal;
-    overflow: hidden;
-    // white-space: nowrap;
-    text-overflow: ellipsis;
-    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
-      Garuda, Verdana, Tahoma, sans-serif;
-    font-weight: 100;
-    border: 1px solid;
   }
 }

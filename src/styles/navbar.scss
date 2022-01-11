@@ -14,26 +14,36 @@ $platinum: #ecebea;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 20px 10px;
   background-color: $space !important;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 600;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 
   .typing-holder {
-    width: 280px;
     margin: auto 0px;
-    padding: 0px;
+    padding-left: 20px;
+  }
+  
+  a.home-button__link,
+  a.home-button__link:hover,
+  a.home-button__link:focus,
+  a.home-button__link:visited {
+    text-decoration: none;
   }
 }
 
 .nav-menu {
+  font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   ul {
-    margin: auto 0px;
+    margin: 20px 0px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -43,7 +53,13 @@ $platinum: #ecebea;
   }
 
   li {
-    margin: 5px 0px 5px 20px;
+    margin: 0.3rem 0.7rem;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+  }
+
+  #demoday {
+    margin: auto 0px;
   }
 
   a {
@@ -63,10 +79,14 @@ $platinum: #ecebea;
   }
 }
 
-.navbar-toggler {
-  margin-right: 10px;
+.rsvp {
+  margin: auto 20px;
 }
 
-.rsvp {
-  margin-left: 10px;
+.collapsed {
+  margin-right: 15px;
+}
+
+.navbar-toggler {
+  margin-right: 15px;
 }
