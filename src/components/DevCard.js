@@ -3,7 +3,6 @@
 import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
 import { ModalBtn } from "../components/MediaButtons";
-import "../styles/custom.scss";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
 
 export const DevCard = ({ obj, allTechStack }) => {
