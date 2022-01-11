@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavBar } from "./components/NavBar";
+import { NavBar2 } from "./components/NavBar2";
 import { Description } from "./components/Description";
 import { DevList } from "./components/DevList";
 import { CallToActionSection } from "./components/CallToActionSection";
@@ -22,7 +22,7 @@ export const App = () => {
   }, []);
   return (
     <div className="page">
-      <NavBar />
+      <NavBar2 />
       <Description />
       <DevList allDevs={allDevs} allTechStack={allTechStack} />
       <CallToActionSection />

@@ -26,8 +26,8 @@ export const NavBar = () => {
         <div
           className="collapse navbar-collapse"
           id="navbarText"
-          data-toggle="collapse"
-          data-target=".navbar-collapse"
+          // data-toggle="collapse"
+          // data-target=".navbar-collapse"
         >
           <ul className="navbar-nav nav-menu ms-auto">
             <li className="nav-item">

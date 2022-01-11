@@ -6,11 +6,11 @@ import React from "react";
 export const DemoDayButton = () => {
   return (
     <>
-      <a href="https://www.nashss.com/demoday" target="_blank" rel="noreferrer">
+      {/* <a href="https://www.nashss.com/demoday" target="_blank" rel="noreferrer"> */}
         <div className="demo-day-btn">
           <div className="btn-item">Join Us For Demo Day</div>
         </div>
-      </a>
+      {/* </a> */}
     </>
   );
 };
