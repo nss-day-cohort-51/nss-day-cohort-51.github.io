@@ -7,12 +7,14 @@ export const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="#" className="home-button__link">
-          <div className="typing-holder">
-            <TypingText2 />
-          </div>
-        </a>
-
+        <div
+          className="typing-holder"
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
+          <TypingText2 />
+        </div>
         <button
           className="navbar-toggler"
           type="button"
