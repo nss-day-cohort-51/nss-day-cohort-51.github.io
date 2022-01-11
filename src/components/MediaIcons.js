@@ -4,7 +4,6 @@ import React from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { buttonColor } from "../components/helpers";
-import "../styles/custom.scss";
 
 export const MediaIcons = ({ obj }) => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import { DemoDayButton } from "../components/DemoDayButton";
 import { TypingText2 } from "../components/TextAnimation";
-import "../styles/custom.scss";
 
 export const NavBar = () => {
   return (

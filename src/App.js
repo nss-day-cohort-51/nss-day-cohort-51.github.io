@@ -6,7 +6,7 @@ import { CallToActionSection } from "./components/CallToActionSection";
 import { TechStack } from "./components/TechStack";
 import { ThanksLocation } from "./components/ThanksLocation";
 import { Footer } from "./components/Footer";
-import "./styles/custom.scss";
+// import "./styles/custom.scss";
 
 export const App = () => {
   const [allDevs, setAllDevs] = useState([]);

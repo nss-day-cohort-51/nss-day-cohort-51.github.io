@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
 import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
-import "../styles/custom.scss";
 
 export const ModalBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
