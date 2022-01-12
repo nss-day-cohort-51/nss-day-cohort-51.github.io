@@ -15,7 +15,7 @@ $platinum: #ecebea;
   position: fixed;
   z-index: 1000;
   width: 100%;
-  padding: 20px 0px;
+  padding: 20px;
   margin: 0px;
 
   .typing-holder {
@@ -60,10 +60,28 @@ $platinum: #ecebea;
   }
 
   .navbar-toggler {
-    margin: 0px 20px;
+    margin-right: 25px;
   }
 
   .navbar-collapse {
     justify-content: flex-end;
+  }
+}
+
+/* When screen size is less than 992px */
+@media only screen and (max-width: 992px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+}
+
+/* When screen size is less than 480px */
+@media only screen and (max-width: 480px) {
+  .navbar {
+    padding: 20px 0px;
+
+    .navbar-toggler {
+      margin-right: 20px;
+    }
   }
 }
