@@ -7,6 +7,7 @@ import { MediaIcons } from "../components/MediaIcons";
 import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
 import "../styles/custom.scss";
+import { Fav } from "./Fav";
 
 export const ModalBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
@@ -73,7 +74,9 @@ export const ModalBtn = ({ obj, allTechStack }) => {
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>
-            <div className="modal-name">{obj?.name}</div>
+            <div className="modal-name">{obj?.name}  
+            {/* <Fav devId={obj?.id} /> */}
+            </div>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
@@ -102,22 +105,8 @@ export const ModalBtn = ({ obj, allTechStack }) => {
               <div className="modal-tech">
                 <ModalTech key={obj.id} dev={obj} allTechStack={allTechStack} />
               </div>
-              <div className="modal-pod">
-                <div className="modal-pod__title">NSS Capstone Interview</div>
-                <div className="modal-pod__text">
-                  Check out the podcast interview about my capstone!
-                </div>
-                <div className="modal-pod__wrapper">
-                  <iframe
-                    title="Podcast Player"
-                    width="90%"
-                    height="20"
-                    scrolling="no"
-                    frameBorder="no"
-                    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
-                  ></iframe>
-                </div>
-              </div>
+
+              {obj?.pod !== "#" ? <PodPlayer /> : null}
             </div>
             <div className="modal-list__right">
               <h4>Capstones</h4>
@@ -175,19 +164,24 @@ export const DevCardBtn = ({ obj, btnText }) => {
   );
 };
 
-export const PodPlayer = () => {
+const PodPlayer = () => {
   return (
     <>
-      <div className="pod-player">
-        <iframe
-          title="Podcast Player"
-          color="#fff"
-          width="80%"
-          height="20"
-          scrolling="no"
-          frameBorder="no"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197966393&color=%23747e80&inverse=false&auto_play=false&show_user=true"
-        ></iframe>
+      <div className="modal-pod pod-player">
+        <div className="modal-pod__title">NSS Capstone Interview</div>
+        <div className="modal-pod__text">
+          Check out the podcast interview about my capstone!
+        </div>
+        <div className="modal-pod__wrapper">
+          <iframe
+            title="Podcast Player"
+            width="95%"
+            height="20"
+            scrolling="no"
+            frameBorder="no"
+            src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
+          ></iframe>
+        </div>
       </div>
     </>
   );

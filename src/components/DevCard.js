@@ -3,24 +3,19 @@
 import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
 import { ModalBtn } from "../components/MediaButtons";
-import "../styles/custom.scss";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
+import {Fav} from './Fav';
 
 export const DevCard = ({ obj, allTechStack }) => {
-  const anchortag = obj.name;
+  
   return (
     <>
-      <div id={anchortag} className="dev-card">
+      <div id={obj?.name} className="dev-card">
         <section
-          className={
-            "dev-card-title__block" + " " + DevCardAddClass(obj?.title)
-          }
-        >
+          className={`dev-card-title__block ${DevCardAddClass(obj?.title)}`}>
           <h5 className="dev-card__title">{obj?.title}</h5>
         </section>
-        <section
-          className={"dev-card__body" + " " + DevCardAddClass(obj?.title)}
-        >
+        <section className={`dev-card__body ${DevCardAddClass(obj?.title)}`}>
           <div className="dev-card__pic">
             {obj?.pic ? (
               <img
@@ -36,7 +31,7 @@ export const DevCard = ({ obj, allTechStack }) => {
               />
             )}
           </div>
-          <div className="dev-card__name">{obj?.name}</div>
+          <div className="dev-card__name">{obj?.name}  <Fav devId={obj?.id} /></div>
           <div className="dev-card__icons">
             <MediaIcons key={obj.id} obj={obj} />
           </div>
@@ -53,10 +48,9 @@ export const DevCard = ({ obj, allTechStack }) => {
             <a href={obj?.personal} target="_blank" rel="noreferrer">
               <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
             </a>
-
-            <a href="#{anchortag}">
+            <span title={`More about ${obj?.name}`}>
               <ModalBtn obj={obj} allTechStack={allTechStack} />
-            </a>
+            </span>
           </section>
         </section>
       </div>
