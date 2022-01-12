@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.509d6c6e.chunk.css",
-    "main.js": "/static/js/main.f9725c22.chunk.js",
-    "main.js.map": "/static/js/main.f9725c22.chunk.js.map",
+    "main.css": "/static/css/main.a9c53166.chunk.css",
+    "main.js": "/static/js/main.0e0c65e2.chunk.js",
+    "main.js.map": "/static/js/main.0e0c65e2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1cfd00dd.js",
     "runtime-main.js.map": "/static/js/runtime-main.1cfd00dd.js.map",
     "static/js/2.c4d1ce85.chunk.js": "/static/js/2.c4d1ce85.chunk.js",
     "static/js/2.c4d1ce85.chunk.js.map": "/static/js/2.c4d1ce85.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.509d6c6e.chunk.css.map": "/static/css/main.509d6c6e.chunk.css.map",
+    "static/css/main.a9c53166.chunk.css.map": "/static/css/main.a9c53166.chunk.css.map",
     "static/js/2.c4d1ce85.chunk.js.LICENSE.txt": "/static/js/2.c4d1ce85.chunk.js.LICENSE.txt",
     "static/media/alienface.svg": "/static/media/alienface.9656d45e.svg",
     "static/media/aliensThreeFaces.svg": "/static/media/aliensThreeFaces.0321c3c0.svg",
@@ -32,7 +32,7 @@
     "static/media/emily.jpg": "/static/media/emily.8071d63a.jpg",
     "static/media/footer-img.svg": "/static/media/footer-img.6fa5327c.svg",
     "static/media/gerson.png": "/static/media/gerson.75fd8053.png",
-    "static/media/jake.png": "/static/media/jake.0c343e62.png",
+    "static/media/jake.png": "/static/media/jake.629aa412.png",
     "static/media/jama.PNG": "/static/media/jama.fdb66b1e.PNG",
     "static/media/joshua.jpeg": "/static/media/joshua.d721b8e6.jpeg",
     "static/media/kaitlyn.png": "/static/media/kaitlyn.7da9a183.png",
@@ -48,7 +48,7 @@
   "entrypoints": [
     "static/js/runtime-main.1cfd00dd.js",
     "static/js/2.c4d1ce85.chunk.js",
-    "static/css/main.509d6c6e.chunk.css",
-    "static/js/main.f9725c22.chunk.js"
+    "static/css/main.a9c53166.chunk.css",
+    "static/js/main.0e0c65e2.chunk.js"
   ]
 }
