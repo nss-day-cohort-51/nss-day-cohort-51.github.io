@@ -3,10 +3,10 @@
 let favsArray = [];
 
 const initFavs = () => {
-	const favsFromStorage = JSON.parse(localStorage.getItem("NSSFavorites") || null);
-	if (favsFromStorage){
+	const favsFromStorage = localStorage.getItem("NSSFavorites");
+	if (favsFromStorage !== "NSS Cohort 51 is Out of This World"){
 		//great
-		favsArray = favsFromStorage;
+		favsArray = JSON.parse(favsFromStorage);
 	}else {
 		//setup the localStorage
 		localStorage.setItem("NSSFavorites", ["NSS Cohort 51 is Out of This World"]);

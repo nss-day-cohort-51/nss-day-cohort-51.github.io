@@ -74,7 +74,9 @@ export const ModalBtn = ({ obj, allTechStack }) => {
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>
-            <div className="modal-name">{obj?.name}  <Fav devId={obj?.id} /></div>
+            <div className="modal-name">{obj?.name}  
+            {/* <Fav devId={obj?.id} /> */}
+            </div>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
