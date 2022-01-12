@@ -11,17 +11,11 @@ $platinum: #ecebea;
 
 // Header ===============================
 .navbar {
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: space-between;
-  // padding: 20px 10px;
   background-color: $space !important;
-  font-size: 1.5em;
-  font-weight: 600;
   position: fixed;
   z-index: 1000;
   width: 100%;
-  padding: 10px 0px;
+  padding: 20px 0px;
   margin: 0px;
 
   .typing-holder {
@@ -35,84 +29,41 @@ $platinum: #ecebea;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    // border: 1px solid red;
-  }
-
-  .navbar-collapse {
-    // border: 1px solid blue;
-    justify-content: center;
   }
 
   .navbar-nav {
     justify-content: center;
-    // border: 1px solid green;
-    padding: 20px;
+    align-items: center;
+    padding: 0px 10px;
 
     a.nav-link {
       justify-content: center;
-      border: 2px solid white;
       text-align: center;
+      color: $golden;
+      margin: 0px 5px;
+      font-weight: 500;
+      white-space: nowrap;
+
+      &:visited {
+        color: $golden;
+      }
+      &:hover {
+        color: $orange;
+      }
+      &:active {
+        color: $orange;
+      }
+    }
+    .nav-item {
+      font-size: 1.4em;
     }
   }
-}
 
-a.nav-link {
-  justify-content: center;
-}
-// .nav-menu {
-//   font-size: 1.5rem;
-//   font-weight: 500;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   border: 1px solid red;
+  .navbar-toggler {
+    margin: 0px 20px;
+  }
 
-//   ul {
-//     margin: 20px 0px;
-//     list-style-type: none;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     align-items: center;
-//     white-space: nowrap;
-//   }
-
-//   li {
-//     margin: 0.3rem 0.7rem;
-//     font-size: 1.3rem;
-//     line-height: 1.3em;
-//   }
-
-//   #demoday {
-//     margin: auto 0px;
-//   }
-
-//   a {
-//     font-weight: 500;
-//     color: $golden;
-//     text-decoration: none;
-
-//     &:visited {
-//       color: $golden;
-//     }
-//     &:hover {
-//       color: $orange;
-//     }
-//     &:active {
-//       color: $orange;
-//     }
-//   }
-// }
-
-.rsvp {
-  // margin: auto 20px;
-  width: 230px;
-}
-
-// .collapsed {
-//   margin-right: 15px;
-// }
-
-.navbar-toggler {
-  margin-right: 20px;
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
 }

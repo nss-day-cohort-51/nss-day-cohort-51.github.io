@@ -9,26 +9,6 @@ $golden: #f5b467;
 $platinum: #ecebea;
 // *************************
 
-//ScrollingText styling
-
-// 6 is the number of animations
-// Here, there are 4 lines:
-
-// 1 to 2
-// 2 to 3
-// 3 to 4
-// 4 to 3
-// 3 to 2
-// 2 to 1
-
-// 6x + 6y = 100 (100% duration)
-
-// HERE :
-// y = 4 -> Animation between two lines
-// x = 12.66 -> Time spent on a line
-
-// You can define a value and calculate the others if you want to change the speed or number of lines
-
 .content {
   background-color: #323637;
   position: absolute;
@@ -271,7 +251,7 @@ $platinum: #ecebea;
 
 .typewriter2 {
   font-family: "Space Mono", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: 600;
   color: $orange;
   display: flex;

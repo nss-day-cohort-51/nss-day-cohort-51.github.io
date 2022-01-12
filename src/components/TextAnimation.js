@@ -60,7 +60,6 @@ export const TypingText2 = () => {
           backgroundPosition: `67% 48%`,
         }}
       >
-        {/* <p>COHORT 51</p> */}
         <div className="dynamic">
           <Typewriter
             id="typewriter"
@@ -78,9 +77,3 @@ export const TypingText2 = () => {
     </>
   );
 };
-
-<Typewriter
-  onInit={(typewriter) => {
-    typewriter.typeString("Hello World!").pauseFor(2500).deleteAll().start();
-  }}
-/>;
