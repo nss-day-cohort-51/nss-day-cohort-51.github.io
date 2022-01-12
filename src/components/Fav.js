@@ -3,8 +3,8 @@ functionality related to marking a developer as a favorite and storing the devID
 Place this component in the DevCard and pass it the devId
 */
 
-import react, { useEffect } from "react";
-import { useState, setState } from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
 import { checkForFav, getFavs, updateFavs } from './FavsManager';
 // import { FaRegHeart } from 'react-icons';
 
