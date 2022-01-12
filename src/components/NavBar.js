@@ -1,53 +1,35 @@
 import React from "react";
-import { DemoDayButton } from "../components/DemoDayButton";
-import { TypingText2 } from "../components/TextAnimation";
-import "../styles/custom.scss";
+import { DemoDayButton } from "./DemoDayButton";
+import { TypingText2 } from "./TextAnimation";
+import { Navbar, Nav } from "react-bootstrap";
 
 export const NavBar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="#" className="home-button__link">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar.Brand href="#home">
           <div className="typing-holder">
             <TypingText2 />
           </div>
-        </a>
-
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="collapse navbar-collapse"
-          id="navbarText"
-          data-toggle="collapse"
-          data-target=".navbar-collapse"
-        >
-          <ul className="navbar-nav nav-menu ms-auto">
-            <li className="nav-item">
-              <a href="#devList">DEVELOPERS</a>
-            </li>
-            <li className="nav-item">
-              <a href="#techStack">TECH STACK</a>
-            </li>
-            <li className="nav-item">
-              <a href="#thanksLocation">THANKS</a>
-            </li>
-            <li id="demoday">
-              <div className="rsvp">
-                <DemoDayButton />
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="">
+            <Nav.Link href="#devList" className="nav-item">
+              DEVELOPERS
+            </Nav.Link>
+            <Nav.Link href="#techStack" className="nav-item">
+              TECH STACK
+            </Nav.Link>
+            <Nav.Link href="#thanksLocation" className="nav-item">
+              THANKS
+            </Nav.Link>
+            <Nav.Link href="https://www.nashss.com/demoday">
+              <DemoDayButton />
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </>
   );
 };

@@ -11,12 +11,12 @@
       "fact": "I am Palestinian and I hate cilantro",
       "capName": "PetJenda",
       "capLink": "https://ldabudiab.github.io/LeithCodes/assets/img/petjenda.PNG",
-      "capRepo":"https://github.com/Ldabudiab/PetJenda-Cap",
+      "capRepo": "https://github.com/Ldabudiab/PetJenda-Cap",
       "capDescription": "Single page application created with ReactJS and JSON-Server.",
       "cap2Name": "",
       "cap2Link": "#",
       "cap2Description": "",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "resume": "https://drive.google.com/file/d/1Paj2XB5MsUVs4yUu9B4UanfYQdOX0Tku/view?usp=sharing",
       "pod": "#",
       "pic": "leith.jpg"
@@ -33,12 +33,12 @@
       "fact": "I love to make others smile",
       "capName": "Ya Heard",
       "capLink": "#",
-      "capRepo":"https://github.com/scrawleyy1/Ya-Heard",
+      "capRepo": "https://github.com/scrawleyy1/Ya-Heard",
       "capDescription": "This is an app for anyone who loves live music! The app allows you to keep track of all of your upcoming live events as well as saves the live events you've previoiusly attended.",
       "cap2Name": "",
       "cap2Link": "#",
       "cap2Description": "",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "resume": "https://www.canva.com/design/DAEs6G11Mis/2unCke2qbknrE_vuZa_Hjg/view?utm_content=DAEs6G11Mis&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
       "pod": "#",
       "pic": "sydney.jpeg"
@@ -56,10 +56,10 @@
       "capName": "Travel Station",
       "capLink": "#",
       "capDescription": "An easy-to-use online RV park management application",
-      "capRepo":"https://github.com/sudopigeek/travel-station",
+      "capRepo": "https://github.com/sudopigeek/travel-station",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1-ntU1LErs6y3k4P7TipMaMEzwsnhVEqd/view?usp=sharing",
       "pod": "#",
@@ -78,10 +78,10 @@
       "capName": "Rx Tracker",
       "capLink": "#",
       "capDescription": "RxTracker allows a user to keep track of current and new medications.",
-      "capRepo":"https://github.com/mfrance18/rxtracker",
+      "capRepo": "https://github.com/mfrance18/rxtracker",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://www.canva.com/design/DAEs0-jXyPA/share/preview?token=2p7sX7bGPRXNgv9qkZzh-Q&role=EDITOR&utm_content=DAEs0-jXyPA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
       "pod": "#",
@@ -100,10 +100,10 @@
       "capName": "Medical-appointment app",
       "capLink": "#",
       "capDescription": "Allows user to add their child and make medical appointment.",
-      "capRepo":"https://github.com/tessema2021/Front-end-capstone-app-medical-appointment",
+      "capRepo": "https://github.com/tessema2021/Front-end-capstone-app-medical-appointment",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1K93W6HviHYNig5oot9izSr31_Tgy8P9T/view?usp=sharing",
       "pod": "#",
@@ -122,10 +122,10 @@
       "capName": "Zoo Adventures",
       "capLink": "https://raw.githubusercontent.com/KatieJohns112/zoo-adventures/main/src/images/zoo-adventures-wireframe.png",
       "capDescription": "Zoo Adventures allows a child to create a list of animals at the zoo.",
-      "capRepo":"https://github.com/KatieJohns112/zoo-adventures",
+      "capRepo": "https://github.com/KatieJohns112/zoo-adventures",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://docs.google.com/document/d/1MygOrAmME5ukt0oqni1GX8QUMrMUek_gDGU2ZNYq9cU/edit?usp=sharing",
       "pod": "#",
@@ -142,11 +142,11 @@
       "personal": "",
       "fact": "Designed album art for artists including Jason Wade of the band Lifehouse",
       "capName": "Card Caddie",
-      "capRepo":"https://github.com/jmlashen/cardcaddie",
+      "capRepo": "https://github.com/jmlashen/cardcaddie",
       "capDescription": "This app helps golfers keep track of their scores as well as reflections from the rounds and the courses they play",
       "capLink": "https://www.youtube.com/embed/GyDZS1fGJ7k",
       "cap2Name": "",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "cap2Link": "#",
       "resume": "https://drive.google.com/file/d/1qWfI4xuKsbo4cv1dX5e9IHmsA8XTs-Q3/view?usp=sharing",
@@ -165,11 +165,11 @@
       "fact": "The truth is out there, but so are lies",
       "capName": "Smart Hire",
       "capLink": "#",
-      "capRepo":"https://github.com/GersonDiketama/Smart-Hire",
+      "capRepo": "https://github.com/GersonDiketama/Smart-Hire",
       "capDescription": "This project is intended to help Recruiters easily find potential clients, also to cut the numbers of calls and emails sent every single day.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1qNkN5GSsPoVMCGkGF9uoHLdDgwc0E6uY/view?usp=sharing",
       "pod": "#",
@@ -187,17 +187,17 @@
       "fact": "I have seen every episode of the Golden Girls at least three times",
       "capName": "Mood Moons",
       "capLink": "https://www.youtube.com/embed/fKhexuUOOos?controls=0",
-      "capRepo":"https://github.com/morganmassey14/moodmoons",
+      "capRepo": "https://github.com/morganmassey14/moodmoons",
       "capDescription": "Mood Moons is an app designed to help reduce anxiety by offering coping skills and mood tracking.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1eoh6uJ6IX8ZqU0SKUKhCIBcbW_u-zUFo/view?usp=sharing",
       "pod": "#",
       "pic": "morgan.png"
     },
-    
+
     {
       "id": 10,
       "name": "Colin Miller",
@@ -209,11 +209,11 @@
       "fact": "The truth is out there, but so are lies",
       "capName": "ScreenDraft",
       "capLink": "https://github.com/colinrmiller/screen-draft/blob/main/public/img/Logo.png?raw=true",
-      "capRepo":"https://github.com/colinrmiller/screen-draft",
+      "capRepo": "https://github.com/colinrmiller/screen-draft",
       "capDescription": "A social film discovery app built on user generated categories.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/16CmMz2tYhQFm5qD0uTa5pSG7sALp8DvN/view?usp=sharing",
       "pod": "#",
@@ -231,11 +231,11 @@
       "fact": "I held an event that sold out at the Belcourt Theatre",
       "capName": "Tell 'em Why You're Mad",
       "capLink": "#",
-      "capRepo":"https://github.com/JamaCodes/captstonefrontend",
+      "capRepo": "https://github.com/JamaCodes/captstonefrontend",
       "capDescription": "Single page application created with ReactJS and JSON-Server.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://docs.google.com/document/d/1w3fFF7FpqpUxO1HSPDt-HPkXHCfr5vOG/edit?usp=sharing&ouid=103180430392859837848&rtpof=true&sd=true",
       "pod": "#",
@@ -253,11 +253,11 @@
       "fact": "I've seen over 300 artists live in concert",
       "capName": "Marvel Cinematic Comic Origins",
       "capLink": "#",
-      "capRepo":"https://github.com/jafar-net/mcco",
+      "capRepo": "https://github.com/jafar-net/mcco",
       "capDescription": "Single page application created with ReactJS and JSON-Server.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1A9r9E78z-bKoxRsYIPouQwXDYplxR5mw/view?usp=sharing",
       "pod": "#",
@@ -275,11 +275,11 @@
       "fact": "I can solve a 2x2, 3x3, voided 3x3(no center squares), and a 4x4 Rubick's Cube",
       "capName": "Coaster Credits",
       "capLink": "https://user-images.githubusercontent.com/19331670/139387861-0db870f8-3fdd-4061-b7a3-ebf3075e8992.jpg",
-      "capRepo":"https://github.com/cwmurphy99/Coaster_Credits/tree/main/coaster-credits",
+      "capRepo": "https://github.com/cwmurphy99/Coaster_Credits/tree/main/coaster-credits",
       "capDescription": "Theme Park enthusiats can save a list of roller coasters they've ridden.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://docs.google.com/document/d/1gaAHYez1UY-abk_NyG6cbLvUqVmrVmDX/edit?usp=sharing&ouid=103180430392859837848&rtpof=true&sd=true",
       "pod": "#",
@@ -297,11 +297,11 @@
       "fact": "Im a personal trainer and love learning new instruments",
       "capName": "Catalytic Workouts",
       "capLink": "https://www.youtube.com/embed/fCvaqGn8HjM?controls=0",
-      "capRepo":"https://github.com/DeveryPage/catalytic-workouts",
+      "capRepo": "https://github.com/DeveryPage/catalytic-workouts",
       "capDescription": "A CRUD React app that Allows you to set workout plans for yourself on given days as well as shows tips on how to use proper form.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://www.canva.com/design/DAEtejcG3No/lqaHhwch-eRKXEUCRu0tLw/view?utm_content=DAEtejcG3No&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
       "pod": "#",
@@ -319,11 +319,11 @@
       "fact": "I was ranked 43rd in my senior class of 328 students",
       "capName": "Shelbye's Stacks",
       "capLink": "#",
-      "capRepo":"https://github.com/householdgenius/capstone-1",
+      "capRepo": "https://github.com/householdgenius/capstone-1",
       "capDescription": "A task management and item tracking app for those with ADHD.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1KfX3zmJ0AUtCHwSsFNNt3FX2CqeR5Nkc/view",
       "pod": "#",
@@ -341,11 +341,11 @@
       "fact": "I have lived in 15 different houses throughout my life all within a 50 mile radius",
       "capName": "Productive Pomo",
       "capLink": "https://github.com/colbyryan/productive-pomo/raw/main/src/Images/productivepomo.png?raw=true",
-      "capRepo":"https://github.com/colbyryan/productive-pomo",
+      "capRepo": "https://github.com/colbyryan/productive-pomo",
       "capDescription": "Single page application created with ReactJS and JSON-Server.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1krGKRqP0JgG8kV8T4IX6Ofbelbzj0LU9/view?usp=sharing",
       "pod": "#",
@@ -362,12 +362,12 @@
       "personal": "https://www.susiestanley.com",
       "fact": "I am a Canadian-American that speaks Hungarian and I can't live without my power tools",
       "capName": "Life Hacker App",
-      "capRepo":"https://github.com/SusieCodes/lifehacker",
+      "capRepo": "https://github.com/SusieCodes/lifehacker",
       "capDescription": "Single page application created with ReactJS and JSON-Server.",
       "capLink": "https://github.com/SusieCodes/lifehacker/raw/main/src/images/lifehackerdashboard.png",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://susiecodes.github.io/resume.pdf",
       "pod": "#",
@@ -384,12 +384,12 @@
       "personal": "https://github.com/joshuastewart417",
       "fact": "I picked up ukulele and embroidering by hand as quarantine hobbies.",
       "capName": "Stitch Saver",
-      "capRepo":"https://github.com/joshuastewart417/Stitch-Saver",
+      "capRepo": "https://github.com/joshuastewart417/Stitch-Saver",
       "capDescription": "Stitch Saver creates custom color palettes and embroidery thread lists.",
       "capLink": "#",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/19KFv_Q3e3Oow0zw4K66f4RU_DIY-zMuO/view?usp=sharing",
       "pod": "#",
@@ -406,12 +406,12 @@
       "personal": "https://github.com/Tapolcsanyi",
       "fact": "The truth is out there, but so are lies",
       "capName": "Budget Swag",
-      "capRepo":"https://github.com/Tapolcsanyi/Budget-Swag",
+      "capRepo": "https://github.com/Tapolcsanyi/Budget-Swag",
       "capDescription": "A simple and easy to use app to create a personalized budget.",
       "capLink": "#",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1z5j1AnVG89G6IlOZ1CUe_lTLakLuJAWl/view?usp=sharing",
       "pod": "#",
@@ -419,7 +419,7 @@
     },
 
     {
-      "id": 20,                             
+      "id": 20,
       "name": "Brady Williams",
       "title": "FULL STACK DEVELOPER",
       "email": "bradywilliamsdev@gmail.com",
@@ -428,12 +428,12 @@
       "personal": "https://slyydz.github.io/personal-website",
       "fact": "I have drifted my car at over 15 tracks in the last year",
       "capName": "Drifting Apart",
-      "capRepo":"https://github.com/Slyydz/drifting-apart",
+      "capRepo": "https://github.com/Slyydz/drifting-apart",
       "capDescription": "Single page application created with ReactJS and JSON-Server.",
       "capLink": "#",
-      "cap2Name": "",   
+      "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://www.canva.com/design/DAEte5w5uMg/sYWt0kb9sxgw9GGS7IbU5g/view?utm_content=DAEte5w5uMg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
       "pod": "#",
@@ -451,205 +451,207 @@
       "fact": "I think the letter “W” should be called “wuh”",
       "capName": "Smilestones",
       "capLink": "#",
-      "capRepo":"https://github.com/sm3dev/smilestones-app",
+      "capRepo": "https://github.com/sm3dev/smilestones-app",
       "capDescription": "I built a CRUD app using ReactJS, JSON-Server, and Material UI.",
       "cap2Name": "",
       "cap2Link": "#",
-      "cap2Repo":"",
+      "cap2Repo": "",
       "cap2Description": "",
       "resume": "https://drive.google.com/file/d/1q0FZIR742rX9uwlIdSna8WdBnAZ3fW1y/view?usp=sharing",
       "pod": "#",
       "pic": "michael.jpg"
     }
-
-
   ],
 
   "techStack": [
     {
       "id": 1,
       "name": "HTML5",
-      "url": "https://html.com/html5/",
       "devType": "All"
     },
     {
       "id": 2,
       "name": "CSS3",
-      "url": "https://www.w3.org/Style/CSS/",
       "devType": "All"
     },
     {
       "id": 3,
       "name": "JavaScript",
-      "url": "https://www.javascript.com/",
       "devType": "All"
     },
     {
       "id": 4,
       "name": "Git",
-      "url": "https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F",
       "devType": "All"
     },
     {
       "id": 5,
       "name": "GitHub",
-      "url": "https://github.com/",
       "devType": "All"
     },
     {
       "id": 6,
       "name": "ReactJS",
-      "url": "https://reactjs.org/",
       "devType": "All"
     },
     {
       "id": 7,
       "name": "React Hooks",
-      "url": "https://reactjs.org/",
       "devType": "All"
     },
     {
       "id": 8,
       "name": "VS Code",
-      "url": "https://code.visualstudio.com",
       "devType": "All"
     },
     {
       "id": 9,
       "name": "JSON Server",
-      "url": "https://github.com/typicode/json-server/",
       "devType": "All"
     },
     {
       "id": 10,
       "name": "NPM",
-      "url": "https://www.npmjs.com/",
       "devType": "All"
     },
     {
       "id": 11,
       "name": "Postman",
-      "url": "https://www.postman.com/",
       "devType": "All"
     },
     {
       "id": 12,
       "name": "dbdiagram",
-      "url": "https://dbdiagram.io/home",
       "devType": "All"
     },
     {
       "id": 13,
       "name": "Bootstrap",
-      "url": "https://getbootstrap.com/",
       "devType": "All"
     },
     {
       "id": 14,
-      "name": "Material Design",
-      "url": "https://mui.com/",
+      "name": "API",
       "devType": "All"
     },
     {
       "id": 15,
-      "name": "API",
-      "url": "",
+      "name": "Wireframing",
       "devType": "All"
     },
     {
       "id": 16,
-      "name": "Wireframing",
-      "url": "",
+      "name": "Team Collab",
       "devType": "All"
     },
     {
       "id": 17,
-      "name": "Figma",
-      "url": "https://www.figma.com",
-      "devType": "UI/UX Front-End Developer"
+      "name": "CRUD",
+      "devType": "All"
     },
     {
       "id": 18,
-      "name": "SASS",
-      "url": "https://sass-lang.com/",
-      "devType": "UI/UX Front-End Developer"
+      "name": "Agile",
+      "devType": "All"
     },
     {
       "id": 19,
-      "name": "SCSS",
-      "url": "https://www.createscss.com/",
-      "devType": "UI/UX Front-End Developer"
+      "name": "Semantic UI",
+      "devType": "All"
     },
     {
       "id": 20,
-      "name": "Usability Testing",
-      "url": "",
+      "name": "Figma",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 21,
-      "name": "User Research",
-      "url": "",
+      "name": "SASS",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 16,
+      "name": "Responsive",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 22,
-      "name": "Prototyping",
-      "url": "",
+      "name": "User Testing",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 23,
-      "name": "Reactstrap",
-      "url": "https://reactstrap.github.io/?path=/story/home-installation--page",
+      "name": "Research",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 24,
-      "name": "Agile",
-      "url": "https://www.atlassian.com/agile/en-us/dotnet/csharp/",
+      "name": "Prototyping",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 25,
-      "name": "Info Architecture",
-      "url": "",
-      "devType": "UI/UX Front-End Developer"
-    },
-    {
-      "id": 26,
-      "name": "Mockups",
-      "url": "",
+      "name": "Reactstrap",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 27,
-      "name": "C#",
-      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
-      "devType": "Full Stack Developer"
+      "name": "Info Arch",
+      "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 28,
-      "name": "ASP",
-      "url": "",
-      "devType": "Full Stack Developer"
+      "name": "Mockups",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 16,
+      "name": "Media Query",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 16,
+      "name": "CSS Libraries",
+      "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 29,
-      "name": "SQL Server",
-      "url": "",
+      "name": "C#",
       "devType": "Full Stack Developer"
     },
     {
       "id": 30,
-      "name": ".NET",
-      "url": "https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet",
+      "name": "ASP.NET",
       "devType": "Full Stack Developer"
     },
     {
       "id": 31,
+      "name": "SQL Server",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 32,
+      "name": ".NET",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 33,
       "name": "Visual Studio",
-      "url": "https://visualstudio.microsoft.com/",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 16,
+      "name": "MVC",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 16,
+      "name": "Razor",
+      "devType": "Full Stack Developer"
+    },
+    {
+      "id": 16,
+      "name": "ADO.NET",
       "devType": "Full Stack Developer"
     }
   ]
