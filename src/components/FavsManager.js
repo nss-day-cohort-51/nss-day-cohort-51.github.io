@@ -2,16 +2,16 @@
 
 let favsArray = [];
 
-// const initFavs = () => {
-// 	const favsFromStorage = JSON.parse(localStorage.getItem("NSSFavorites") || null);
-// 	if (favsFromStorage){
-// 		//great
-// 		favsArray = favsFromStorage;
-// 	}else {
-// 		//setup the localStorage
-// 		localStorage.setItem("NSSFavorites", ["NSS Cohort 51 is Out of This World"]);
-// 	}
-// }
+const initFavs = () => {
+	const favsFromStorage = JSON.parse(localStorage.getItem("NSSFavorites") || null);
+	if (favsFromStorage){
+		//great
+		favsArray = favsFromStorage;
+	}else {
+		//setup the localStorage
+		localStorage.setItem("NSSFavorites", ["NSS Cohort 51 is Out of This World"]);
+	}
+}
 
 export const getFavs = () => {
 	return favsArray;
@@ -32,5 +32,5 @@ export const updateFavs = (favArray) => {
 	favsArray = JSON.parse(localStorage.getItem("NSSFavorites"));
 }
 
-//invoke this immediately upon load
-// initFavs();
+// invoke this immediately upon load
+initFavs();
