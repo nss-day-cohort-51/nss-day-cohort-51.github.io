@@ -3,7 +3,7 @@ import { DemoDayButton } from "./DemoDayButton";
 import { TypingText2 } from "./TextAnimation";
 import { Navbar, Nav } from "react-bootstrap";
 
-export const NavBar2 = () => {
+export const NavBar = () => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
