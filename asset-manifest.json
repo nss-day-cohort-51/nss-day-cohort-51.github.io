@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.654f02ad.chunk.css",
-    "main.js": "/static/js/main.9c33921e.chunk.js",
-    "main.js.map": "/static/js/main.9c33921e.chunk.js.map",
+    "main.css": "/static/css/main.74216853.chunk.css",
+    "main.js": "/static/js/main.9120662d.chunk.js",
+    "main.js.map": "/static/js/main.9120662d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1cfd00dd.js",
     "runtime-main.js.map": "/static/js/runtime-main.1cfd00dd.js.map",
-    "static/js/2.75a4bbf0.chunk.js": "/static/js/2.75a4bbf0.chunk.js",
-    "static/js/2.75a4bbf0.chunk.js.map": "/static/js/2.75a4bbf0.chunk.js.map",
+    "static/js/2.c59fb00a.chunk.js": "/static/js/2.c59fb00a.chunk.js",
+    "static/js/2.c59fb00a.chunk.js.map": "/static/js/2.c59fb00a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.654f02ad.chunk.css.map": "/static/css/main.654f02ad.chunk.css.map",
-    "static/js/2.75a4bbf0.chunk.js.LICENSE.txt": "/static/js/2.75a4bbf0.chunk.js.LICENSE.txt",
+    "static/css/main.74216853.chunk.css.map": "/static/css/main.74216853.chunk.css.map",
+    "static/js/2.c59fb00a.chunk.js.LICENSE.txt": "/static/js/2.c59fb00a.chunk.js.LICENSE.txt",
     "static/media/alienface.svg": "/static/media/alienface.9656d45e.svg",
     "static/media/aliensThreeFaces.svg": "/static/media/aliensThreeFaces.0321c3c0.svg",
     "static/media/ben.jpg": "/static/media/ben.8c4ab00d.jpg",
@@ -27,11 +27,10 @@
     "static/media/c51-wireframe.png": "/static/media/c51-wireframe.41022eb6.png",
     "static/media/colby.png": "/static/media/colby.46afc21a.png",
     "static/media/colin.jpg": "/static/media/colin.b0b2d11d.jpg",
+    "static/media/custom.scss": "/static/media/footer-img.6fa5327c.svg",
     "static/media/description.svg": "/static/media/description.9ee0aefe.svg",
     "static/media/devery.JPG": "/static/media/devery.a86023e7.JPG",
     "static/media/emily.jpg": "/static/media/emily.8071d63a.jpg",
-    "static/media/custom.scss": "/static/media/favorite.2377e2f4.svg",
-    "static/media/footer-img.svg": "/static/media/footer-img.6fa5327c.svg",
     "static/media/gerson.png": "/static/media/gerson.75fd8053.png",
     "static/media/jake.png": "/static/media/jake.629aa412.png",
     "static/media/jama.PNG": "/static/media/jama.fdb66b1e.PNG",
@@ -48,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1cfd00dd.js",
-    "static/js/2.75a4bbf0.chunk.js",
-    "static/css/main.654f02ad.chunk.css",
-    "static/js/main.9c33921e.chunk.js"
+    "static/js/2.c59fb00a.chunk.js",
+    "static/css/main.74216853.chunk.css",
+    "static/js/main.9120662d.chunk.js"
   ]
 }

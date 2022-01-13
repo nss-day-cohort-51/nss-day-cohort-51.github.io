@@ -359,7 +359,7 @@
       "email": "susiestanley00@gmail.com",
       "git": "https://github.com/SusieCodes",
       "linkedin": "https://www.linkedin.com/in/susie-stanley/",
-      "personal": "https://www.susiestanley.com",
+      "personal": "https://susiecodes.github.io/",
       "fact": "I am a Canadian-American that speaks Hungarian and I can't live without my power tools",
       "capName": "Life Hacker App",
       "capRepo": "https://github.com/SusieCodes/lifehacker",
@@ -570,27 +570,27 @@
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 16,
+      "id": 22,
       "name": "Responsive",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "User Testing",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 23,
-      "name": "Research",
-      "devType": "UI/UX Front-End Developer"
-    },
-    {
       "id": 24,
-      "name": "Prototyping",
+      "name": "UX Research",
       "devType": "UI/UX Front-End Developer"
     },
     {
       "id": 25,
+      "name": "Prototyping",
+      "devType": "UI/UX Front-End Developer"
+    },
+    {
+      "id": 26,
       "name": "Reactstrap",
       "devType": "UI/UX Front-End Developer"
     },
@@ -605,52 +605,52 @@
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 16,
+      "id": 29,
       "name": "Media Query",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 16,
+      "id": 30,
       "name": "CSS Libraries",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 29,
+      "id": 31,
       "name": "C#",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 30,
+      "id": 32,
       "name": "ASP.NET",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 31,
+      "id": 33,
       "name": "SQL Server",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 32,
+      "id": 34,
       "name": ".NET",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 33,
+      "id": 35,
       "name": "Visual Studio",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 16,
+      "id": 36,
       "name": "MVC",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 16,
+      "id": 37,
       "name": "Razor",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 16,
+      "id": 38,
       "name": "ADO.NET",
       "devType": "Full Stack Developer"
     }
