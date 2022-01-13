@@ -1,13 +1,10 @@
 //Purpose: Creates and displays the Media button component
-
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { MediaIcons } from "../components/MediaIcons";
 import { ModalTech } from "../components/ModalTech";
 import { buttonColor, colorSet } from "./helpers";
-import "../styles/custom.scss";
-import { Fav } from "./Fav";
 
 export const ModalBtn = ({ obj, allTechStack }) => {
   const [show, setShow] = useState(false);
@@ -74,8 +71,9 @@ export const ModalBtn = ({ obj, allTechStack }) => {
       <Modal size="xl" show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>
-            <div className="modal-name">{obj?.name}  
-            {/* <Fav devId={obj?.id} /> */}
+            <div className="modal-name">
+              {obj?.name}
+              {/* <Fav devId={obj?.id} /> */}
             </div>
           </Modal.Title>
         </Modal.Header>

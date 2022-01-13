@@ -7,8 +7,10 @@ export const Description = () => {
   return (
     <>
       <div id="description" className="description">
-        <div className="logo">
-          <img className="logo-img" src={logo} alt="C51" />
+        <div className="logo-wrapper">
+          <div className="logo">
+            <img className="logo-img" src={logo} alt="C51" />
+          </div>
         </div>
         <div className="description-section__about">
           <h1>Nashville Software School Presents Cohort 51!</h1>
@@ -30,7 +32,16 @@ export const Description = () => {
             Abduct a developer at our virtual demo day on{" "}
             <strong>February 11, 2022</strong>
           </p>
-          <DemoDayButton />
+
+          <div className="description-section__demoday">
+            <a
+              href="https://www.nashss.com/demoday"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DemoDayButton />
+            </a>
+          </div>
         </div>
       </div>
     </>

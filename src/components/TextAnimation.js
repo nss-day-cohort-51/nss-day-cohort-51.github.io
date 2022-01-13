@@ -1,7 +1,7 @@
+// Purpose: Creates and displays the typing animations
 import React from "react";
 import Typewriter from "typewriter-effect";
 import alienface from "../images/alienface.svg";
-import "../styles/custom.scss";
 
 export const ScrollingText = () => {
   return (

@@ -1,3 +1,4 @@
+//Purpose: Creates and displays the Navbar component
 import React from "react";
 import { DemoDayButton } from "./DemoDayButton";
 import { TypingText2 } from "./TextAnimation";
@@ -24,7 +25,11 @@ export const NavBar = () => {
             <Nav.Link href="#thanksLocation" className="nav-item">
               THANKS
             </Nav.Link>
-            <Nav.Link href="https://www.nashss.com/demoday">
+            <Nav.Link
+              href="https://www.nashss.com/demoday"
+              target="_blank"
+              rel="noreferrer"
+            >
               <DemoDayButton />
             </Nav.Link>
           </Nav>

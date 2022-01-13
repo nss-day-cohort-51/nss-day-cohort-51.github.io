@@ -1,5 +1,4 @@
-//Purpose: Creates and displays the Tech Stack component
-
+// Purpose: Creates and displays the Tech Stack component
 import React from "react";
 import { TechStackButton } from "./TechStackButton";
 
