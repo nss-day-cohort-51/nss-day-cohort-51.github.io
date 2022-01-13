@@ -50,6 +50,9 @@ h6 {
 
 /* When screen size is less than 1099px, description bg image shrinks to 50% */
 @media only screen and (max-width: 1099px) {
+  .logo {
+    margin: 70px 30px 70px 50px;
+  }
   .description-section__about {
     background-size: auto 50%;
   }
