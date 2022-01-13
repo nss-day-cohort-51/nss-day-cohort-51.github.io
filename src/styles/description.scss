@@ -25,7 +25,7 @@ $platinum: #ecebea;
 
 .logo {
   width: 300px;
-  margin: 30px;
+  margin: 70px;
 }
 
 .logo-img {
@@ -39,7 +39,7 @@ $platinum: #ecebea;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 35px;
+  padding: 70px 35px 90px;
   background-image: url("../images/description.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -69,19 +69,26 @@ $platinum: #ecebea;
   a {
     font-size: 1.4rem;
     text-decoration: none;
+    font-weight: 500;
+    color: #df9f38;
+    // border: 1px solid red;
+  }
+
+  span {
+    white-space: nowrap;
   }
 }
 
 .fullstack {
-  background-color: #dfb775;
-  color: #323637;
+  background-color: $mustard;
+  color: $space;
   border-radius: 6px;
   padding: 1px 5px;
 }
 
 .uiux {
   color: #323637;
-  background-color: #82bad9;
+  background-color: $blue;
   border-radius: 6px;
   padding: 1px 5px;
 }

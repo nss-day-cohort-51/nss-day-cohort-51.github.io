@@ -48,16 +48,26 @@ h6 {
 
 // MEDIA QUERIES
 
-/* When screen size is less than 1075px, description bg image shrinks to 50% */
-@media only screen and (max-width: 1074px) {
+/* When screen size is less than 1099px, description bg image shrinks to 50% */
+@media only screen and (max-width: 1099px) {
   .description-section__about {
-    font-size: 1rem;
     background-size: auto 50%;
+  }
+}
+
+/* When screen size is less than 937px */
+@media only screen and (max-width: 936px) {
+  .description-section__demoday {
+    font-size: 0.5rem;
   }
 }
 
 /* When screen size is less than 860px, hide the carousel text in devList */
 @media only screen and (max-width: 859px) {
+  .logo {
+    margin: 40px 20px 0px;
+  }
+
   .description {
     display: flex;
     flex-direction: column;
@@ -66,6 +76,7 @@ h6 {
     .description-section__about {
       min-width: 0;
       align-items: center;
+      padding: 40px 35px;
     }
 
     h1 {
@@ -79,18 +90,15 @@ h6 {
 
 /* When screen size is less than 768px (tablet size or smaller) */
 @media only screen and (max-width: 767px) {
-  .logo {
-    margin: 40px 20px;
-  }
   .description-section__about {
-    padding: 0px 10px 40px;
+    padding: 30px 10px 40px;
   }
 }
 
 /* When screen size is less than 480px */
 @media only screen and (max-width: 479px) {
   .logo {
-    margin: 30px 20px 40px;
+    // margin: 40px 20px 40px;
   }
 
   .description-section__about {
@@ -101,6 +109,7 @@ h6 {
       padding: 0px;
       margin: 0px;
     }
+
     .description-section__demoday a {
       font-size: 1rem;
     }
