@@ -1,5 +1,4 @@
-//Purpose: Creates and displays the Location component
-
+// Purpose: Creates and displays the Location component
 import React from "react";
 
 export const Location = () => {

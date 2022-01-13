@@ -1,3 +1,4 @@
+//Purpose: Creates and displays the CTA component
 import React from "react";
 import aliensThreeFaces from "../images/aliensThreeFaces.png";
 
@@ -26,12 +27,7 @@ export const CallToActionSection = () => {
           rel="noreferrer"
         >
           <div className="demo-day-btn">
-            <div
-              className="btn-item"
-              title="Event Link Updates after 11 January 2022"
-            >
-              SIGN-UP NOW!
-            </div>
+            <div className="btn-item">SIGN-UP NOW!</div>
           </div>
         </a>
       </section>

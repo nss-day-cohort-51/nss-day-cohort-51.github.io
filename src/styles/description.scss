@@ -14,15 +14,20 @@ $platinum: #ecebea;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: $platinum;
-  padding-top: 100px;
+  padding-top: 110px;
   z-index: 1;
   position: relative;
 }
 
+.logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .logo {
   width: 300px;
-  margin: 40px;
-  margin-right: 40px;
+  margin: 70px;
 }
 
 .logo-img {
@@ -30,21 +35,21 @@ $platinum: #ecebea;
 }
 
 .description-section__about {
-  min-width: 360;
+  min-width: 360px;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding: 35px;
-  background-image: url("../images/description-BG-swoop.svg");
+  background-image: url("../images/description-bg.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: right bottom;
 
   h1 {
     min-width: 320px;
-    max-width: 95%;
+    max-width: 90%;
     color: $midnight;
     font-family: "Poppins", sans-serif;
     padding-bottom: 20px;
@@ -52,7 +57,7 @@ $platinum: #ecebea;
 
   h2 {
     min-width: 320px;
-    max-width: 95%;
+    max-width: 90%;
     margin-bottom: 10px;
   }
 
@@ -66,32 +71,39 @@ $platinum: #ecebea;
   a {
     font-size: 1.4rem;
     text-decoration: none;
+    font-weight: 500;
+    color: #df9f38; //custom for readability
+  }
+
+  span {
+    white-space: nowrap;
   }
 }
 
 .fullstack {
-  background-color: #dfb775;
-  color: #323637;
+  background-color: $mustard;
+  color: $space;
   border-radius: 6px;
   padding: 1px 5px;
 }
 
 .uiux {
   color: #323637;
-  background-color: #82bad9;
+  background-color: $blue;
   border-radius: 6px;
   padding: 1px 5px;
 }
 
-/* If the screen size is less than 1075px, shrink description bg image to 50% */
-@media only screen and (max-width: 1074px) {
-  .description-section__about {
-    padding: 20px 20px 50px;
-    font-size: 1rem;
-    background-size: auto 50%;
+.description-section__demoday {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  min-width: 320px;
+  width: 90%;
 
-    p {
-      max-width: 80%;
-    }
+  a {
+    padding: 0px;
+    margin: 0px;
   }
 }

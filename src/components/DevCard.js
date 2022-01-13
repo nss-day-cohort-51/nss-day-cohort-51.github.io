@@ -1,18 +1,17 @@
 //Purpose: Creates and displays the Developer Card component
-
 import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
 import { ModalBtn } from "../components/MediaButtons";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
-import {Fav} from './Fav';
+import { Fav } from "./Fav";
 
 export const DevCard = ({ obj, allTechStack }) => {
-  
   return (
     <>
       <div id={obj?.name} className="dev-card">
         <section
-          className={`dev-card-title__block ${DevCardAddClass(obj?.title)}`}>
+          className={`dev-card-title__block ${DevCardAddClass(obj?.title)}`}
+        >
           <h5 className="dev-card__title">{obj?.title}</h5>
         </section>
         <section className={`dev-card__body ${DevCardAddClass(obj?.title)}`}>
@@ -31,7 +30,9 @@ export const DevCard = ({ obj, allTechStack }) => {
               />
             )}
           </div>
-          <div className="dev-card__name">{obj?.name}  <Fav devId={obj?.id} /></div>
+          <div className="dev-card__name">
+            {obj?.name} <Fav devId={obj?.id} />
+          </div>
           <div className="dev-card__icons">
             <MediaIcons key={obj.id} obj={obj} />
           </div>

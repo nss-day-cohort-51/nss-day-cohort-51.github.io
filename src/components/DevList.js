@@ -1,9 +1,7 @@
 //Purpose: Creates and displays the Developer List component
-
 import React from "react";
 import { ScrollingText } from "./TextAnimation";
 import { DevCard } from "../components/DevCard";
-import "../styles/custom.scss";
 
 export const DevList = ({ allDevs, allTechStack }) => {
   return (

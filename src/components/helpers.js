@@ -1,4 +1,4 @@
-// these are used to determine which class to apply for styling purposes
+// Purpose: functions used to determine which class to apply for styling purposes
 
 // this sets photo border color for full stack or front end dev
 export const borderColor = (title) => {

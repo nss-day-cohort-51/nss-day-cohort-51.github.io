@@ -1,5 +1,3 @@
-
-
 @import "./_colors.scss";
 @import "bootstrap/scss/bootstrap.scss";
 @import "./buttons.scss";
@@ -17,7 +15,6 @@
 @import "./fav.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;400;500;600;700;800&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 //Main styling =========================
@@ -51,18 +48,79 @@ h6 {
 
 // MEDIA QUERIES
 
+/* When screen size is less than 1099px, description bg image shrinks to 50% */
+@media only screen and (max-width: 1099px) {
+  .logo {
+    margin: 70px 30px 70px 50px;
+  }
+  .description-section__about {
+    background-size: auto 50%;
+  }
+}
+
+/* When screen size is less than 937px */
+@media only screen and (max-width: 936px) {
+  .description-section__demoday {
+    font-size: 0.5rem;
+  }
+}
+
 /* When screen size is less than 860px, hide the carousel text in devList */
 @media only screen and (max-width: 859px) {
+  .logo {
+    margin: 40px 20px 0px;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    .description-section__about {
+      min-width: 0;
+      align-items: center;
+      padding: 40px 35px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: left;
+    }
+  }
   .scrolling-text__block {
     display: none;
   }
 }
 
+/* When screen size is less than 768px (tablet size or smaller) */
+@media only screen and (max-width: 767px) {
+  .description {
+    .description-section__about {
+      padding: 30px 10px 40px;
+    }
+  }
+}
+
 /* When screen size is less than 480px */
 @media only screen and (max-width: 479px) {
+  .description {
+    .description-section__about {
+      padding: 30px 30px 40px;
+      align-items: flex-start;
+
+      .description-section__demoday a {
+        font-size: 1rem;
+      }
+    }
+  }
+
   .dev-list {
     padding: 0px;
   }
+
   .dev-list__section {
     padding: 30px 0px 10px;
   }

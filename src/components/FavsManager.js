@@ -1,4 +1,4 @@
-/* module to mange localStorage of favorite devs */
+// Purpose: Manage localStorage of favorite devs
 
 let favsArray = [];
 
@@ -36,5 +36,5 @@ export const updateFavs = (favArray) => {
   favsArray = JSON.parse(localStorage.getItem("NSSFavorites"));
 };
 
-// invoke this immediately upon load
+//invoke this immediately upon load
 initFavs();

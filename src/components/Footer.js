@@ -1,7 +1,5 @@
 //Purpose: Creates and displays the Footer component
-
 import React from "react";
-import "../styles/custom.scss";
 import NSSlogo from "../images/NSSlogo.png";
 import { BsLinkedin, BsGlobe2, BsFacebook, BsTwitter } from "react-icons/bs";
 

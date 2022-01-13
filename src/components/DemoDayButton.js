@@ -1,5 +1,4 @@
 //Purpose: Creates and displays the Demo Day button component
-
 import React from "react";
 
 export const DemoDayButton = () => {
