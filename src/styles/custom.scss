@@ -93,28 +93,23 @@ h6 {
 
 /* When screen size is less than 768px (tablet size or smaller) */
 @media only screen and (max-width: 767px) {
-  .description-section__about {
-    padding: 30px 10px 40px;
+  .description {
+    .description-section__about {
+      padding: 30px 10px 40px;
+    }
   }
 }
 
 /* When screen size is less than 480px */
 @media only screen and (max-width: 479px) {
-  .logo {
-    // margin: 40px 20px 40px;
-  }
+  .description {
+    .description-section__about {
+      padding: 30px 30px 40px;
+      align-items: flex-start;
 
-  .description-section__about {
-    padding: 0px 10px 50px;
-    align-items: flex-start;
-
-    .description-section__demoday {
-      padding: 0px;
-      margin: 0px;
-    }
-
-    .description-section__demoday a {
-      font-size: 1rem;
+      .description-section__demoday a {
+        font-size: 1rem;
+      }
     }
   }
 
