@@ -160,6 +160,16 @@ $platinum: #ecebea;
     align-items: center;
     padding: 25px 0px;
 
+    .alien-placeholder__image {
+      height: 245px;
+      width: 340px;
+    }
+
+    img.placeholder__image {
+      height: 100%;
+      width: 100%;
+    }
+
     .capstone-wrapper {
       display: flex;
       flex-direction: column;
@@ -221,6 +231,6 @@ $platinum: #ecebea;
 // We use !important to override an inline style padding-left declaration that comes from Bootstrap
 .fade.modal.show {
   display: inline;
-  padding: .5rem!important;
+  padding: 0.5rem !important;
   margin: 20px 0px 0px;
 }
