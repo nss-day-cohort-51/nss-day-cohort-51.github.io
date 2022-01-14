@@ -83,7 +83,7 @@
       "cap2Link": "#",
       "cap2Repo": "",
       "cap2Description": "",
-      "resume": "https://www.canva.com/design/DAEs0-jXyPA/share/preview?token=2p7sX7bGPRXNgv9qkZzh-Q&role=EDITOR&utm_content=DAEs0-jXyPA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
+      "resume": "https://drive.google.com/file/d/1i7utTfxspqoLrQaS2H7_rXcNebd3U2X7/view",
       "pod": "#",
       "pic": "default.png"
     },
@@ -556,101 +556,96 @@
     },
     {
       "id": 19,
-      "name": "Semantic UI",
-      "devType": "All"
-    },
-    {
-      "id": 20,
       "name": "Figma",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "SASS",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Responsive",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "User Testing",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "UX Research",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Prototyping",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "Reactstrap",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "Info Arch",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Mockups",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Media Query",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "CSS Libraries",
       "devType": "UI/UX Front-End Developer"
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "C#",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "ASP.NET",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "SQL Server",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 34,
+      "id": 33,
       "name": ".NET",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "Visual Studio",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "MVC",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "Razor",
       "devType": "Full Stack Developer"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "ADO.NET",
       "devType": "Full Stack Developer"
     }
