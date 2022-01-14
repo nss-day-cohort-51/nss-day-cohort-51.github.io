@@ -35,7 +35,7 @@ export const ModalBtn = ({ obj, allTechStack }) => {
         capLink = (
           <div className="alien-placeholder__image">
             <img
-              src="alien-coming-soon-340w-235h.png"
+              src="alien-coming-soon-340w-235h.gif"
               alt="Coming Soon"
               className="placeholder__image"
             />
