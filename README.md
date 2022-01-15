@@ -3,12 +3,15 @@
 ## Visit the Cohort 51 Website:
 * [Nashville Software School Cohort 51 Website](https://nss-day-cohort-51.github.io/)
 
-## Prototypes
+## View Our UX/UI Planning Process and Timeline in Figma:
+* [Planning in Figma](https://www.figma.com/file/AsTeIingVjOPrXGbYBjmdJ/?node-id=0%3A1)
 
-* [View the Mobile prototype in Figma - ](https://www.figma.com/proto/5TqtET6dRZyc1YjqgODj0X/C-51-Prototype---Mobile?page-id=0%3A1&node-id=2%3A818&viewport=241%2C48%2C0.34&scaling=scale-down&starting-point-node-id=2%3A818) 
+## Prototypes in Figma:
 
-* [View the Desktop prototype in Figma - ](https://www.figma.com/proto/RjPnJ4xrvjgEBBPvwayI9M/C-51-Prototype---Desktop?page-id=0%3A1&node-id=54%3A700&viewport=241%2C48%2C0.18&scaling=scale-down&starting-point-node-id=54%3A700&show-proto-sidebar=1)
+* [View the Mobile prototype in Figma - ](https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?page-id=440%3A668&node-id=445%3A1541&viewport=241%2C48%2C0.14&scaling=min-zoom&starting-point-node-id=445%3A1890) 
 
-## MOCK-UP - Cohort 51 Student Website
+* [View the Desktop prototype in Figma - ](https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?page-id=440%3A669&node-id=445%3A2847&viewport=241%2C48%2C0.18&scaling=min-zoom&starting-point-node-id=445%3A2847)
+
+## MOCK-UP - Cohort 51 Student Website:
 
 ![Cohort 51 Student Website High-Fidelity Mock-Up](src/images/c51-mock-up.png)
