@@ -3,7 +3,7 @@
 ## Visit the Cohort 51 Website
 * [Nashville Software School Cohort 51 Website](https://nss-day-cohort-51.github.io/)
 
-## View Our UX/UI Planning Process and Timeline in Figma:
+## View Our UX/UI Planning Process and Timeline in Figma
 * [Planning in Figma](https://www.figma.com/file/AsTeIingVjOPrXGbYBjmdJ/?node-id=0%3A1)
 
 ## Prototypes in Figma
