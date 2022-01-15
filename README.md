@@ -10,7 +10,7 @@
 
 * [View the Interactive Mobile Prototype in Figma](https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=445%3A1890&starting-point-node-id=445%3A1890) 
 
-* [View the Interactive Desktop Prototype in Figma](https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?page-id=440%3A669&node-id=445%3A2847&viewport=241%2C48%2C0.18&scaling=min-zoom&starting-point-node-id=445%3A2847)
+* [View the Interactive Desktop Prototype in Figma](https://www.figma.com/proto/AsTeIingVjOPrXGbYBjmdJ/Cohort-Website-Design?node-id=445%3A2847&scaling=min-zoom&page-id=440%3A669&starting-point-node-id=445%3A2847)
 
 ## Mock-Up
 
