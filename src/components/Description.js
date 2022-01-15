@@ -24,7 +24,7 @@ export const Description = () => {
             together, and then split into two paths:{" "}
             <span className="fullstack">Full Stack</span> and{" "}
             <span className="uiux">UI/UX</span> Developers. See our{" "}
-            <a href="#techstack">Tech Stack </a>
+            <a href="#techStack">Tech Stack </a>
           </p>
           <p>
             Abduct a developer at our virtual demo day on{" "}
