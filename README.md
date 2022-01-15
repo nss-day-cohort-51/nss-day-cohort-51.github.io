@@ -1,7 +1,7 @@
 # Cohort 51, Front-End Web Designer/Developer Bootcamp, Nashville Software School
 
 ## Visit the Cohort 51 Website:
-* [](https://nss-day-cohort-51.github.io/)
+* [Visit the Cohort 51 Website](https://nss-day-cohort-51.github.io/)
 
 ## Prototype - Cohort 51 Student Website
 
