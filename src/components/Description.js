@@ -16,10 +16,8 @@ export const Description = () => {
           <h1>
             Nashville Software School Presents <span>Cohort 51!</span>
           </h1>
-
-          <p>
-            <h2>THE DEVELOPERS ARE OUT THERE!</h2>
-            We are <strong>Nashville Software School's</strong> Cohort 51! Our
+          <h2>THE DEVELOPERS ARE OUT THERE!</h2>
+          <p>We are <strong>Nashville Software School's</strong> Cohort 51! Our
             Cohort is a little different. We learned front end foundations
             together, and then split into two paths:{" "}
             <span className="fullstack">Full Stack</span> and{" "}

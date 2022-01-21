@@ -47,7 +47,10 @@ export const DevCard = ({ obj, allTechStack }) => {
               <div className={buttonColor(obj?.title)}>RESUME</div>
             </a>
             <a href={obj?.personal} target="_blank" rel="noreferrer">
-              <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
+              {obj?.personal.includes("github.com") ?
+              <div className={buttonColor(obj?.title)}>GITHUB</div>
+            : <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
+              }
             </a>
             <span title={`More about ${obj?.name}`}>
               <ModalBtn obj={obj} allTechStack={allTechStack} />
