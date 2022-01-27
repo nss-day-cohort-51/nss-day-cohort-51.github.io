@@ -1,6 +1,6 @@
 //Purpose: Creates and displays the Description component
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logo.svg";
 import { DemoDayButton } from "../components/DemoDayButton";
 
 export const Description = () => {
