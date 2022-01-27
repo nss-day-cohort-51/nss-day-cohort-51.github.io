@@ -30,7 +30,7 @@ export const Fav = ({ devId }) => {
 
   useEffect(() => {
     setisFavorite(checkForFav(devId));
-  }, [isFavorite]);
+  }, [devId]);
 
   return (
     <>
