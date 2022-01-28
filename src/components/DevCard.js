@@ -3,7 +3,7 @@ import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
 import { ModalBtn } from "../components/MediaButtons";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
-import { Fav } from "./Fav";
+// import { Fav } from "./Fav";
 
 export const DevCard = ({ obj, allTechStack }) => {
   return (
@@ -31,7 +31,8 @@ export const DevCard = ({ obj, allTechStack }) => {
             )}
           </div>
           <div className="dev-card__name">
-            {obj?.name} <Fav devId={obj?.id} />
+            {obj?.name}
+            {/* <Fav devId={obj?.id} /> */}
           </div>
           <div className="dev-card__icons">
             <MediaIcons key={obj.id} obj={obj} />
@@ -47,10 +48,11 @@ export const DevCard = ({ obj, allTechStack }) => {
               <div className={buttonColor(obj?.title)}>RESUME</div>
             </a>
             <a href={obj?.personal} target="_blank" rel="noreferrer">
-              {obj?.personal.includes("github.com") ?
-              <div className={buttonColor(obj?.title)}>GITHUB</div>
-            : <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
-              }
+              {obj?.personal.includes("github.com") ? (
+                <div className={buttonColor(obj?.title)}>GITHUB</div>
+              ) : (
+                <div className={buttonColor(obj?.title)}>PORTFOLIO</div>
+              )}
             </a>
             <span title={`More about ${obj?.name}`}>
               <ModalBtn obj={obj} allTechStack={allTechStack} />
