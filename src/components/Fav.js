@@ -37,8 +37,8 @@ export const Fav = ({ devId }) => {
       <span onClick={handleFavChange}>
         <input
           type="checkbox"
-          // checked={isFavorite ? true : false}
-          defaultChecked
+          checked={isFavorite ? true : false}
+          readOnly
         />
         <span></span>
       </span>
