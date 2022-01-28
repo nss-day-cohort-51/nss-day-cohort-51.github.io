@@ -31,7 +31,7 @@ export const DevCard = ({ obj, allTechStack }) => {
             )}
           </div>
           <div className="dev-card__name">
-            {obj?.name}
+            {obj?.name}{" "}
             <Fav devId={obj?.id} />
           </div>
           <div className="dev-card__icons">
