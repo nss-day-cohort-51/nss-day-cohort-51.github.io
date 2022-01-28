@@ -3,7 +3,7 @@ import React from "react";
 import { MediaIcons } from "../components/MediaIcons";
 import { ModalBtn } from "../components/MediaButtons";
 import { buttonColor, borderColor, DevCardAddClass } from "./helpers";
-// import { Fav } from "./Fav";
+import { Fav } from "./Fav";
 
 export const DevCard = ({ obj, allTechStack }) => {
   return (
@@ -32,7 +32,7 @@ export const DevCard = ({ obj, allTechStack }) => {
           </div>
           <div className="dev-card__name">
             {obj?.name}
-            {/* <Fav devId={obj?.id} /> */}
+            <Fav devId={obj?.id} />
           </div>
           <div className="dev-card__icons">
             <MediaIcons key={obj.id} obj={obj} />

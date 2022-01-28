@@ -30,16 +30,12 @@ export const Fav = ({ devId }) => {
 
   useEffect(() => {
     setisFavorite(checkForFav(devId));
-  }, [devId]);
+  }, [isFavorite]);
 
   return (
     <>
       <span onClick={handleFavChange}>
-        <input
-          type="checkbox"
-          // checked={isFavorite ? true : false}
-          defaultChecked
-        />
+        <input type="checkbox" checked={isFavorite ? true : false} />
         <span></span>
       </span>
     </>
