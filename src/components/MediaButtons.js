@@ -171,6 +171,7 @@ const PodPlayer = ({ obj }) => {
           Check out the podcast interview about my capstone!
         </div>
         <div className="modal-pod__wrapper">
+          {/* for podcast to work, the user has to get the src URL from within the share SoundCloud Share Track link. That URL, which begins with "https://w.soundcloud.com/..." has to be added into the user.pod property in the database  */}
           <iframe
             title="Podcast Player"
             width="95%"
