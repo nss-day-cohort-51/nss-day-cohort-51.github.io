@@ -104,7 +104,7 @@ export const ModalBtn = ({ obj, allTechStack }) => {
                 <ModalTech key={obj.id} dev={obj} allTechStack={allTechStack} />
               </div>
 
-              {obj?.pod !== "#" ? <PodPlayer /> : null}
+              {obj?.pod !== "#" ? <PodPlayer obj={obj} /> : null}
             </div>
             <div className="modal-list__right">
               <h4>Capstones</h4>
@@ -162,7 +162,7 @@ export const DevCardBtn = ({ obj, btnText }) => {
   );
 };
 
-const PodPlayer = () => {
+const PodPlayer = ({ obj }) => {
   return (
     <>
       <div className="modal-pod pod-player">
@@ -171,13 +171,14 @@ const PodPlayer = () => {
           Check out the podcast interview about my capstone!
         </div>
         <div className="modal-pod__wrapper">
+          {/* for podcast to work, the user has to get the src URL from within the share SoundCloud Share Track link. That URL, which begins with "https://w.soundcloud.com/..." has to be added into the user.pod property in the database  */}
           <iframe
             title="Podcast Player"
             width="95%"
             height="20"
             scrolling="no"
             frameBorder="no"
-            src="https://w.soundcloud.com/player/?url=https://soundcloud.com/discord96/materia-primoris-the-x-files-theme-full-illuminati-song&color=#82bad9&color=%23ff5500&inverse=true&auto_play=false&show_user=true"
+            src={obj?.pod}
           ></iframe>
         </div>
       </div>
